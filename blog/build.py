@@ -1,7 +1,9 @@
 """Génère le blog Joli Plan (site statique) dans docs/ à partir de blog/contenu/<langue>.json.
 
-Usage : python3 blog/build.py
+Usage : python3 -I blog/build.py
 Charte : fond crème FAF6F1, vert 46573F, rose 9B4B5A, poudre EAC8C4 ; titres EB Garamond, texte Lato.
+Champs facultatifs d'une langue : "methode" (page Notre méthode), "gratuit" (page de téléchargement).
+Champs facultatifs d'un article : "maj" (date de mise à jour), "faq" (liste de [question, réponse]).
 """
 import html
 import json
@@ -9,14 +11,27 @@ import re
 import shutil
 from pathlib import Path
 
+from PIL import Image
+
 RACINE = Path(__file__).resolve().parent.parent
 CONTENU = RACINE / "blog" / "contenu"
 SORTIE = RACINE / "docs"
 BASE = "https://joliplan-medias.github.io/joliplan-medias"  # à changer si un domaine est acheté
+RAW = "https://raw.githubusercontent.com/joliplan-medias/joliplan-medias/main"
 DOSSIERS_PINS = {"fr": "pins", "de": "pins-de", "es": "pins-es", "it": "pins-it", "uk": "pins-uk"}
-RETOUR = {"fr": "Tous les articles", "de": "Alle Artikel", "es": "Todos los artículos", "it": "Tutti gli articoli", "uk": "All articles"}
 LANG_HTML = {"fr": "fr", "de": "de", "es": "es", "it": "it", "uk": "en-GB"}
-
+MOTS = {
+    "fr": {"sommaire": "Dans cet article", "faq": "Questions fréquentes", "lies": "À lire aussi",
+           "tous": "Tous les articles", "maj": "Mis à jour le", "methode": "Notre méthode", "voir": "Voir sur Etsy"},
+    "de": {"sommaire": "In diesem Artikel", "faq": "Häufige Fragen", "lies": "Auch lesenswert",
+           "tous": "Alle Artikel", "maj": "Aktualisiert am", "methode": "Unsere Methode", "voir": "Auf Etsy ansehen"},
+    "es": {"sommaire": "En este artículo", "faq": "Preguntas frecuentes", "lies": "También te puede interesar",
+           "tous": "Todos los artículos", "maj": "Actualizado el", "methode": "Nuestro método", "voir": "Ver en Etsy"},
+    "it": {"sommaire": "In questo articolo", "faq": "Domande frequenti", "lies": "Da leggere anche",
+           "tous": "Tutti gli articoli", "maj": "Aggiornato il", "methode": "Il nostro metodo", "voir": "Vedi su Etsy"},
+    "uk": {"sommaire": "In this article", "faq": "Frequently asked questions", "lies": "Read next",
+           "tous": "All articles", "maj": "Updated on", "methode": "Our method", "voir": "View on Etsy"},
+}
 
 
 def e(texte):
@@ -26,10 +41,24 @@ def e(texte):
     return html.escape(texte)
 
 
-def page(lang, titre, description, chemin, corps, accueil_rel, image=None, schema=None):
+def ancre(texte):
+    t = texte.lower()
+    for a, b in (("àâä", "a"), ("éèêë", "e"), ("îï", "i"), ("ôö", "o"), ("ùûü", "u"), ("ç", "c"), ("ñ", "n"), ("ß", "ss")):
+        for c in a:
+            t = t.replace(c, b)
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+
+
+def date_lisible(lang, iso):
+    a, m, j = iso.split("-")
+    return f"{j}/{m}/{a}" if lang != "uk" else f"{j}/{m}/{a}"
+
+
+def page(lang, titre, description, chemin, corps, rel, image=None, schemas=(), type_og="article"):
     url = f"{BASE}/{chemin}"
     og_image = f'<meta property="og:image" content="{BASE}/{image}">' if image else ""
-    ld = f'<script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>' if schema else ""
+    ld = "".join(f'<script type="application/ld+json">{json.dumps(s, ensure_ascii=False)}</script>' for s in schemas)
+    m = MOTS[lang]
     return f"""<!doctype html>
 <html lang="{LANG_HTML[lang]}">
 <head>
@@ -40,29 +69,30 @@ def page(lang, titre, description, chemin, corps, accueil_rel, image=None, schem
 <link rel="canonical" href="{url}">
 <meta property="og:title" content="{e(titre)}">
 <meta property="og:description" content="{e(description)}">
-<meta property="og:type" content="article">
+<meta property="og:type" content="{type_og}">
 <meta property="og:url" content="{url}">
 {og_image}
-<link rel="icon" href="{accueil_rel}assets/icone.png">
+<link rel="icon" href="{rel}assets/icone.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,400&family=Lato:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{accueil_rel}assets/style.css">
+<link rel="stylesheet" href="{rel}assets/style.css">
 {ld}
 </head>
 <body>
-<header class="entete"><a class="logo" href="{accueil_rel}{lang}/"><img src="{accueil_rel}assets/icone.png" alt="" width="34" height="34"><span><em>Joli</em> Plan</span></a></header>
+<header class="entete"><a class="logo" href="{rel}{lang}/"><img src="{rel}assets/icone.png" alt="" width="34" height="34"><span><em>Joli</em> Plan</span></a></header>
 <main>
 {corps}
 </main>
-<footer class="pied"><a class="logo" href="{accueil_rel}{lang}/"><img src="{accueil_rel}assets/icone.png" alt="" width="28" height="28"><span><em>Joli</em> Plan</span></a></footer>
+<footer class="pied"><a class="logo" href="{rel}{lang}/"><img src="{rel}assets/icone.png" alt="" width="28" height="28"><span><em>Joli</em> Plan</span></a><a class="lien-pied" href="{rel}{lang}/methode/">{e(m['methode'])}</a></footer>
+<script async defer src="https://assets.pinterest.com/js/pinit.js" data-pin-hover="true" data-pin-tall="true" data-pin-round="true"></script>
 </body>
 </html>
 """
 
 
 def bloc_section(s):
-    out = [f"<h2>{e(s['titre'])}</h2>"]
+    out = [f'<h2 id="{ancre(s["titre"])}">{e(s["titre"])}</h2>']
     for p in s.get("paragraphes", []):
         out.append(f"<p>{e(p)}</p>")
     if "liste" in s:
@@ -90,43 +120,137 @@ def bloc_produit(c, appel):
 </aside>"""
 
 
+def bloc_gratuit(c, rel):
+    g = c.get("gratuit")
+    if not g:
+        return ""
+    return f"""<aside class="gratuit">
+<p class="surtitre">{e(g['surtitre'])}</p>
+<p class="appel">{e(g['accroche'])}</p>
+<a class="bouton bouton-vert" href="{rel}{c['langue']}/{g['slug']}/">{e(g['cta_page'])} ›</a>
+</aside>"""
+
+
+def image_web(lang, nom):
+    """Copie l'épingle en WebP léger pour le site ; renvoie le chemin relatif à docs/."""
+    src = RACINE / DOSSIERS_PINS[lang] / nom
+    dest = SORTIE / "img" / lang / (Path(nom).stem + ".webp")
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    if not dest.exists() or dest.stat().st_mtime < src.stat().st_mtime:
+        Image.open(src).convert("RGB").resize((800, 1200), Image.LANCZOS).save(dest, "WEBP", quality=82)
+    return f"img/{lang}/{dest.name}"
+
+
+def figure(lang, a, rel):
+    web = image_web(lang, a["image"])
+    pin = f"{RAW}/{DOSSIERS_PINS[lang]}/{a['image']}"
+    return (f'<figure class="visuel"><img src="{rel}{web}" alt="{e(a["image_alt"])}" width="800" height="1200" '
+            f'loading="lazy" data-pin-media="{pin}" data-pin-description="{e(a["titre"])}"></figure>')
+
+
 def construire_langue(c):
     lang = c["langue"]
+    m = MOTS[lang]
     dossier = SORTIE / lang
-    img_dir = SORTIE / "img" / lang
-    img_dir.mkdir(parents=True, exist_ok=True)
-    cartes = []
-    for a in c["articles"]:
-        src = RACINE / DOSSIERS_PINS[lang] / a["image"]
-        shutil.copy2(src, img_dir / a["image"])
+    articles = sorted(c["articles"], key=lambda a: a.get("maj", a["date"]), reverse=True)
+    urls = []
+    for i, a in enumerate(articles):
         chemin = f"{lang}/{a['slug']}/"
-        image = f"img/{lang}/{a['image']}"
+        sommaire = "".join(f'<li><a href="#{ancre(s["titre"])}">{e(s["titre"])}</a></li>' for s in a["sections"])
+        faq = a.get("faq", [])
+        if faq:
+            sommaire += f'<li><a href="#faq">{e(m["faq"])}</a></li>'
         sections = "\n".join(bloc_section(s) for s in a["sections"])
+        faq_html = ""
+        if faq:
+            faq_html = f'<h2 id="faq">{e(m["faq"])}</h2>' + "".join(
+                f"<details><summary>{e(q)}</summary><p>{e(r)}</p></details>" for q, r in faq)
+        autres = [x for x in articles if x is not a][:3]
+        lies = "".join(f'<li><a href="../{x["slug"]}/">{e(x["titre"])}</a></li>' for x in autres)
+        maj = a.get("maj", a["date"])
         corps = f"""<article class="article">
 <p class="surtitre">{e(a['categorie'])}</p>
 <h1>{e(a['titre'])}</h1>
+<p class="date">{e(m['maj'])} {date_lisible(lang, maj)}</p>
 <p class="chapeau">{e(a['intro'])}</p>
-<figure class="visuel"><img src="../../{image}" alt="{e(a['image_alt'])}" width="1000" height="1500" loading="lazy"></figure>
+<p class="cta-haut"><a href="{e(c['etsy'])}" rel="noopener">{e(c['cta_produit'])} ›</a></p>
+<nav class="sommaire"><p>{e(m['sommaire'])}</p><ol>{sommaire}</ol></nav>
+{figure(lang, a, "../../")}
 {sections}
 {bloc_produit(c, a['appel'])}
-<p class="retour"><a href="../">← {RETOUR[lang]}</a></p>
+{faq_html}
+{bloc_gratuit(c, "../../")}
+<nav class="lies"><h2>{e(m['lies'])}</h2><ul>{lies}</ul></nav>
+<p class="retour"><a href="../">← {e(m['tous'])}</a></p>
 </article>"""
-        schema = {"@context": "https://schema.org", "@type": "Article", "headline": a["titre"],
-                  "description": a["description"], "datePublished": a["date"], "inLanguage": LANG_HTML[lang],
-                  "image": f"{BASE}/{image}", "publisher": {"@type": "Organization", "name": "Joli Plan"}}
+        image_png = f"{RAW}/{DOSSIERS_PINS[lang]}/{a['image']}"
+        schemas = [{"@context": "https://schema.org", "@type": "Article", "headline": a["titre"],
+                    "description": a["description"], "datePublished": a["date"], "dateModified": maj,
+                    "inLanguage": LANG_HTML[lang], "image": image_png,
+                    "author": {"@type": "Organization", "name": "Joli Plan", "url": f"{BASE}/{lang}/methode/"},
+                    "publisher": {"@type": "Organization", "name": "Joli Plan"}}]
+        if faq:
+            schemas.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+                {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": r}} for q, r in faq]})
         (dossier / a["slug"]).mkdir(parents=True, exist_ok=True)
         (dossier / a["slug"] / "index.html").write_text(
-            page(lang, a["titre"], a["description"], chemin, corps, "../../", image, schema), encoding="utf-8")
-        cartes.append(f"""<a class="carte" href="{a['slug']}/"><img src="../{image}" alt="" loading="lazy" width="1000" height="1500"><span class="surtitre">{e(a['categorie'])}</span><span class="titre-carte">{e(a['titre'])}</span></a>""")
+            page(lang, a["titre"], a["description"], chemin, corps, "../../", image_web(lang, a["image"]), schemas),
+            encoding="utf-8")
+        urls.append(f"{BASE}/{chemin}")
+
+    cartes = "".join(
+        f'<a class="carte" href="{a["slug"]}/"><img src="../{image_web(lang, a["image"])}" alt="" loading="lazy" '
+        f'width="800" height="1200"><span class="surtitre">{e(a["categorie"])}</span>'
+        f'<span class="titre-carte">{e(a["titre"])}</span></a>' for a in articles)
     corps = f"""<section class="accueil">
-<p class="surtitre">Le carnet Joli Plan</p>
+<p class="surtitre">{e(c['nom_site'])}</p>
 <h1>{e(c['accroche'])}</h1>
-<div class="grille">{''.join(cartes)}</div>
-{bloc_produit(c, "Tout votre mariage dans un seul fichier.")}
+{bloc_gratuit(c, "../")}
+<div class="grille">{cartes}</div>
+{bloc_produit(c, c.get('appel_accueil', c['texte_produit']))}
 </section>"""
     (dossier / "index.html").write_text(
-        page(lang, c["nom_site"], c["accroche"], f"{lang}/", corps, "../"), encoding="utf-8")
-    return [f"{BASE}/{lang}/"] + [f"{BASE}/{lang}/{a['slug']}/" for a in c["articles"]]
+        page(lang, c["nom_site"], c["accroche"], f"{lang}/", corps, "../", type_og="website"), encoding="utf-8")
+    urls.insert(0, f"{BASE}/{lang}/")
+
+    if "methode" in c:
+        me = c["methode"]
+        corps = f"""<article class="article">
+<p class="surtitre">Joli Plan</p>
+<h1>{e(me['titre'])}</h1>
+{''.join(f'<p>{e(p)}</p>' for p in me['paragraphes'])}
+{bloc_produit(c, me.get('appel', c['texte_produit']))}
+<p class="retour"><a href="../">← {e(m['tous'])}</a></p>
+</article>"""
+        (dossier / "methode").mkdir(parents=True, exist_ok=True)
+        (dossier / "methode" / "index.html").write_text(
+            page(lang, me["titre"], me["description"], f"{lang}/methode/", corps, "../../", type_og="website"),
+            encoding="utf-8")
+        urls.append(f"{BASE}/{lang}/methode/")
+
+    if "gratuit" in c:
+        g = c["gratuit"]
+        fichier = RACINE / "blog" / "fichiers" / g["fichier"]
+        (SORTIE / "fichiers").mkdir(parents=True, exist_ok=True)
+        shutil.copy2(fichier, SORTIE / "fichiers" / g["fichier"])
+        corps = f"""<article class="article">
+<p class="surtitre">{e(g['surtitre'])}</p>
+<h1>{e(g['titre'])}</h1>
+<p class="chapeau">{e(g['intro'])}</p>
+<p><a class="bouton bouton-vert" href="../../fichiers/{e(g['fichier'])}" download>{e(g['cta_telecharger'])}</a></p>
+<h2>{e(g['titre_contenu'])}</h2>
+<ul>{''.join(f'<li>{e(x)}</li>' for x in g['contenu'])}</ul>
+<h2>{e(g['titre_complet'])}</h2>
+<p>{e(g['texte_complet'])}</p>
+{bloc_produit(c, g['appel'])}
+<p class="retour"><a href="../">← {e(m['tous'])}</a></p>
+</article>"""
+        (dossier / g["slug"]).mkdir(parents=True, exist_ok=True)
+        (dossier / g["slug"] / "index.html").write_text(
+            page(lang, g["titre"], g["description"], f"{lang}/{g['slug']}/", corps, "../../", type_og="website"),
+            encoding="utf-8")
+        urls.append(f"{BASE}/{lang}/{g['slug']}/")
+    return urls
 
 
 def main():

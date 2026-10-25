@@ -12,7 +12,8 @@ Charte : fond crème FAF6F1, vert 46573F, rose 9B4B5A, poudre EAC8C4 ; titres EB
 - uk : https://joliplanstudio.etsy.com/fr/listing/4602243958/uk-wedding-planner-spreadsheet-excel · `pins-uk/`
 
 ## Un article
-- Format : voir `blog/contenu/fr.json` (champs slug, date, categorie, titre, description, image, image_alt, intro, sections, appel). Types de section : paragraphes, liste, liste_numerotee, etapes, citation, tableau.
+- Format : voir `blog/contenu/fr.json` (champs slug, date, categorie, titre, description, image, image_alt, intro, sections, appel). Types de section : paragraphes, liste, liste_numerotee, etapes, citation, tableau. Toujours 2 questions dans "faq" (réponses courtes, tirées de l'article). "maj" = date de mise à jour quand on corrige un article.
+- Par langue : "methode" (page Notre méthode, traduite de fr.json) et, si un fichier gratuit existe pour la langue dans blog/fichiers/, "gratuit" (même structure que fr.json). Ne jamais proposer en téléchargement un fichier d'une autre langue.
 - Sujet : une épingle déjà publiée et vérifiée de la même langue (textes dans /mnt/project-files/visuels/ et /mnt/project-files/video/*/TEXT*-EPINGLES-*.md, JSON dans /mnt/project-files/visuels/sources/). L'image de l'article = cette épingle (fichier du dossier pins de la langue). Jamais deux articles sur la même épingle.
 - 300 à 700 mots, utile seul (la réponse complète, pas un teaser). Chiffres repris exactement de l'épingle ou de l'exemple rempli du tableur. Démarches administratives : uniquement ce qui est vérifié sur la source officielle du pays, citée dans un paragraphe « Source ».
 - Mots interdits (METHODE-VIDEOS.md §5) : faux avis, étoiles, « best-seller », remboursement, garanties, promesses impossibles, « gratis/offert » pour un bonus (dire « inclus »), « moyenne/Durchschnitt » sans source, « avertit/warnt ». Pas de prix dans l'article.

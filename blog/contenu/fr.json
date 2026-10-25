@@ -94,7 +94,17 @@
           ]
         }
       ],
-      "appel": "Dans notre tableur, entrez votre budget et le nombre d'invités : les 21 postes se calculent tout seuls."
+      "appel": "Dans notre tableur, entrez votre budget et le nombre d'invités : les 21 postes se calculent tout seuls.",
+      "faq": [
+        [
+          "Peut-on organiser un mariage avec 10 000 € ?",
+          "Oui, en ajustant le nombre d'invités, le lieu et la formule du repas. Le repas et le lieu pèsent près de la moitié du budget : ce sont les deux leviers principaux."
+        ],
+        [
+          "Quel pourcentage garder pour les imprévus ?",
+          "Environ 5 % du budget, soit 500 € pour 10 000 €, dans une ligne à part que vous ne touchez pas."
+        ]
+      ]
     },
     {
       "slug": "retroplanning-mariage-12-mois-avant",
@@ -125,7 +135,17 @@
           ]
         }
       ],
-      "appel": "La suite se date toute seule dans notre tableur : entrez la date du mariage, chaque tâche reçoit son échéance."
+      "appel": "La suite se date toute seule dans notre tableur : entrez la date du mariage, chaque tâche reçoit son échéance.",
+      "faq": [
+        [
+          "Par quoi commencer pour organiser son mariage ?",
+          "Par le budget global, puis la date et le style, et une première liste d'invités : ces trois choix décident du lieu."
+        ],
+        [
+          "Faut-il réserver le lieu un an avant ?",
+          "C'est souvent le premier prestataire à réserver, car il fixe la date et la capacité. Visitez-le une fois le budget et la liste d'invités connus."
+        ]
+      ]
     },
     {
       "slug": "acomptes-soldes-mariage",
@@ -154,7 +174,17 @@
           ]
         }
       ],
-      "appel": "Dans notre tableur, le prochain paiement s'affiche tout seul."
+      "appel": "Dans notre tableur, le prochain paiement s'affiche tout seul.",
+      "faq": [
+        [
+          "Faut-il demander un reçu pour un acompte ?",
+          "Oui, pour chaque acompte versé. Gardez-le avec le devis signé."
+        ],
+        [
+          "Comment payer les prestataires le jour du mariage ?",
+          "Préparez les soldes dans des enveloppes au nom de chaque prestataire et confiez-les à un témoin de confiance."
+        ]
+      ]
     },
     {
       "slug": "relancer-invites-mariage-messages",
@@ -183,7 +213,17 @@
           ]
         }
       ],
-      "appel": "14 modèles de textes sont inclus avec l'organisateur de mariage."
+      "appel": "14 modèles de textes sont inclus avec l'organisateur de mariage.",
+      "faq": [
+        [
+          "Quand relancer les invités qui n'ont pas répondu ?",
+          "Juste après la date limite de réponse, avec une nouvelle date précise."
+        ],
+        [
+          "Comment relancer sans paraître insistant ?",
+          "Donnez une raison concrète, comme le plan de table ou le traiteur, et gardez un ton chaleureux."
+        ]
+      ]
     },
     {
       "slug": "discours-temoin-mariage-trame",
@@ -229,7 +269,17 @@
           ]
         }
       ],
-      "appel": "La trame du discours est incluse dans les bonus de l'organisateur de mariage."
+      "appel": "La trame du discours est incluse dans les bonus de l'organisateur de mariage.",
+      "faq": [
+        [
+          "Combien de temps doit durer un discours de témoin ?",
+          "Visez 3 à 5 minutes. Lisez-le à voix haute avant le jour J pour vérifier."
+        ],
+        [
+          "Que dire dans un discours de témoin ?",
+          "Présentez-vous, racontez une anecdote courte, parlez du couple, saluez les invités, puis proposez un toast."
+        ]
+      ]
     },
     {
       "slug": "kit-urgence-mariage-liste",
@@ -278,5 +328,36 @@
       ],
       "appel": "Dans l'onglet « Jour J » de notre tableur, la liste complète de 24 objets est à cocher."
     }
-  ]
+  ],
+  "appel_accueil": "Tout votre mariage dans un seul fichier.",
+  "methode": {
+    "titre": "Notre méthode",
+    "description": "Comment Joli Plan prépare et vérifie ses articles et ses tableurs de mariage.",
+    "paragraphes": [
+      "Joli Plan crée des tableurs de mariage pour Excel et Google Sheets, un par pays : France, Allemagne, Espagne, Italie et Royaume-Uni.",
+      "Chaque article reprend les repères de nos tableurs et de leur exemple rempli. Les chiffres sont des valeurs repères pour démarrer : remplacez-les par vos devis.",
+      "Pour les démarches administratives, nous suivons la source officielle du pays et nous la citons. Les règles peuvent varier selon votre mairie : confirmez toujours auprès d'elle.",
+      "Nos articles sont préparés avec l'aide d'outils d'IA, puis relus et vérifiés avant publication. Une erreur ? Écrivez-nous depuis notre boutique Etsy."
+    ]
+  },
+  "gratuit": {
+    "slug": "planning-mariage-gratuit",
+    "surtitre": "Gratuit",
+    "accroche": "Téléchargez notre planning de mariage gratuit : budget et liste d'invités, prêts à remplir.",
+    "cta_page": "Télécharger le planning gratuit",
+    "titre": "Planning de mariage gratuit (Excel et Google Sheets)",
+    "description": "Téléchargez gratuitement le planning de mariage Joli Plan : tableau de bord, budget et liste d'invités, en français, pour Excel et Google Sheets.",
+    "intro": "Un vrai tableur pour commencer : entrez vos prénoms, la date et votre budget, et le tableau de bord se remplit. Sans inscription, en français.",
+    "fichier": "JoliPlan_Planning-Mariage_GRATUIT_FR.xlsx",
+    "cta_telecharger": "Télécharger le fichier Excel (gratuit)",
+    "titre_contenu": "Ce qu'il contient",
+    "contenu": [
+      "Un tableau de bord avec le compte à rebours, le budget réglé et les invités confirmés.",
+      "L'onglet Budget avec les postes du mariage et les prix courants en France.",
+      "L'onglet Invités : côté, groupe, réponse, régime alimentaire, hébergement."
+    ],
+    "titre_complet": "Et la version complète ?",
+    "texte_complet": "La version complète ajoute les paiements, les prestataires, le plan de table, le rétroplanning, la mairie, le jour J et les remerciements, dans le même fichier.",
+    "appel": "Passez à la version complète quand vous voulez : vos données restent dans le même format."
+  }
 }
