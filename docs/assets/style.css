@@ -62,4 +62,6 @@ details p { margin: 10px 0 0; }
 .bouton-vert { background: var(--vert); }
 .lies ul { padding-left: 1.2em; }
 .lien-pied { margin-left: 24px; align-self: center; color: var(--vert); font-size: 15px; }
-.lien-pinterest { color: var(--rose); font-size: 14px; font-weight: 700; text-decoration: none; border-bottom: 2px solid var(--poudre); }
+.lien-pinterest { display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; background: #E60023; color: #fff; font-size: 14px; font-weight: 700; text-decoration: none; border-radius: 999px; }
+.lien-pinterest:hover { filter: brightness(1.08); }
+.ico-pin { flex: none; vertical-align: -4px; }
