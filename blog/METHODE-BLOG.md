@@ -1,6 +1,6 @@
 # Blog Joli Plan · méthode
 
-Site : https://joliplan-medias.github.io/joliplan-medias/ (GitHub Pages, branche main, dossier /docs).
+Site : https://joliplanstudio.fr/ (GitHub Pages, branche main, dossier /docs).
 Générateur : `python3 -I blog/build.py` lit `blog/contenu/<langue>.json` et écrit `docs/`. Ne jamais modifier `docs/` à la main.
 Charte : fond crème FAF6F1, vert 46573F, rose 9B4B5A, poudre EAC8C4 ; titres EB Garamond, texte Lato (voir `blog/style.css`).
 

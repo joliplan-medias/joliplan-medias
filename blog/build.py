@@ -16,7 +16,7 @@ from PIL import Image
 RACINE = Path(__file__).resolve().parent.parent
 CONTENU = RACINE / "blog" / "contenu"
 SORTIE = RACINE / "docs"
-BASE = "https://joliplan-medias.github.io/joliplan-medias"  # à changer si un domaine est acheté
+BASE = "https://joliplanstudio.fr"
 RAW = "https://raw.githubusercontent.com/joliplan-medias/joliplan-medias/main"
 DOSSIERS_PINS = {"fr": "pins", "de": "pins-de", "es": "pins-es", "it": "pins-it", "uk": "pins-uk"}
 LANG_HTML = {"fr": "fr", "de": "de", "es": "es", "it": "it", "uk": "en-GB"}
