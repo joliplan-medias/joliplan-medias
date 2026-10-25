@@ -21,6 +21,12 @@ Charte : fond crème FAF6F1, vert 46573F, rose 9B4B5A, poudre EAC8C4 ; titres EB
 - Slug : mots-clés dans la langue de l'article, minuscules, tirets, sans accents.
 - Relecture : 2 sous-agents indépendants (langue ; faits/sources) pour chaque langue autre que le français, appliquer leurs corrections.
 
+## Référencement (étude du 25/10/2026)
+- Titre ≤ 60 caractères, mot-clé de la vraie recherche en tête (ex. « Budget mariage 100 personnes : … », « Hochzeit Checkliste : … »). Description ≤ 155 caractères.
+- Les gens cherchent surtout « modèle/tableau Excel gratuit » et « budget N personnes/invités ». Préférer ces sujets aux démarches administratives (dominées par les mairies et administrations).
+- Pages « budget » : reprendre exactement les chiffres d'une épingle budget vérifiée de la langue (jamais inventer). Un tableau différent par page.
+- Ne jamais retirer la balise google-site-verification de build.py (Search Console validée le 25/10/2026).
+
 ## Cadence
 - Démarrage d'une langue : 5 articles. Ensuite 1 article par langue et par semaine.
 - Google pénalise les pages en masse quasi identiques : chaque article répond à une question différente.
