@@ -19,18 +19,19 @@ SORTIE = RACINE / "docs"
 BASE = "https://joliplanstudio.fr"
 RAW = "https://raw.githubusercontent.com/joliplan-medias/joliplan-medias/main"
 DOSSIERS_PINS = {"fr": "pins", "de": "pins-de", "es": "pins-es", "it": "pins-it", "uk": "pins-uk"}
+PINTEREST = {"fr": "joliplan", "de": "JoliPlanDE", "es": "joliplanes", "it": "JoliplanIT", "uk": "joliplanUK"}
 LANG_HTML = {"fr": "fr", "de": "de", "es": "es", "it": "it", "uk": "en-GB"}
 MOTS = {
     "fr": {"sommaire": "Dans cet article", "faq": "Questions fréquentes", "lies": "À lire aussi",
-           "tous": "Tous les articles", "maj": "Mis à jour le", "methode": "Notre méthode", "voir": "Voir sur Etsy"},
+           "tous": "Tous les articles", "maj": "Mis à jour le", "methode": "Notre méthode", "voir": "Voir sur Etsy", "pinterest": "Suivre sur Pinterest"},
     "de": {"sommaire": "In diesem Artikel", "faq": "Häufige Fragen", "lies": "Auch lesenswert",
-           "tous": "Alle Artikel", "maj": "Aktualisiert am", "methode": "Unsere Methode", "voir": "Auf Etsy ansehen"},
+           "tous": "Alle Artikel", "maj": "Aktualisiert am", "methode": "Unsere Methode", "voir": "Auf Etsy ansehen", "pinterest": "Auf Pinterest folgen"},
     "es": {"sommaire": "En este artículo", "faq": "Preguntas frecuentes", "lies": "También te puede interesar",
-           "tous": "Todos los artículos", "maj": "Actualizado el", "methode": "Nuestro método", "voir": "Ver en Etsy"},
+           "tous": "Todos los artículos", "maj": "Actualizado el", "methode": "Nuestro método", "voir": "Ver en Etsy", "pinterest": "Seguir en Pinterest"},
     "it": {"sommaire": "In questo articolo", "faq": "Domande frequenti", "lies": "Da leggere anche",
-           "tous": "Tutti gli articoli", "maj": "Aggiornato il", "methode": "Il nostro metodo", "voir": "Vedi su Etsy"},
+           "tous": "Tutti gli articoli", "maj": "Aggiornato il", "methode": "Il nostro metodo", "voir": "Vedi su Etsy", "pinterest": "Seguici su Pinterest"},
     "uk": {"sommaire": "In this article", "faq": "Frequently asked questions", "lies": "Read next",
-           "tous": "All articles", "maj": "Updated on", "methode": "Our method", "voir": "View on Etsy"},
+           "tous": "All articles", "maj": "Updated on", "methode": "Our method", "voir": "View on Etsy", "pinterest": "Follow on Pinterest"},
 }
 
 
@@ -81,11 +82,11 @@ def page(lang, titre, description, chemin, corps, rel, image=None, schemas=(), t
 {ld}
 </head>
 <body>
-<header class="entete"><a class="logo" href="{rel}{lang}/"><img src="{rel}assets/icone.png" alt="" width="34" height="34"><span><em>Joli</em> Plan</span></a></header>
+<header class="entete"><a class="logo" href="{rel}{lang}/"><img src="{rel}assets/icone.png" alt="" width="34" height="34"><span><em>Joli</em> Plan</span></a><a class="lien-pinterest" href="https://www.pinterest.com/{PINTEREST[lang]}/" rel="noopener" target="_blank">{e(m['pinterest'])}</a></header>
 <main>
 {corps}
 </main>
-<footer class="pied"><a class="logo" href="{rel}{lang}/"><img src="{rel}assets/icone.png" alt="" width="28" height="28"><span><em>Joli</em> Plan</span></a><a class="lien-pied" href="{rel}{lang}/methode/">{e(m['methode'])}</a></footer>
+<footer class="pied"><a class="logo" href="{rel}{lang}/"><img src="{rel}assets/icone.png" alt="" width="28" height="28"><span><em>Joli</em> Plan</span></a><a class="lien-pied" href="{rel}{lang}/methode/">{e(m['methode'])}</a><a class="lien-pied" href="https://www.pinterest.com/{PINTEREST[lang]}/" rel="noopener" target="_blank">Pinterest</a></footer>
 <script async defer src="https://assets.pinterest.com/js/pinit.js" data-pin-hover="true" data-pin-tall="true" data-pin-round="true"></script>
 </body>
 </html>

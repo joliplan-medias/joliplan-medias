@@ -12,8 +12,9 @@ body { margin: 0; background: var(--creme); color: var(--texte); font: 400 18px/
 img { max-width: 100%; height: auto; display: block; }
 a { color: var(--rose); }
 main { max-width: 720px; margin: 0 auto; padding: 0 16px 48px; }
+.entete { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .entete, .pied { max-width: 720px; margin: 0 auto; padding: 20px 16px; }
-.pied { display: flex; justify-content: center; padding: 32px 16px 40px; }
+.pied { display: flex; flex-wrap: wrap; gap: 8px 0; justify-content: center; padding: 32px 16px 40px; }
 .logo { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--vert); font: 500 26px/1 "EB Garamond", Georgia, serif; }
 .logo em { font-style: italic; }
 .surtitre { color: var(--rose); font: 700 13px/1.4 "Lato", sans-serif; letter-spacing: .18em; text-transform: uppercase; margin: 24px 0 8px; display: block; }
@@ -61,3 +62,4 @@ details p { margin: 10px 0 0; }
 .bouton-vert { background: var(--vert); }
 .lies ul { padding-left: 1.2em; }
 .lien-pied { margin-left: 24px; align-self: center; color: var(--vert); font-size: 15px; }
+.lien-pinterest { color: var(--rose); font-size: 14px; font-weight: 700; text-decoration: none; border-bottom: 2px solid var(--poudre); }
