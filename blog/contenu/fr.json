@@ -327,6 +327,206 @@
         }
       ],
       "appel": "Dans l'onglet « Jour J » de notre tableur, la liste complète de 24 objets est à cocher."
+    },
+    {
+      "slug": "budget-mariage-100-personnes-20000-euros",
+      "date": "2026-10-25",
+      "categorie": "Budget de mariage",
+      "titre": "Budget mariage 100 personnes : 20 000 € poste par poste",
+      "description": "Répartition d'un budget de mariage de 20 000 € pour 100 invités : traiteur, lieu, photographe, tenues, poste par poste, avec la part de chacun.",
+      "image": "2026-10-13-budget-repartition-20000-corrige.png",
+      "image_alt": "Répartition d'un budget de mariage de 20 000 € pour 100 invités",
+      "intro": "Pour un mariage de 100 personnes avec 20 000 €, cela fait 200 € par invité, tout compris. Voici comment notre tableur répartit cette somme. Ce sont des repères pour démarrer, pas des prix réels : remplacez-les par vos devis.",
+      "sections": [
+        {
+          "titre": "Les 20 000 € poste par poste",
+          "tableau": {
+            "entetes": [
+              "Poste",
+              "Montant",
+              "Part"
+            ],
+            "lignes": [
+              [
+                "Traiteur & boissons",
+                "7 430 €",
+                "37 %"
+              ],
+              [
+                "Lieu de réception",
+                "3 930 €",
+                "20 %"
+              ],
+              [
+                "Robe & accessoires",
+                "1 220 €",
+                "6 %"
+              ],
+              [
+                "Photographe",
+                "1 140 €",
+                "6 %"
+              ],
+              [
+                "DJ / musiciens",
+                "1 050 €",
+                "5 %"
+              ],
+              [
+                "Divers & imprévus",
+                "1 000 €",
+                "5 %"
+              ],
+              [
+                "Fleurs & décoration",
+                "870 €",
+                "4 %"
+              ],
+              [
+                "Costume & accessoires",
+                "790 €",
+                "4 %"
+              ],
+              [
+                "Alliances",
+                "700 €",
+                "3 %"
+              ],
+              [
+                "Les 6 autres postes",
+                "1 870 €",
+                "9 %"
+              ]
+            ]
+          }
+        },
+        {
+          "titre": "Ce que montrent ces chiffres",
+          "paragraphes": [
+            "Le traiteur et le lieu totalisent 11 360 €, soit environ 57 % du budget. Le traiteur seul représente environ 74 € par invité : chaque invité en plus ou en moins déplace donc ce poste en premier.",
+            "Par comparaison, notre exemple de 10 000 € pour 60 invités représente environ 167 € par invité, avec un traiteur à 30 % du budget. Les parts sont des arrondis à l'unité."
+          ]
+        },
+        {
+          "titre": "Comment l'utiliser pour vos 100 invités",
+          "liste": [
+            "Commencez par fixer le nombre d'invités : c'est lui qui décide du poste traiteur.",
+            "Remplacez le lieu et le traiteur par vos premiers devis, ils pèsent plus de la moitié du total.",
+            "Ne touchez pas à la ligne « divers & imprévus » (1 000 €, soit 5 %) pour compenser un dépassement."
+          ]
+        }
+      ],
+      "appel": "Dans notre tableur, entrez votre budget et le nombre d'invités : les 21 postes se calculent tout seuls.",
+      "faq": [
+        [
+          "Combien prévoir par invité pour un mariage de 100 personnes ?",
+          "Avec 20 000 € pour 100 invités, cela fait 200 € par invité, tout compris. Dans cette répartition, le traiteur représente environ 74 € par invité."
+        ],
+        [
+          "Quelle part du budget pour le traiteur et le lieu ?",
+          "Ensemble, 11 360 € sur 20 000 €, soit environ 57 % du budget."
+        ]
+      ]
+    },
+    {
+      "slug": "budget-mariage-120-invites-30000-euros",
+      "date": "2026-10-25",
+      "categorie": "Budget de mariage",
+      "titre": "Budget mariage 30 000 € pour 120 invités : poste par poste",
+      "description": "Comment répartir 30 000 € pour 120 invités : traiteur, lieu, lune de miel, photographe, tenues, poste par poste, avec la part de chacun.",
+      "image": "25-nov-budget-repartition-30000.png",
+      "image_alt": "Répartition d'un budget de mariage de 30 000 € pour 120 invités",
+      "intro": "Avec 30 000 € et 120 invités, on arrive à 250 € par invité. Voici la répartition conseillée par notre tableur pour ce scénario. Ce sont des repères, pas des prix réels : vos devis ont le dernier mot.",
+      "sections": [
+        {
+          "titre": "Le détail des 30 000 €",
+          "tableau": {
+            "entetes": [
+              "Poste",
+              "Montant",
+              "Part"
+            ],
+            "lignes": [
+              [
+                "Traiteur & boissons",
+                "10 200 €",
+                "34 %"
+              ],
+              [
+                "Lieu de réception",
+                "5 100 €",
+                "17 %"
+              ],
+              [
+                "Lune de miel",
+                "2 180 €",
+                "7 %"
+              ],
+              [
+                "Divers & imprévus",
+                "1 500 €",
+                "5 %"
+              ],
+              [
+                "Robe & accessoires",
+                "1 400 €",
+                "5 %"
+              ],
+              [
+                "Photographe",
+                "1 300 €",
+                "4 %"
+              ],
+              [
+                "DJ / musiciens",
+                "1 200 €",
+                "4 %"
+              ],
+              [
+                "Fleurs & décoration",
+                "1 120 €",
+                "4 %"
+              ],
+              [
+                "Costume & accessoires",
+                "900 €",
+                "3 %"
+              ],
+              [
+                "Les 12 autres postes",
+                "5 100 €",
+                "17 %"
+              ]
+            ]
+          }
+        },
+        {
+          "titre": "Ce qui change avec ce budget",
+          "paragraphes": [
+            "À 30 000 €, la lune de miel entre dans la répartition avec 2 180 €, soit la troisième ligne la plus élevée. La part du traiteur est un peu plus basse que dans notre exemple à 20 000 € (34 % contre 37 %).",
+            "Le traiteur coûte ici 85 € par invité (10 200 € pour 120), et le lieu 5 100 €. Ensemble, ils font 15 300 €, soit environ 51 % du budget."
+          ]
+        },
+        {
+          "titre": "Par où commencer",
+          "liste": [
+            "Demandez les devis du lieu et du traiteur en premier : ce sont 51 % du total.",
+            "Gardez les 1 500 € d'imprévus (5 %) pour les petits oublis.",
+            "Repérez les 12 autres postes (5 100 €) : papeterie, transport, hébergement, matériel… ils s'additionnent vite."
+          ]
+        }
+      ],
+      "appel": "Dans notre tableur, entrez votre budget et le nombre d'invités : les 21 postes se calculent tout seuls.",
+      "faq": [
+        [
+          "Quel budget pour un mariage de 120 invités ?",
+          "Notre exemple part de 30 000 €, soit 250 € par invité. Ajustez ensuite chaque poste avec vos devis."
+        ],
+        [
+          "Que devient la lune de miel dans ce budget ?",
+          "Dans cet exemple, elle reçoit 2 180 €, soit environ 7 % : c'est la troisième ligne la plus élevée."
+        ]
+      ]
     }
   ],
   "appel_accueil": "Tout votre mariage dans un seul fichier.",
