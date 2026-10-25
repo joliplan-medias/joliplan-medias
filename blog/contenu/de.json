@@ -19,18 +19,62 @@
         {
           "titre": "Die Aufteilung Posten für Posten",
           "tableau": {
-            "entetes": ["Posten", "Betrag", "Anteil"],
+            "entetes": [
+              "Posten",
+              "Betrag",
+              "Anteil"
+            ],
             "lignes": [
-              ["Catering & Getränke", "8.503 €", "27 %"],
-              ["Location", "7.754 €", "24 %"],
-              ["Blumen & Deko", "1.744 €", "5 %"],
-              ["Flitterwochen", "1.735 €", "5 %"],
-              ["Reserve & Unvorhergesehenes", "1.600 €", "5 %"],
-              ["Brautkleid & Accessoires", "1.524 €", "5 %"],
-              ["DJ / Band / Musik", "1.290 €", "4 %"],
-              ["Video", "1.179 €", "4 %"],
-              ["Fotografie", "1.146 €", "4 %"],
-              ["Die übrigen 12 Posten", "5.525 €", "17 %"]
+              [
+                "Catering & Getränke",
+                "8.503 €",
+                "27 %"
+              ],
+              [
+                "Location",
+                "7.754 €",
+                "24 %"
+              ],
+              [
+                "Blumen & Deko",
+                "1.744 €",
+                "5 %"
+              ],
+              [
+                "Flitterwochen",
+                "1.735 €",
+                "5 %"
+              ],
+              [
+                "Reserve & Unvorhergesehenes",
+                "1.600 €",
+                "5 %"
+              ],
+              [
+                "Brautkleid & Accessoires",
+                "1.524 €",
+                "5 %"
+              ],
+              [
+                "DJ / Band / Musik",
+                "1.290 €",
+                "4 %"
+              ],
+              [
+                "Video",
+                "1.179 €",
+                "4 %"
+              ],
+              [
+                "Fotografie",
+                "1.146 €",
+                "4 %"
+              ],
+              [
+                "Die übrigen 12 Posten",
+                "5.525 €",
+                "17 %"
+              ]
             ]
           }
         },
@@ -66,18 +110,51 @@
         {
           "titre": "Der Beispielablauf",
           "tableau": {
-            "entetes": ["Uhrzeit", "Programmpunkt"],
+            "entetes": [
+              "Uhrzeit",
+              "Programmpunkt"
+            ],
             "lignes": [
-              ["09:00", "Styling: Haare & Make-up"],
-              ["12:00", "Fotoshooting zu zweit"],
-              ["14:00", "Standesamtliche Trauung"],
-              ["15:30", "Freie Trauung im Schlossgarten"],
-              ["16:15", "Gruppenfotos"],
-              ["16:45", "Sektempfang, Kaffee & Kuchen"],
-              ["19:15", "Einzug und Abendessen"],
-              ["21:15", "Reden"],
-              ["21:45", "Anschnitt der Hochzeitstorte"],
-              ["22:15", "Eröffnungstanz & Party"]
+              [
+                "09:00",
+                "Styling: Haare & Make-up"
+              ],
+              [
+                "12:00",
+                "Fotoshooting zu zweit"
+              ],
+              [
+                "14:00",
+                "Standesamtliche Trauung"
+              ],
+              [
+                "15:30",
+                "Freie Trauung im Schlossgarten"
+              ],
+              [
+                "16:15",
+                "Gruppenfotos"
+              ],
+              [
+                "16:45",
+                "Sektempfang, Kaffee & Kuchen"
+              ],
+              [
+                "19:15",
+                "Einzug und Abendessen"
+              ],
+              [
+                "21:15",
+                "Reden"
+              ],
+              [
+                "21:45",
+                "Anschnitt der Hochzeitstorte"
+              ],
+              [
+                "22:15",
+                "Eröffnungstanz & Party"
+              ]
             ]
           }
         },
@@ -114,13 +191,34 @@
         {
           "titre": "Die wichtigsten Schritte nach Monaten",
           "etapes": [
-            ["12 Monate vorher:", "Gesamtbudget festlegen, Location buchen, Standesamt-Termin anfragen."],
-            ["10 bis 11 Monate vorher:", "Trauzeugen fragen, Caterer und Fotograf·in buchen."],
-            ["9 Monate vorher:", "Save the Date verschicken."],
-            ["6 Monate vorher:", "Einladungen bestellen, Eheschließung beim Standesamt anmelden."],
-            ["4 Monate vorher:", "Einladungen verschicken, Probeessen, Hochzeitstorte bestellen."],
-            ["4 Wochen vorher:", "Sitzplan fertigstellen, Plan B für Regen, Gästezahl an den Caterer melden."],
-            ["7 Tage vorher:", "Notfallset packen."]
+            [
+              "12 Monate vorher:",
+              "Gesamtbudget festlegen, Location buchen, Standesamt-Termin anfragen."
+            ],
+            [
+              "10 bis 11 Monate vorher:",
+              "Trauzeugen fragen, Caterer und Fotograf·in buchen."
+            ],
+            [
+              "9 Monate vorher:",
+              "Save the Date verschicken."
+            ],
+            [
+              "6 Monate vorher:",
+              "Einladungen bestellen, Eheschließung beim Standesamt anmelden."
+            ],
+            [
+              "4 Monate vorher:",
+              "Einladungen verschicken, Probeessen, Hochzeitstorte bestellen."
+            ],
+            [
+              "4 Wochen vorher:",
+              "Sitzplan fertigstellen, Plan B für Regen, Gästezahl an den Caterer melden."
+            ],
+            [
+              "7 Tage vorher:",
+              "Notfallset packen."
+            ]
           ]
         },
         {
@@ -228,5 +326,35 @@
       ],
       "appel": "Im Tab „Hochzeitstag“ des Hochzeitsplaners findet ihr 24 Teile zum Abhaken."
     }
-  ]
+  ],
+  "gratuit": {
+    "slug": "hochzeitsplaner-excel-vorlage-kostenlos",
+    "surtitre": "Kostenlos",
+    "accroche": "Ladet unseren kostenlosen Hochzeitsplaner herunter: Budget und Gästeliste, zum Ausfüllen bereit.",
+    "cta_page": "Kostenlosen Hochzeitsplaner herunterladen",
+    "titre": "Hochzeitsplaner Excel Vorlage kostenlos zum Download",
+    "description": "Kostenloser Hochzeitsplaner von Joli Plan zum Download: Übersicht, Budget und Gästeliste für Excel und Google Sheets, auf Deutsch.",
+    "intro": "Eine echte Tabelle für den Start: Namen, Datum und Budget eintragen, und die Übersicht füllt sich. Ohne Anmeldung, auf Deutsch.",
+    "fichier": "JoliPlan_Hochzeitsplaner_KOSTENLOS_DE.xlsx",
+    "cta_telecharger": "Excel-Datei herunterladen (kostenlos)",
+    "titre_contenu": "Was drinsteckt",
+    "contenu": [
+      "Eine Übersicht mit Countdown, bezahltem Budget und zugesagten Gästen.",
+      "Der Reiter Budget mit den Posten der Hochzeit und üblichen Preisen für Deutschland.",
+      "Der Reiter Gäste: Seite, Gruppe, Antwort, Ernährung oder Allergie, Tischnummer."
+    ],
+    "titre_complet": "Und die Vollversion?",
+    "texte_complet": "Die Vollversion ergänzt Zahlungen, Dienstleister, Sitzplan, Zeitplan, Standesamt und Dokumente, Hochzeitstag und Danksagungen in derselben Datei.",
+    "appel": "Steigt auf die Vollversion um, wann ihr wollt: eure Daten bleiben im selben Format."
+  },
+  "methode": {
+    "titre": "Unsere Methode",
+    "description": "Wie Joli Plan seine Artikel und Hochzeitstabellen vorbereitet und prüft.",
+    "paragraphes": [
+      "Joli Plan erstellt Hochzeitstabellen für Excel und Google Sheets, eine pro Land: Frankreich, Deutschland, Spanien, Italien und das Vereinigte Königreich.",
+      "Jeder Artikel greift Richtwerte aus unseren Tabellen und deren ausgefülltem Beispiel auf. Die Zahlen sind Orientierungswerte für den Start: ersetzt sie durch eure Angebote.",
+      "Bei Behördengängen folgen wir der offiziellen Quelle des Landes und nennen sie. Die Regeln können je nach Standesamt abweichen: bestätigt immer bei eurem Amt.",
+      "Unsere Artikel entstehen mit Hilfe von KI-Werkzeugen und werden vor der Veröffentlichung gelesen und geprüft. Ein Fehler? Schreibt uns über unseren Etsy-Shop."
+    ]
+  }
 }

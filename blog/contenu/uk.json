@@ -19,17 +19,47 @@
         {
           "titre": "The split, item by item",
           "tableau": {
-            "entetes": ["Item", "Amount"],
+            "entetes": [
+              "Item",
+              "Amount"
+            ],
             "lignes": [
-              ["Catering & drinks", "£8,011"],
-              ["Venue hire", "£6,911"],
-              ["Dress & accessories", "£2,073"],
-              ["Photographer", "£1,554"],
-              ["Contingency", "£1,425"],
-              ["Evening food", "£1,414"],
-              ["Flowers & décor", "£1,382"],
-              ["Band / DJ", "£1,111"],
-              ["All other items", "£4,619"]
+              [
+                "Catering & drinks",
+                "£8,011"
+              ],
+              [
+                "Venue hire",
+                "£6,911"
+              ],
+              [
+                "Dress & accessories",
+                "£2,073"
+              ],
+              [
+                "Photographer",
+                "£1,554"
+              ],
+              [
+                "Contingency",
+                "£1,425"
+              ],
+              [
+                "Evening food",
+                "£1,414"
+              ],
+              [
+                "Flowers & décor",
+                "£1,382"
+              ],
+              [
+                "Band / DJ",
+                "£1,111"
+              ],
+              [
+                "All other items",
+                "£4,619"
+              ]
             ]
           }
         },
@@ -65,16 +95,43 @@
         {
           "titre": "The example, hour by hour",
           "tableau": {
-            "entetes": ["Time", "Event"],
+            "entetes": [
+              "Time",
+              "Event"
+            ],
             "lignes": [
-              ["09:00", "Hair and make-up"],
-              ["13:00", "Ceremony"],
-              ["14:20", "Drinks reception"],
-              ["15:50", "Wedding breakfast"],
-              ["17:50", "Speeches"],
-              ["19:30", "Evening guests arrive"],
-              ["20:00", "First dance"],
-              ["21:00", "Evening food"]
+              [
+                "09:00",
+                "Hair and make-up"
+              ],
+              [
+                "13:00",
+                "Ceremony"
+              ],
+              [
+                "14:20",
+                "Drinks reception"
+              ],
+              [
+                "15:50",
+                "Wedding breakfast"
+              ],
+              [
+                "17:50",
+                "Speeches"
+              ],
+              [
+                "19:30",
+                "Evening guests arrive"
+              ],
+              [
+                "20:00",
+                "First dance"
+              ],
+              [
+                "21:00",
+                "Evening food"
+              ]
             ]
           }
         },
@@ -158,11 +215,26 @@
         {
           "titre": "The 5 steps",
           "etapes": [
-            ["Confirm who's coming.", "Seat only guests who said yes."],
-            ["Group by relationship.", "Family, friends, colleagues."],
-            ["Note the special cases.", "Children's table, dietary needs and allergies."],
-            ["Leave a little margin.", "One spare seat per table."],
-            ["Check every table.", "None over capacity, none half empty."]
+            [
+              "Confirm who's coming.",
+              "Seat only guests who said yes."
+            ],
+            [
+              "Group by relationship.",
+              "Family, friends, colleagues."
+            ],
+            [
+              "Note the special cases.",
+              "Children's table, dietary needs and allergies."
+            ],
+            [
+              "Leave a little margin.",
+              "One spare seat per table."
+            ],
+            [
+              "Check every table.",
+              "None over capacity, none half empty."
+            ]
           ]
         },
         {
@@ -211,5 +283,35 @@
       ],
       "appel": "The planner includes 14 wording templates to copy, personalise and send."
     }
-  ]
+  ],
+  "gratuit": {
+    "slug": "wedding-planner-spreadsheet-free-download",
+    "surtitre": "Free",
+    "accroche": "Download our free wedding planner spreadsheet: budget and guest list, ready to fill in.",
+    "cta_page": "Download the free planner",
+    "titre": "Wedding Planner Spreadsheet: Free Download (Excel)",
+    "description": "Download Joli Plan's free wedding planner spreadsheet: dashboard, budget and guest list, for Excel and Google Sheets. No sign-up.",
+    "intro": "A real spreadsheet to get started: enter your names, the date and your budget, and the dashboard fills itself in. No sign-up needed.",
+    "fichier": "JoliPlan_Wedding-Planner_FREE_UK.xlsx",
+    "cta_telecharger": "Download the Excel file (free)",
+    "titre_contenu": "What's inside",
+    "contenu": [
+      "A dashboard with a countdown, budget paid and guests confirmed.",
+      "The Budget tab with the wedding items and typical UK prices.",
+      "The Guests tab: side, group, RSVP, diet or allergy, table number."
+    ],
+    "titre_complet": "What about the full version?",
+    "texte_complet": "The full version adds payments, suppliers, the seating plan and more, in the same file.",
+    "appel": "Move up to the full version whenever you like: your data stays in the same format."
+  },
+  "methode": {
+    "titre": "Our method",
+    "description": "How Joli Plan prepares and checks its articles and wedding spreadsheets.",
+    "paragraphes": [
+      "Joli Plan creates wedding spreadsheets for Excel and Google Sheets, one per country: France, Germany, Spain, Italy and the United Kingdom.",
+      "Each article uses the reference points from our spreadsheets and their filled-in example. The figures are starting values: replace them with your own quotes.",
+      "For official procedures, we follow the country's official source and cite it. Rules can vary by register office: always confirm with yours.",
+      "Our articles are prepared with the help of AI tools, then read and checked before publication. Spotted a mistake? Write to us from our Etsy shop."
+    ]
+  }
 }

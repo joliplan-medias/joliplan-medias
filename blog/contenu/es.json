@@ -19,16 +19,43 @@
         {
           "titre": "El reparto partida por partida",
           "tableau": {
-            "entetes": ["Partida", "Importe"],
+            "entetes": [
+              "Partida",
+              "Importe"
+            ],
             "lignes": [
-              ["Banquete y bebida", "9.866 €"],
-              ["Lugar o finca", "5.844 €"],
-              ["Fotografía", "1.889 €"],
-              ["Flores y decoración", "1.755 €"],
-              ["Imprevistos y varios", "1.425 €"],
-              ["DJ y música", "1.389 €"],
-              ["Vestido y complementos", "1.333 €"],
-              ["Resto de partidas", "4.999 €"]
+              [
+                "Banquete y bebida",
+                "9.866 €"
+              ],
+              [
+                "Lugar o finca",
+                "5.844 €"
+              ],
+              [
+                "Fotografía",
+                "1.889 €"
+              ],
+              [
+                "Flores y decoración",
+                "1.755 €"
+              ],
+              [
+                "Imprevistos y varios",
+                "1.425 €"
+              ],
+              [
+                "DJ y música",
+                "1.389 €"
+              ],
+              [
+                "Vestido y complementos",
+                "1.333 €"
+              ],
+              [
+                "Resto de partidas",
+                "4.999 €"
+              ]
             ]
           }
         },
@@ -64,16 +91,43 @@
         {
           "titre": "El ejemplo, hora a hora",
           "tableau": {
-            "entetes": ["Hora", "Momento"],
+            "entetes": [
+              "Hora",
+              "Momento"
+            ],
             "lignes": [
-              ["09:00", "Peluquería y maquillaje"],
-              ["11:00", "Vestirse"],
-              ["13:00", "Ceremonia"],
-              ["14:50", "Cóctel de bienvenida"],
-              ["16:05", "Banquete"],
-              ["18:40", "Tarta y brindis"],
-              ["19:00", "Baile y barra libre"],
-              ["00:30", "Recena"]
+              [
+                "09:00",
+                "Peluquería y maquillaje"
+              ],
+              [
+                "11:00",
+                "Vestirse"
+              ],
+              [
+                "13:00",
+                "Ceremonia"
+              ],
+              [
+                "14:50",
+                "Cóctel de bienvenida"
+              ],
+              [
+                "16:05",
+                "Banquete"
+              ],
+              [
+                "18:40",
+                "Tarta y brindis"
+              ],
+              [
+                "19:00",
+                "Baile y barra libre"
+              ],
+              [
+                "00:30",
+                "Recena"
+              ]
             ]
           }
         },
@@ -157,11 +211,26 @@
         {
           "titre": "Los 5 pasos",
           "etapes": [
-            ["Confirmad quién viene.", "Colocad solo a quien ha dicho que sí."],
-            ["Agrupad por afinidades.", "Familia, amigos, compañeros."],
-            ["Anotad lo especial.", "Mesa infantil y menús por dieta o alergia."],
-            ["Dejad algo de margen.", "Un asiento libre por mesa."],
-            ["Revisad cada mesa.", "Que ninguna se pase de plazas ni quede a medias."]
+            [
+              "Confirmad quién viene.",
+              "Colocad solo a quien ha dicho que sí."
+            ],
+            [
+              "Agrupad por afinidades.",
+              "Familia, amigos, compañeros."
+            ],
+            [
+              "Anotad lo especial.",
+              "Mesa infantil y menús por dieta o alergia."
+            ],
+            [
+              "Dejad algo de margen.",
+              "Un asiento libre por mesa."
+            ],
+            [
+              "Revisad cada mesa.",
+              "Que ninguna se pase de plazas ni quede a medias."
+            ]
           ]
         },
         {
@@ -210,5 +279,35 @@
       ],
       "appel": "El planificador incluye 14 modelos de textos para copiar, adaptar y enviar."
     }
-  ]
+  ],
+  "gratuit": {
+    "slug": "plantilla-boda-excel-gratis",
+    "surtitre": "Gratis",
+    "accroche": "Descargad nuestro planificador de boda gratis: presupuesto y lista de invitados, listos para rellenar.",
+    "cta_page": "Descargar el planificador gratis",
+    "titre": "Plantilla de boda en Excel gratis para descargar",
+    "description": "Descarga gratis el planificador de boda de Joli Plan: resumen, presupuesto y lista de invitados, en español, para Excel y Google Sheets.",
+    "intro": "Una hoja de cálculo de verdad para empezar: escribid vuestros nombres, la fecha y el presupuesto, y el resumen se rellena solo. Sin registro, en español.",
+    "fichier": "JoliPlan_Planificador-Boda_GRATIS_ES.xlsx",
+    "cta_telecharger": "Descargar el archivo Excel (gratis)",
+    "titre_contenu": "Qué incluye",
+    "contenu": [
+      "Un resumen con cuenta atrás, presupuesto pagado e invitados confirmados.",
+      "La pestaña Presupuesto con las partidas de la boda y los precios habituales en España.",
+      "La pestaña Invitados: lado, grupo, respuesta, dieta o alergia, número de mesa."
+    ],
+    "titre_complet": "¿Y la versión completa?",
+    "texte_complet": "La versión completa añade pagos, proveedores, plano de mesas, calendario de tareas, Registro Civil y trámites, día de la boda y agradecimientos, en el mismo archivo.",
+    "appel": "Pasad a la versión completa cuando queráis: vuestros datos siguen en el mismo formato."
+  },
+  "methode": {
+    "titre": "Nuestro método",
+    "description": "Cómo prepara y verifica Joli Plan sus artículos y sus hojas de cálculo de boda.",
+    "paragraphes": [
+      "Joli Plan crea hojas de cálculo de boda para Excel y Google Sheets, una por país: Francia, Alemania, España, Italia y Reino Unido.",
+      "Cada artículo recoge las referencias de nuestras hojas y de su ejemplo rellenado. Las cifras son valores orientativos para empezar: sustituidlas por vuestros presupuestos.",
+      "Para los trámites, seguimos la fuente oficial del país y la citamos. Las normas pueden variar según el registro: confirmadlo siempre con el vuestro.",
+      "Nuestros artículos se preparan con ayuda de herramientas de IA y se revisan y verifican antes de publicarse. ¿Un error? Escribidnos desde nuestra tienda de Etsy."
+    ]
+  }
 }

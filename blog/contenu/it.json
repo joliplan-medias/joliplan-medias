@@ -19,17 +19,47 @@
         {
           "titre": "La ripartizione voce per voce",
           "tableau": {
-            "entetes": ["Voce", "Importo"],
+            "entetes": [
+              "Voce",
+              "Importo"
+            ],
             "lignes": [
-              ["Catering e bevande", "7.350 €"],
-              ["Viaggio di nozze", "2.674 €"],
-              ["Fiori e allestimenti", "2.568 €"],
-              ["Location", "2.500 €"],
-              ["Fotografo", "1.900 €"],
-              ["Abito della sposa e accessori", "1.800 €"],
-              ["Musica e DJ", "1.500 €"],
-              ["Imprevisti e varie", "1.400 €"],
-              ["Altre 13 voci", "6.308 €"]
+              [
+                "Catering e bevande",
+                "7.350 €"
+              ],
+              [
+                "Viaggio di nozze",
+                "2.674 €"
+              ],
+              [
+                "Fiori e allestimenti",
+                "2.568 €"
+              ],
+              [
+                "Location",
+                "2.500 €"
+              ],
+              [
+                "Fotografo",
+                "1.900 €"
+              ],
+              [
+                "Abito della sposa e accessori",
+                "1.800 €"
+              ],
+              [
+                "Musica e DJ",
+                "1.500 €"
+              ],
+              [
+                "Imprevisti e varie",
+                "1.400 €"
+              ],
+              [
+                "Altre 13 voci",
+                "6.308 €"
+              ]
             ]
           }
         },
@@ -65,16 +95,43 @@
         {
           "titre": "L'esempio, ora per ora",
           "tableau": {
-            "entetes": ["Ora", "Momento"],
+            "entetes": [
+              "Ora",
+              "Momento"
+            ],
             "lignes": [
-              ["09:00", "Trucco e acconciatura"],
-              ["11:00", "Vestizione"],
-              ["13:00", "Cerimonia"],
-              ["14:50", "Aperitivo di benvenuto"],
-              ["16:05", "Ricevimento"],
-              ["18:40", "Torta e brindisi"],
-              ["19:00", "Apertura delle danze"],
-              ["00:30", "Buffet di dolci e confettata"]
+              [
+                "09:00",
+                "Trucco e acconciatura"
+              ],
+              [
+                "11:00",
+                "Vestizione"
+              ],
+              [
+                "13:00",
+                "Cerimonia"
+              ],
+              [
+                "14:50",
+                "Aperitivo di benvenuto"
+              ],
+              [
+                "16:05",
+                "Ricevimento"
+              ],
+              [
+                "18:40",
+                "Torta e brindisi"
+              ],
+              [
+                "19:00",
+                "Apertura delle danze"
+              ],
+              [
+                "00:30",
+                "Buffet di dolci e confettata"
+              ]
             ]
           }
         },
@@ -158,11 +215,26 @@
         {
           "titre": "I 5 passi",
           "etapes": [
-            ["Partite dai confermati.", "Fate sedere solo chi ha detto sì."],
-            ["Raggruppate per affinità.", "Famiglie, amici, colleghi."],
-            ["Segnate le esigenze.", "Tavolo dei bambini, diete e allergie."],
-            ["Lasciate un po' di margine.", "Un posto libero per tavolo."],
-            ["Rivedete ogni tavolo.", "Nessuno oltre i posti disponibili."]
+            [
+              "Partite dai confermati.",
+              "Fate sedere solo chi ha detto sì."
+            ],
+            [
+              "Raggruppate per affinità.",
+              "Famiglie, amici, colleghi."
+            ],
+            [
+              "Segnate le esigenze.",
+              "Tavolo dei bambini, diete e allergie."
+            ],
+            [
+              "Lasciate un po' di margine.",
+              "Un posto libero per tavolo."
+            ],
+            [
+              "Rivedete ogni tavolo.",
+              "Nessuno oltre i posti disponibili."
+            ]
           ]
         },
         {
@@ -211,5 +283,35 @@
       ],
       "appel": "Il planner include 14 modelli di testi da copiare, adattare e inviare."
     }
-  ]
+  ],
+  "gratuit": {
+    "slug": "excel-matrimonio-gratis",
+    "surtitre": "Gratuito",
+    "accroche": "Scaricate il nostro planner per il matrimonio gratuito: budget e lista invitati, pronti da compilare.",
+    "cta_page": "Scaricate il planner gratuito",
+    "titre": "Excel matrimonio gratis: planner da scaricare",
+    "description": "Scarica gratis il planner per il matrimonio di Joli Plan: riepilogo, budget e lista invitati, in italiano, per Excel e Google Sheets.",
+    "intro": "Un vero foglio di calcolo per iniziare: inserite i vostri nomi, la data e il budget, e il riepilogo si compila da solo. Senza registrazione, in italiano.",
+    "fichier": "JoliPlan_Planner-Matrimonio_GRATUITO_IT.xlsx",
+    "cta_telecharger": "Scarica il file Excel (gratuito)",
+    "titre_contenu": "Cosa contiene",
+    "contenu": [
+      "Un riepilogo con conto alla rovescia, budget pagato e invitati confermati.",
+      "Il foglio Budget con le voci del matrimonio e i prezzi abituali in Italia.",
+      "Il foglio Invitati: di chi, gruppo, risposta, dieta o allergia, numero del tavolo."
+    ],
+    "titre_complet": "E la versione completa?",
+    "texte_complet": "La versione completa aggiunge pagamenti, fornitori, tableau, checklist, comune e documenti, il grande giorno e ringraziamenti, nello stesso file.",
+    "appel": "Passate alla versione completa quando volete: i vostri dati restano nello stesso formato."
+  },
+  "methode": {
+    "titre": "Il nostro metodo",
+    "description": "Come Joli Plan prepara e verifica i suoi articoli e i suoi fogli di calcolo per il matrimonio.",
+    "paragraphes": [
+      "Joli Plan crea fogli di calcolo per il matrimonio per Excel e Google Sheets, uno per paese: Francia, Germania, Spagna, Italia e Regno Unito.",
+      "Ogni articolo riprende i riferimenti dei nostri fogli e del loro esempio compilato. Le cifre sono valori indicativi per iniziare: sostituitele con i vostri preventivi.",
+      "Per le pratiche amministrative seguiamo la fonte ufficiale del paese e la citiamo. Le regole possono variare da comune a comune: confermatele sempre con il vostro.",
+      "I nostri articoli sono preparati con l'aiuto di strumenti di IA, poi riletti e verificati prima della pubblicazione. Un errore? Scriveteci dal nostro negozio Etsy."
+    ]
+  }
 }
