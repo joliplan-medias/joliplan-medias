@@ -14,6 +14,7 @@ CONTENU = RACINE / "blog" / "contenu"
 SORTIE = RACINE / "docs"
 BASE = "https://joliplan-medias.github.io/joliplan-medias"  # à changer si un domaine est acheté
 DOSSIERS_PINS = {"fr": "pins", "de": "pins-de", "es": "pins-es", "it": "pins-it", "uk": "pins-uk"}
+RETOUR = {"fr": "Tous les articles", "de": "Alle Artikel", "es": "Todos los artículos", "it": "Tutti gli articoli", "uk": "All articles"}
 LANG_HTML = {"fr": "fr", "de": "de", "es": "es", "it": "it", "uk": "en-GB"}
 
 
@@ -108,7 +109,7 @@ def construire_langue(c):
 <figure class="visuel"><img src="../../{image}" alt="{e(a['image_alt'])}" width="1000" height="1500" loading="lazy"></figure>
 {sections}
 {bloc_produit(c, a['appel'])}
-<p class="retour"><a href="../">← Tous les articles</a></p>
+<p class="retour"><a href="../">← {RETOUR[lang]}</a></p>
 </article>"""
         schema = {"@context": "https://schema.org", "@type": "Article", "headline": a["titre"],
                   "description": a["description"], "datePublished": a["date"], "inLanguage": LANG_HTML[lang],

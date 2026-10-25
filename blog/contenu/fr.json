@@ -19,18 +19,62 @@
         {
           "titre": "La répartition poste par poste",
           "tableau": {
-            "entetes": ["Poste", "Montant", "Part"],
+            "entetes": [
+              "Poste",
+              "Montant",
+              "Part"
+            ],
             "lignes": [
-              ["Traiteur & boissons", "2 980 €", "30 %"],
-              ["Lieu de réception", "1 930 €", "19 %"],
-              ["Robe & accessoires", "820 €", "8 %"],
-              ["Photographe", "760 €", "8 %"],
-              ["DJ / musiciens", "700 €", "7 %"],
-              ["Costume & accessoires", "530 €", "5 %"],
-              ["Divers & imprévus", "500 €", "5 %"],
-              ["Alliances", "470 €", "5 %"],
-              ["Fleurs & décoration", "440 €", "4 %"],
-              ["Les 6 autres postes", "870 €", "9 %"]
+              [
+                "Traiteur & boissons",
+                "2 980 €",
+                "30 %"
+              ],
+              [
+                "Lieu de réception",
+                "1 930 €",
+                "19 %"
+              ],
+              [
+                "Robe & accessoires",
+                "820 €",
+                "8 %"
+              ],
+              [
+                "Photographe",
+                "760 €",
+                "8 %"
+              ],
+              [
+                "DJ / musiciens",
+                "700 €",
+                "7 %"
+              ],
+              [
+                "Costume & accessoires",
+                "530 €",
+                "5 %"
+              ],
+              [
+                "Divers & imprévus",
+                "500 €",
+                "5 %"
+              ],
+              [
+                "Alliances",
+                "470 €",
+                "5 %"
+              ],
+              [
+                "Fleurs & décoration",
+                "440 €",
+                "4 %"
+              ],
+              [
+                "Les 6 autres postes",
+                "870 €",
+                "9 %"
+              ]
             ]
           }
         },
@@ -154,11 +198,26 @@
         {
           "titre": "Les 5 temps du discours",
           "etapes": [
-            ["Se présenter", "Qui vous êtes, et depuis quand vous connaissez les mariés."],
-            ["Une anecdote", "Un souvenir drôle ou touchant, court et bienveillant."],
-            ["Le couple", "Ce qui les rend beaux ensemble."],
-            ["Les invités", "Un mot pour les familles et ceux venus de loin."],
-            ["Le toast", "Invitez chacun à lever son verre aux mariés."]
+            [
+              "Se présenter",
+              "Qui vous êtes, et depuis quand vous connaissez les mariés."
+            ],
+            [
+              "Une anecdote",
+              "Un souvenir drôle ou touchant, court et bienveillant."
+            ],
+            [
+              "Le couple",
+              "Ce qui les rend beaux ensemble."
+            ],
+            [
+              "Les invités",
+              "Un mot pour les familles et ceux venus de loin."
+            ],
+            [
+              "Le toast",
+              "Invitez chacun à lever son verre aux mariés."
+            ]
           ]
         },
         {
@@ -171,6 +230,53 @@
         }
       ],
       "appel": "La trame du discours est incluse dans les bonus de l'organisateur de mariage."
+    },
+    {
+      "slug": "kit-urgence-mariage-liste",
+      "date": "2026-10-25",
+      "categorie": "Jour J",
+      "titre": "Kit d'urgence du jour J : la liste à préparer la veille",
+      "description": "Alliances, papiers, épingles à nourrice, pansements, détachant, chaussures plates, chargeur : la checklist du kit d'urgence du mariage.",
+      "image": "16-nov-kit-urgence.png",
+      "image_alt": "Le kit d'urgence du jour J",
+      "intro": "Le jour du mariage, il arrive presque toujours un petit imprévu : un bouton, un talon, une batterie à plat. Un kit préparé la veille règle la plupart de ces soucis en une minute.",
+      "sections": [
+        {
+          "titre": "Les indispensables",
+          "liste": [
+            "Alliances",
+            "Pièces d'identité",
+            "Discours imprimés",
+            "Enveloppes des prestataires"
+          ]
+        },
+        {
+          "titre": "Les petits tracas",
+          "liste": [
+            "Aiguille, fil et épingles à nourrice",
+            "Pansements et antidouleurs",
+            "Détachant et lingettes",
+            "Mouchoirs"
+          ]
+        },
+        {
+          "titre": "Pour tenir toute la nuit",
+          "liste": [
+            "Chaussures plates pour danser",
+            "Chargeur de téléphone",
+            "Bouteilles d'eau et en-cas",
+            "Pastilles à la menthe"
+          ]
+        },
+        {
+          "titre": "Qui porte le kit",
+          "paragraphes": [
+            "Confiez le kit à une personne qui reste près de vous toute la journée, par exemple un témoin. Ainsi, vous n'avez à penser à rien.",
+            "Écrivez un nom sur chaque enveloppe de prestataire pour éviter les confusions. Cette liste reprend 12 essentiels : ajoutez ce dont vous avez personnellement besoin, comme un traitement médical."
+          ]
+        }
+      ],
+      "appel": "Dans l'onglet « Jour J » de notre tableur, la liste complète de 24 objets est à cocher."
     }
   ]
 }

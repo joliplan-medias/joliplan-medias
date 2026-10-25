@@ -1,0 +1,215 @@
+{
+  "langue": "it",
+  "nom_site": "Joli Plan · Il taccuino del matrimonio",
+  "accroche": "Indicazioni semplici e verificate per organizzare il vostro matrimonio in Italia.",
+  "etsy": "https://joliplanstudio.etsy.com/fr/listing/4601940305/mariage-en-italie-tableur-en-italien",
+  "cta_produit": "Vedi il planner del matrimonio su Etsy",
+  "texte_produit": "Budget, invitati, piano dei tavoli, pratiche e scadenze in un unico file Excel e Google Sheets, in italiano e con un esempio già compilato.",
+  "articles": [
+    {
+      "slug": "budget-matrimonio-28000-euro-ripartizione",
+      "date": "2026-10-25",
+      "categorie": "Budget del matrimonio",
+      "titre": "Budget del matrimonio: come ripartire 28.000 € per 98 invitati",
+      "description": "Catering, viaggio di nozze, fiori, location e fotografo: una ripartizione di 28.000 € per 98 invitati, voce per voce.",
+      "image": "01-budget-28000.png",
+      "image_alt": "Ripartizione di un budget di matrimonio di 28.000 € per 98 invitati",
+      "intro": "Con 28.000 € e 98 invitati, la domanda non è «bastano?», ma «dove va ogni euro?». Ecco la ripartizione proposta dal nostro planner, voce per voce. Sono importi indicativi per cominciare, non prezzi reali: adattateli ai vostri preventivi.",
+      "sections": [
+        {
+          "titre": "La ripartizione voce per voce",
+          "tableau": {
+            "entetes": ["Voce", "Importo"],
+            "lignes": [
+              ["Catering e bevande", "7.350 €"],
+              ["Viaggio di nozze", "2.674 €"],
+              ["Fiori e allestimenti", "2.568 €"],
+              ["Location", "2.500 €"],
+              ["Fotografo", "1.900 €"],
+              ["Abito della sposa e accessori", "1.800 €"],
+              ["Musica e DJ", "1.500 €"],
+              ["Imprevisti e varie", "1.400 €"],
+              ["Altre 13 voci", "6.308 €"]
+            ]
+          }
+        },
+        {
+          "titre": "Cosa ricordare",
+          "paragraphes": [
+            "Il catering è la voce più pesante: 7.350 €, circa un quarto del totale. È qui che un cambio di data, di menu o di numero di invitati si fa sentire di più.",
+            "Tenete una voce «imprevisti» di circa il 5%. Assorbe le piccole dimenticanze senza toccare il resto."
+          ]
+        },
+        {
+          "titre": "Come adattare queste cifre al vostro matrimonio",
+          "liste": [
+            "Sostituite ogni importo con il vostro primo preventivo appena lo avete.",
+            "Se una voce sfora, togliete la differenza da un'altra voce, non dagli imprevisti.",
+            "Ricalcolate quando cambia il numero di invitati: il catering segue il numero dei coperti.",
+            "Tenete tutte le voci in una sola pagina per vedere subito cosa è già assegnato."
+          ]
+        }
+      ],
+      "appel": "Nel planner scrivete il budget totale e il numero di invitati: vi propone una ripartizione tra 21 voci."
+    },
+    {
+      "slug": "programma-matrimonio-esempio-ora-per-ora",
+      "date": "2026-10-25",
+      "categorie": "Il grande giorno",
+      "titre": "Il programma del matrimonio: un esempio ora per ora",
+      "description": "Un esempio di programma del matrimonio dal trucco alla confettata, con cerimonia, aperitivo, ricevimento, torta e danze.",
+      "image": "03-programma-del-giorno.png",
+      "image_alt": "Esempio di programma del matrimonio ora per ora",
+      "intro": "Il giorno del matrimonio scorre più sereno quando tutti sanno cosa succede e a che ora. Ecco un esempio di programma da adattare al vostro giorno.",
+      "sections": [
+        {
+          "titre": "L'esempio, ora per ora",
+          "tableau": {
+            "entetes": ["Ora", "Momento"],
+            "lignes": [
+              ["09:00", "Trucco e acconciatura"],
+              ["11:00", "Vestizione"],
+              ["13:00", "Cerimonia"],
+              ["14:50", "Aperitivo di benvenuto"],
+              ["16:05", "Ricevimento"],
+              ["18:40", "Torta e brindisi"],
+              ["19:00", "Apertura delle danze"],
+              ["00:30", "Buffet di dolci e confettata"]
+            ]
+          }
+        },
+        {
+          "titre": "Come adattarlo al vostro giorno",
+          "paragraphes": [
+            "È un esempio, non una regola. Partite dai momenti fissi, come l'ora della cerimonia, e riempite quello che viene prima e dopo."
+          ],
+          "liste": [
+            "Segnate quanto dura ogni momento, non solo quando inizia.",
+            "Lasciate un po' di tempo tra la cerimonia e l'aperitivo per le foto di gruppo.",
+            "Date il programma stampato ai testimoni e ai fornitori."
+          ]
+        },
+        {
+          "titre": "Perché conta più la durata dell'orario",
+          "paragraphes": [
+            "Se scrivete solo gli orari, ogni ritardo vi costringe a riscrivere tutto. Se scrivete la durata di ogni momento, gli orari ne derivano: se le foto si allungano di mezz'ora, tutto quello che segue slitta in automatico."
+          ]
+        }
+      ],
+      "appel": "Nel planner indicate la durata di ogni momento: gli orari si aggiornano in automatico."
+    },
+    {
+      "slug": "kit-di-emergenza-matrimonio-lista",
+      "date": "2026-10-25",
+      "categorie": "Il grande giorno",
+      "titre": "Kit di emergenza per il giorno del matrimonio: la lista da spuntare",
+      "description": "Ago e filo, cerotti, power bank, ombrelli e altro: cosa mettere nel kit di emergenza del giorno del matrimonio, con lista da spuntare.",
+      "image": "05-kit-di-emergenza.png",
+      "image_alt": "Kit di emergenza per il giorno del matrimonio",
+      "intro": "Il giorno del matrimonio qualche piccolo imprevisto capita quasi sempre: un bottone, un tacco, una batteria scarica. Un kit preparato per tempo aiuta con la maggior parte di questi imprevisti.",
+      "sections": [
+        {
+          "titre": "L'essenziale",
+          "liste": [
+            "Fedi",
+            "Documenti d'identità",
+            "Discorsi stampati",
+            "Buste per i fornitori"
+          ]
+        },
+        {
+          "titre": "Piccoli salvagente",
+          "liste": [
+            "Ago, filo, spille",
+            "Cerotti e antidolorifici",
+            "Fazzoletti",
+            "Scarpe basse"
+          ]
+        },
+        {
+          "titre": "Per ogni evenienza",
+          "liste": [
+            "Power bank",
+            "Ombrelli",
+            "Acqua e snack",
+            "Collant di ricambio"
+          ]
+        },
+        {
+          "titre": "Chi porta il kit",
+          "paragraphes": [
+            "Affidate il kit a una persona che resta vicino a voi tutto il giorno, per esempio un testimone. Così avete una cosa in meno a cui pensare.",
+            "Scrivete un nome su ogni busta per non confonderle. Questa lista contiene l'essenziale: aggiungete ciò che serve a voi, per esempio eventuali farmaci."
+          ]
+        }
+      ],
+      "appel": "Nella scheda «Il grande giorno» del planner trovate 24 oggetti da spuntare."
+    },
+    {
+      "slug": "piano-dei-tavoli-matrimonio-5-passi",
+      "date": "2026-10-25",
+      "categorie": "Invitati",
+      "titre": "Piano dei tavoli del matrimonio: 5 passi per organizzarlo",
+      "description": "Come organizzare il piano dei tavoli di un matrimonio in 5 passi: confermati, affinità, esigenze, margine e revisione.",
+      "image": "06-piano-dei-tavoli.png",
+      "image_alt": "Piano dei tavoli del matrimonio in 5 passi",
+      "intro": "Il piano dei tavoli sembra un rompicapo, ma si risolve con un ordine chiaro. Ecco i cinque passi, uno dopo l'altro.",
+      "sections": [
+        {
+          "titre": "I 5 passi",
+          "etapes": [
+            ["Partite dai confermati.", "Fate sedere solo chi ha detto sì."],
+            ["Raggruppate per affinità.", "Famiglie, amici, colleghi."],
+            ["Segnate le esigenze.", "Tavolo dei bambini, diete e allergie."],
+            ["Lasciate un po' di margine.", "Un posto libero per tavolo."],
+            ["Rivedete ogni tavolo.", "Nessuno oltre i posti disponibili."]
+          ]
+        },
+        {
+          "titre": "Prima di cominciare",
+          "paragraphes": [
+            "Decidete prima dove siedono gli sposi e le famiglie. Tutto il resto si organizza attorno a quei tavoli.",
+            "Lavorate sempre con l'elenco dei confermati, non con quello degli invitati: eviterete di sistemare chi poi non viene."
+          ]
+        },
+        {
+          "titre": "Perché lasciare un posto libero",
+          "paragraphes": [
+            "Un posto libero per tavolo vi dà margine per un cambio dell'ultimo minuto: una persona che si aggiunge o un tavolo da ribilanciare. Senza margine, una sola modifica obbliga a spostare molte persone."
+          ]
+        }
+      ],
+      "appel": "Nel planner definite i tavoli e indicate quello di ogni invitato: ogni cartoncino si compila da solo."
+    },
+    {
+      "slug": "sollecitare-invitati-matrimonio-messaggi",
+      "date": "2026-10-25",
+      "categorie": "Invitati",
+      "titre": "Invitati che non rispondono: due messaggi per sollecitarli con garbo",
+      "description": "Due modelli di messaggio per sollecitare gli invitati che non hanno ancora risposto: uno per WhatsApp e uno per email.",
+      "image": "07-sollecitare-invitati.png",
+      "image_alt": "Due messaggi per sollecitare le risposte degli invitati",
+      "intro": "La data limite è passata e qualche invitato non ha ancora risposto. La cosa più semplice è un messaggio breve e cordiale con una nuova scadenza. Ecco due modelli da copiare.",
+      "sections": [
+        {
+          "titre": "Su WhatsApp",
+          "citation": "Ciao a tutti! Vi ricordiamo che ci sposiamo il [data del matrimonio]. Potete confermarci entro il [data limite] se riuscite a venire? Non vediamo l'ora di vedervi!"
+        },
+        {
+          "titre": "Per email",
+          "citation": "Ciao [nomi], dobbiamo comunicare al catering il numero dei coperti. Potete confermarci entro il [data limite] se venite e se avete allergie o diete particolari?"
+        },
+        {
+          "titre": "Come usarli bene",
+          "liste": [
+            "Sostituite i dati tra parentesi quadre e aggiungete qualcosa di personale.",
+            "Indicate sempre una nuova data limite: una scadenza precisa è più chiara.",
+            "Scegliete il canale che usa ogni invitato: WhatsApp per i più vicini, email per gli altri.",
+            "Segnate ogni risposta appena arriva, per non chiedere due volte."
+          ]
+        }
+      ],
+      "appel": "Il planner include 14 modelli di testi da copiare, adattare e inviare."
+    }
+  ]
+}
