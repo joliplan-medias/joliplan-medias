@@ -64,6 +64,7 @@ def page(lang, titre, description, chemin, corps, rel, image=None, schemas=(), t
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="G9rWwfYWoguup7oxZGhsrxkV0AbY1BA-Clq9PowUfEY" />
 <title>{e(titre)}</title>
 <meta name="description" content="{e(description)}">
 <link rel="canonical" href="{url}">
@@ -262,6 +263,7 @@ def main():
         urls += construire_langue(json.loads(f.read_text(encoding="utf-8")))
     (SORTIE / "index.html").write_text(
         '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=fr/">'
+        '<meta name="google-site-verification" content="G9rWwfYWoguup7oxZGhsrxkV0AbY1BA-Clq9PowUfEY" />'
         '<link rel="canonical" href="' + BASE + '/fr/"><title>Joli Plan</title>', encoding="utf-8")
     (SORTIE / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
