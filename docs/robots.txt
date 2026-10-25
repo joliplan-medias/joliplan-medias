@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://joliplan-medias.github.io/joliplan-medias/sitemap.xml

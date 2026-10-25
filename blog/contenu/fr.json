@@ -1,0 +1,176 @@
+{
+  "langue": "fr",
+  "nom_site": "Joli Plan · Le carnet",
+  "accroche": "Des repères simples et vérifiés pour organiser votre mariage en France.",
+  "etsy": "https://joliplanstudio.etsy.com/fr/listing/4601909838/planificateur-de-mariage-excel-en",
+  "cta_produit": "Voir l'organisateur de mariage sur Etsy",
+  "texte_produit": "Budget, invités, plan de table, mairie et rétroplanning dans un seul fichier Excel et Google Sheets, en français, avec un exemple déjà rempli.",
+  "articles": [
+    {
+      "slug": "budget-mariage-10000-euros",
+      "date": "2026-10-25",
+      "categorie": "Budget de mariage",
+      "titre": "Budget mariage : comment répartir 10 000 € poste par poste",
+      "description": "Traiteur, lieu, photographe, tenues : une répartition d'un budget de mariage de 10 000 € pour 60 invités, poste par poste, avec la part de chacun.",
+      "image": "01-nov-budget-repartition-10000.png",
+      "image_alt": "Répartition d'un budget de mariage de 10 000 € pour 60 invités",
+      "intro": "Avec 10 000 € et 60 invités, la question n'est pas « est-ce assez ? » mais « où va chaque euro ? ». Voici la répartition que propose notre tableur, poste par poste. Ce sont des repères pour démarrer, pas des prix réels : ajustez-les avec vos devis.",
+      "sections": [
+        {
+          "titre": "La répartition poste par poste",
+          "tableau": {
+            "entetes": ["Poste", "Montant", "Part"],
+            "lignes": [
+              ["Traiteur & boissons", "2 980 €", "30 %"],
+              ["Lieu de réception", "1 930 €", "19 %"],
+              ["Robe & accessoires", "820 €", "8 %"],
+              ["Photographe", "760 €", "8 %"],
+              ["DJ / musiciens", "700 €", "7 %"],
+              ["Costume & accessoires", "530 €", "5 %"],
+              ["Divers & imprévus", "500 €", "5 %"],
+              ["Alliances", "470 €", "5 %"],
+              ["Fleurs & décoration", "440 €", "4 %"],
+              ["Les 6 autres postes", "870 €", "9 %"]
+            ]
+          }
+        },
+        {
+          "titre": "Ce qu'il faut retenir",
+          "paragraphes": [
+            "Le repas et le lieu pèsent ensemble près de la moitié du budget. C'est donc là qu'un changement de date, de formule ou de nombre d'invités a le plus d'effet.",
+            "Gardez une ligne « divers & imprévus » d'environ 5 %. Elle absorbe les petits oublis sans toucher aux autres postes."
+          ]
+        },
+        {
+          "titre": "Comment adapter ces chiffres à votre mariage",
+          "liste": [
+            "Remplacez chaque montant par votre premier devis dès que vous l'avez.",
+            "Si un poste dépasse, retirez la différence d'un autre poste, pas de la ligne imprévus.",
+            "Recalculez quand le nombre d'invités change : le traiteur suit le nombre de couverts."
+          ]
+        }
+      ],
+      "appel": "Dans notre tableur, entrez votre budget et le nombre d'invités : les 21 postes se calculent tout seuls."
+    },
+    {
+      "slug": "retroplanning-mariage-12-mois-avant",
+      "date": "2026-10-25",
+      "categorie": "Rétroplanning",
+      "titre": "12 mois avant le mariage : la to-do pour bien commencer",
+      "description": "Budget, date, liste d'invités, lieu, témoins : les 6 premières étapes pour organiser votre mariage un an avant.",
+      "image": "08-nov-todo-12-mois.png",
+      "image_alt": "To-do de mariage 12 mois avant",
+      "intro": "Un an avant le mariage, tout paraît urgent. En réalité, six décisions suffisent pour lancer l'organisation : les autres en découlent.",
+      "sections": [
+        {
+          "titre": "Les 6 premières étapes",
+          "liste_numerotee": [
+            "Fixer le budget global.",
+            "Choisir la date et le style du mariage.",
+            "Établir une première liste d'invités.",
+            "Visiter et réserver le lieu de réception.",
+            "Choisir vos témoins.",
+            "Commencer à comparer les traiteurs."
+          ]
+        },
+        {
+          "titre": "Pourquoi cet ordre",
+          "paragraphes": [
+            "Le budget et la liste d'invités décident de la taille du lieu. Le lieu, à son tour, fixe souvent la date. Réserver un lieu avant de connaître son budget, c'est risquer de devoir tout recalculer.",
+            "Le traiteur vient juste après le lieu, car certains lieux imposent ou excluent des traiteurs."
+          ]
+        }
+      ],
+      "appel": "La suite se date toute seule dans notre tableur : entrez la date du mariage, chaque tâche reçoit son échéance."
+    },
+    {
+      "slug": "acomptes-soldes-mariage",
+      "date": "2026-10-25",
+      "categorie": "Paiements du mariage",
+      "titre": "Acomptes et soldes du mariage : 5 règles pour ne rien oublier",
+      "description": "Comment suivre les acomptes et les soldes de vos prestataires de mariage : échéances, reçus, conditions d'annulation et enveloppes du jour J.",
+      "image": "10-nov-acomptes-soldes.png",
+      "image_alt": "Acomptes et soldes du mariage : 5 règles",
+      "intro": "Entre le lieu, le traiteur, le photographe et le DJ, un mariage compte vite une dizaine de paiements étalés sur des mois. Cinq règles simples évitent les oublis et les mauvaises surprises.",
+      "sections": [
+        {
+          "titre": "Les 5 règles",
+          "liste_numerotee": [
+            "Notez chaque échéance dès la signature du devis.",
+            "Demandez un reçu pour chaque acompte versé.",
+            "Lisez les conditions d'annulation avant de payer.",
+            "Préparez les soldes du jour J dans des enveloppes nommées.",
+            "Confiez ces enveloppes à un témoin de confiance."
+          ]
+        },
+        {
+          "titre": "Le bon réflexe",
+          "paragraphes": [
+            "Un seul endroit pour tous les paiements : prestataire, montant, date prévue, payé ou non. Quand tout est sur la même page, le prochain paiement se voit d'un coup d'œil."
+          ]
+        }
+      ],
+      "appel": "Dans notre tableur, le prochain paiement s'affiche tout seul."
+    },
+    {
+      "slug": "relancer-invites-mariage-messages",
+      "date": "2026-10-25",
+      "categorie": "Invités",
+      "titre": "Relancer les invités de mariage sans réponse : 2 messages à copier",
+      "description": "Deux modèles de messages pour relancer gentiment les invités qui n'ont pas répondu à votre faire-part : un SMS et un e-mail, à personnaliser.",
+      "image": "20-nov-relances-invites.png",
+      "image_alt": "Deux messages pour relancer les invités de mariage",
+      "intro": "La date limite de réponse est passée et quelques invités restent silencieux. Le plus simple : un message court, chaleureux, avec une nouvelle date. Voici deux modèles à copier.",
+      "sections": [
+        {
+          "titre": "Par SMS",
+          "citation": "Coucou [Prénom] ! Petit rappel pour notre mariage le [date] : peux-tu nous dire avant le [date limite] si tu seras des nôtres ? On a hâte !"
+        },
+        {
+          "titre": "Par e-mail",
+          "citation": "Nous préparons le plan de table avec notre traiteur. Pourriez-vous nous confirmer votre présence avant le [date limite], et nous signaler un régime alimentaire ?"
+        },
+        {
+          "titre": "Quelques conseils",
+          "liste": [
+            "Donnez une raison concrète (le traiteur, le plan de table) : la relance paraît moins insistante.",
+            "Fixez une nouvelle date limite précise.",
+            "Notez les réponses au fur et à mesure pour savoir qui relancer."
+          ]
+        }
+      ],
+      "appel": "14 modèles de textes sont inclus avec l'organisateur de mariage."
+    },
+    {
+      "slug": "discours-temoin-mariage-trame",
+      "date": "2026-10-25",
+      "categorie": "Témoins",
+      "titre": "Discours de témoin de mariage : la trame en 5 étapes",
+      "description": "Comment écrire un discours de témoin de mariage : se présenter, une anecdote, le couple, les invités, le toast. La trame pour 3 à 5 minutes.",
+      "image": "28-nov-discours-temoin.png",
+      "image_alt": "Trame du discours de témoin en 5 étapes",
+      "intro": "Un bon discours de témoin tient en 3 à 5 minutes et suit une trame simple. Voici les cinq temps, dans l'ordre.",
+      "sections": [
+        {
+          "titre": "Les 5 temps du discours",
+          "etapes": [
+            ["Se présenter", "Qui vous êtes, et depuis quand vous connaissez les mariés."],
+            ["Une anecdote", "Un souvenir drôle ou touchant, court et bienveillant."],
+            ["Le couple", "Ce qui les rend beaux ensemble."],
+            ["Les invités", "Un mot pour les familles et ceux venus de loin."],
+            ["Le toast", "Invitez chacun à lever son verre aux mariés."]
+          ]
+        },
+        {
+          "titre": "Avant le jour J",
+          "liste": [
+            "Lisez-le à voix haute et chronométrez-vous : visez 3 à 5 minutes.",
+            "Gardez l'anecdote compréhensible par tous les invités, pas seulement par les amis proches.",
+            "Prévoyez une version imprimée, même si vous la connaissez par cœur."
+          ]
+        }
+      ],
+      "appel": "La trame du discours est incluse dans les bonus de l'organisateur de mariage."
+    }
+  ]
+}
