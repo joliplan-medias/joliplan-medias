@@ -65,3 +65,12 @@ details p { margin: 10px 0 0; }
 .lien-pinterest { display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; background: #E60023; color: #fff; font-size: 14px; font-weight: 700; text-decoration: none; border-radius: 999px; }
 .lien-pinterest:hover { filter: brightness(1.08); }
 .ico-pin { flex: none; vertical-align: -4px; }
+.reseaux { display: inline-flex; align-items: center; gap: 8px; }
+.lien-tiktok { display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; background: #000; color: #fff; border-radius: 50%; }
+.lien-tiktok:hover { filter: brightness(1.3); }
+.lien-pied .ico-pin, .lien-pied .ico-tt { width: 16px; height: 16px; }
+.logo { white-space: nowrap; }
+@media (max-width: 440px) {
+  .lien-pinterest { padding: 0; width: 38px; height: 38px; justify-content: center; }
+  .lien-pinterest span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
