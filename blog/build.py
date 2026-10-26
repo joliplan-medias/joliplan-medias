@@ -86,7 +86,7 @@ def page(lang, titre, description, chemin, corps, rel, image=None, schemas=(), t
 {ld}
 </head>
 <body>
-<header class="entete"><a class="logo" href="{rel}{lang}/"><img src="{rel}assets/icone.png" alt="" width="34" height="34"><span><em>Joli</em> Plan</span></a><span class="reseaux"><a class="lien-pinterest" href="https://www.pinterest.com/{PINTEREST[lang]}/" rel="noopener" target="_blank">{PIN_SVG}<span>{e(m['pinterest'])}</span></a>{('<a class="lien-tiktok" href="' + TIKTOK[lang] + '" rel="noopener" target="_blank" aria-label="TikTok">' + TT_SVG + '</a>') if lang in TIKTOK else ''}</span></header>
+<header class="entete"><a class="logo" href="{rel}{lang}/"><img src="{rel}assets/icone.png" alt="" width="34" height="34"><span><em>Joli</em> Plan</span></a><span class="reseaux"><a class="lien-pinterest" href="https://www.pinterest.com/{PINTEREST[lang]}/" rel="noopener" target="_blank">{PIN_SVG}<span>{e(m['pinterest'])}</span></a>{('<a class="lien-tiktok" href="' + TIKTOK[lang] + '" rel="noopener" target="_blank" ">' + TT_SVG + '<span>Suivre sur TikTok</span></a>') if lang in TIKTOK else ''}</span></header>
 <main>
 {corps}
 </main>
