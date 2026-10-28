@@ -1,563 +1,623 @@
 {
-  "langue": "fr",
-  "nom_site": "Joli Plan · Le carnet",
-  "accroche": "Des repères simples et vérifiés pour organiser votre mariage en France.",
-  "etsy": "https://joliplanstudio.etsy.com/fr/listing/4601909838/planificateur-de-mariage-excel-en",
-  "cta_produit": "Voir l'organisateur de mariage sur Etsy",
-  "texte_produit": "Budget, invités, plan de table, mairie et rétroplanning dans un seul fichier Excel et Google Sheets, en français, avec un exemple déjà rempli.",
-  "articles": [
+ "langue": "fr",
+ "nom_site": "Joli Plan · Le carnet",
+ "accroche": "Des repères simples et vérifiés pour organiser votre mariage en France.",
+ "etsy": "https://joliplanstudio.etsy.com/fr/listing/4601909838/planificateur-de-mariage-excel-en",
+ "cta_produit": "Voir l'organisateur de mariage sur Etsy",
+ "texte_produit": "Budget, invités, plan de table, mairie et rétroplanning dans un seul fichier Excel et Google Sheets, en français, avec un exemple déjà rempli.",
+ "articles": [
+  {
+   "slug": "budget-mariage-10000-euros",
+   "date": "2026-10-25",
+   "categorie": "Budget de mariage",
+   "titre": "Budget mariage 10 000 € : tableau poste par poste",
+   "description": "Traiteur, lieu, photographe, tenues : une répartition d'un budget de mariage de 10 000 € pour 60 invités, poste par poste, avec la part de chacun.",
+   "image": "01-nov-budget-repartition-10000.png",
+   "image_alt": "Répartition d'un budget de mariage de 10 000 € pour 60 invités",
+   "intro": "Avec 10 000 € et 60 invités, la question n'est pas « est-ce assez ? » mais « où va chaque euro ? ». Voici la répartition que propose notre tableur, poste par poste. Ce sont des repères pour démarrer, pas des prix réels : ajustez-les avec vos devis.",
+   "sections": [
     {
-      "slug": "budget-mariage-10000-euros",
-      "date": "2026-10-25",
-      "categorie": "Budget de mariage",
-      "titre": "Budget mariage 10 000 € : tableau poste par poste",
-      "description": "Traiteur, lieu, photographe, tenues : une répartition d'un budget de mariage de 10 000 € pour 60 invités, poste par poste, avec la part de chacun.",
-      "image": "01-nov-budget-repartition-10000.png",
-      "image_alt": "Répartition d'un budget de mariage de 10 000 € pour 60 invités",
-      "intro": "Avec 10 000 € et 60 invités, la question n'est pas « est-ce assez ? » mais « où va chaque euro ? ». Voici la répartition que propose notre tableur, poste par poste. Ce sont des repères pour démarrer, pas des prix réels : ajustez-les avec vos devis.",
-      "sections": [
-        {
-          "titre": "La répartition poste par poste",
-          "tableau": {
-            "entetes": [
-              "Poste",
-              "Montant",
-              "Part"
-            ],
-            "lignes": [
-              [
-                "Traiteur & boissons",
-                "2 980 €",
-                "30 %"
-              ],
-              [
-                "Lieu de réception",
-                "1 930 €",
-                "19 %"
-              ],
-              [
-                "Robe & accessoires",
-                "820 €",
-                "8 %"
-              ],
-              [
-                "Photographe",
-                "760 €",
-                "8 %"
-              ],
-              [
-                "DJ / musiciens",
-                "700 €",
-                "7 %"
-              ],
-              [
-                "Costume & accessoires",
-                "530 €",
-                "5 %"
-              ],
-              [
-                "Divers & imprévus",
-                "500 €",
-                "5 %"
-              ],
-              [
-                "Alliances",
-                "470 €",
-                "5 %"
-              ],
-              [
-                "Fleurs & décoration",
-                "440 €",
-                "4 %"
-              ],
-              [
-                "Les 6 autres postes",
-                "870 €",
-                "9 %"
-              ]
-            ]
-          }
-        },
-        {
-          "titre": "Ce qu'il faut retenir",
-          "paragraphes": [
-            "Le repas et le lieu pèsent ensemble près de la moitié du budget. C'est donc là qu'un changement de date, de formule ou de nombre d'invités a le plus d'effet.",
-            "Gardez une ligne « divers & imprévus » d'environ 5 %. Elle absorbe les petits oublis sans toucher aux autres postes."
-          ]
-        },
-        {
-          "titre": "Comment adapter ces chiffres à votre mariage",
-          "liste": [
-            "Remplacez chaque montant par votre premier devis dès que vous l'avez.",
-            "Si un poste dépasse, retirez la différence d'un autre poste, pas de la ligne imprévus.",
-            "Recalculez quand le nombre d'invités change : le traiteur suit le nombre de couverts."
-          ]
-        }
+     "titre": "La répartition poste par poste",
+     "tableau": {
+      "entetes": [
+       "Poste",
+       "Montant",
+       "Part"
       ],
-      "appel": "Dans notre tableur, entrez votre budget et le nombre d'invités : les 21 postes se calculent tout seuls.",
-      "faq": [
-        [
-          "Peut-on organiser un mariage avec 10 000 € ?",
-          "Oui, en ajustant le nombre d'invités, le lieu et la formule du repas. Le repas et le lieu pèsent près de la moitié du budget : ce sont les deux leviers principaux."
-        ],
-        [
-          "Quel pourcentage garder pour les imprévus ?",
-          "Environ 5 % du budget, soit 500 € pour 10 000 €, dans une ligne à part que vous ne touchez pas."
-        ]
+      "lignes": [
+       [
+        "Traiteur & boissons",
+        "2 980 €",
+        "30 %"
+       ],
+       [
+        "Lieu de réception",
+        "1 930 €",
+        "19 %"
+       ],
+       [
+        "Robe & accessoires",
+        "820 €",
+        "8 %"
+       ],
+       [
+        "Photographe",
+        "760 €",
+        "8 %"
+       ],
+       [
+        "DJ / musiciens",
+        "700 €",
+        "7 %"
+       ],
+       [
+        "Costume & accessoires",
+        "530 €",
+        "5 %"
+       ],
+       [
+        "Divers & imprévus",
+        "500 €",
+        "5 %"
+       ],
+       [
+        "Alliances",
+        "470 €",
+        "5 %"
+       ],
+       [
+        "Fleurs & décoration",
+        "440 €",
+        "4 %"
+       ],
+       [
+        "Les 6 autres postes",
+        "870 €",
+        "9 %"
+       ]
       ]
+     }
     },
     {
-      "slug": "retroplanning-mariage-12-mois-avant",
-      "date": "2026-10-25",
-      "categorie": "Rétroplanning",
-      "titre": "Rétroplanning mariage : 12 mois avant, la to-do",
-      "description": "Budget, date, liste d'invités, lieu, témoins : les 6 premières étapes pour organiser votre mariage un an avant.",
-      "image": "08-nov-todo-12-mois.png",
-      "image_alt": "To-do de mariage 12 mois avant",
-      "intro": "Un an avant le mariage, tout paraît urgent. En réalité, six décisions suffisent pour lancer l'organisation : les autres en découlent.",
-      "sections": [
-        {
-          "titre": "Les 6 premières étapes",
-          "liste_numerotee": [
-            "Fixer le budget global.",
-            "Choisir la date et le style du mariage.",
-            "Établir une première liste d'invités.",
-            "Visiter et réserver le lieu de réception.",
-            "Choisir vos témoins.",
-            "Commencer à comparer les traiteurs."
-          ]
-        },
-        {
-          "titre": "Pourquoi cet ordre",
-          "paragraphes": [
-            "Le budget et la liste d'invités décident de la taille du lieu. Le lieu, à son tour, fixe souvent la date. Réserver un lieu avant de connaître son budget, c'est risquer de devoir tout recalculer.",
-            "Le traiteur vient juste après le lieu, car certains lieux imposent ou excluent des traiteurs."
-          ]
-        }
-      ],
-      "appel": "La suite se date toute seule dans notre tableur : entrez la date du mariage, chaque tâche reçoit son échéance.",
-      "faq": [
-        [
-          "Par quoi commencer pour organiser son mariage ?",
-          "Par le budget global, puis la date et le style, et une première liste d'invités : ces trois choix décident du lieu."
-        ],
-        [
-          "Faut-il réserver le lieu un an avant ?",
-          "C'est souvent le premier prestataire à réserver, car il fixe la date et la capacité. Visitez-le une fois le budget et la liste d'invités connus."
-        ]
-      ]
+     "titre": "Ce qu'il faut retenir",
+     "paragraphes": [
+      "Le repas et le lieu pèsent ensemble près de la moitié du budget. C'est donc là qu'un changement de date, de formule ou de nombre d'invités a le plus d'effet.",
+      "Gardez une ligne « divers & imprévus » d'environ 5 %. Elle absorbe les petits oublis sans toucher aux autres postes."
+     ]
     },
     {
-      "slug": "acomptes-soldes-mariage",
-      "date": "2026-10-25",
-      "categorie": "Paiements du mariage",
-      "titre": "Acomptes et soldes du mariage : 5 règles pour ne rien oublier",
-      "description": "Comment suivre les acomptes et les soldes de vos prestataires de mariage : échéances, reçus, conditions d'annulation et enveloppes du jour J.",
-      "image": "10-nov-acomptes-soldes.png",
-      "image_alt": "Acomptes et soldes du mariage : 5 règles",
-      "intro": "Entre le lieu, le traiteur, le photographe et le DJ, un mariage compte vite une dizaine de paiements étalés sur des mois. Cinq règles simples évitent les oublis et les mauvaises surprises.",
-      "sections": [
-        {
-          "titre": "Les 5 règles",
-          "liste_numerotee": [
-            "Notez chaque échéance dès la signature du devis.",
-            "Demandez un reçu pour chaque acompte versé.",
-            "Lisez les conditions d'annulation avant de payer.",
-            "Préparez les soldes du jour J dans des enveloppes nommées.",
-            "Confiez ces enveloppes à un témoin de confiance."
-          ]
-        },
-        {
-          "titre": "Le bon réflexe",
-          "paragraphes": [
-            "Un seul endroit pour tous les paiements : prestataire, montant, date prévue, payé ou non. Quand tout est sur la même page, le prochain paiement se voit d'un coup d'œil."
-          ]
-        }
-      ],
-      "appel": "Dans notre tableur, le prochain paiement s'affiche tout seul.",
-      "faq": [
-        [
-          "Faut-il demander un reçu pour un acompte ?",
-          "Oui, pour chaque acompte versé. Gardez-le avec le devis signé."
-        ],
-        [
-          "Comment payer les prestataires le jour du mariage ?",
-          "Préparez les soldes dans des enveloppes au nom de chaque prestataire et confiez-les à un témoin de confiance."
-        ]
-      ]
-    },
-    {
-      "slug": "relancer-invites-mariage-messages",
-      "date": "2026-10-25",
-      "categorie": "Invités",
-      "titre": "Relancer les invités de mariage : 2 messages à copier",
-      "description": "Deux modèles de messages pour relancer gentiment les invités qui n'ont pas répondu à votre faire-part : un SMS et un e-mail, à personnaliser.",
-      "image": "20-nov-relances-invites.png",
-      "image_alt": "Deux messages pour relancer les invités de mariage",
-      "intro": "La date limite de réponse est passée et quelques invités restent silencieux. Le plus simple : un message court, chaleureux, avec une nouvelle date. Voici deux modèles à copier.",
-      "sections": [
-        {
-          "titre": "Par SMS",
-          "citation": "Coucou [Prénom] ! Petit rappel pour notre mariage le [date] : peux-tu nous dire avant le [date limite] si tu seras des nôtres ? On a hâte !"
-        },
-        {
-          "titre": "Par e-mail",
-          "citation": "Nous préparons le plan de table avec notre traiteur. Pourriez-vous nous confirmer votre présence avant le [date limite], et nous signaler un régime alimentaire ?"
-        },
-        {
-          "titre": "Quelques conseils",
-          "liste": [
-            "Donnez une raison concrète (le traiteur, le plan de table) : la relance paraît moins insistante.",
-            "Fixez une nouvelle date limite précise.",
-            "Notez les réponses au fur et à mesure pour savoir qui relancer."
-          ]
-        }
-      ],
-      "appel": "14 modèles de textes sont inclus avec l'organisateur de mariage.",
-      "faq": [
-        [
-          "Quand relancer les invités qui n'ont pas répondu ?",
-          "Juste après la date limite de réponse, avec une nouvelle date précise."
-        ],
-        [
-          "Comment relancer sans paraître insistant ?",
-          "Donnez une raison concrète, comme le plan de table ou le traiteur, et gardez un ton chaleureux."
-        ]
-      ]
-    },
-    {
-      "slug": "discours-temoin-mariage-trame",
-      "date": "2026-10-25",
-      "categorie": "Témoins",
-      "titre": "Discours de témoin de mariage : trame en 5 étapes",
-      "description": "Comment écrire un discours de témoin de mariage : se présenter, une anecdote, le couple, les invités, le toast. La trame pour 3 à 5 minutes.",
-      "image": "28-nov-discours-temoin.png",
-      "image_alt": "Trame du discours de témoin en 5 étapes",
-      "intro": "Un bon discours de témoin tient en 3 à 5 minutes et suit une trame simple. Voici les cinq temps, dans l'ordre.",
-      "sections": [
-        {
-          "titre": "Les 5 temps du discours",
-          "etapes": [
-            [
-              "Se présenter",
-              "Qui vous êtes, et depuis quand vous connaissez les mariés."
-            ],
-            [
-              "Une anecdote",
-              "Un souvenir drôle ou touchant, court et bienveillant."
-            ],
-            [
-              "Le couple",
-              "Ce qui les rend beaux ensemble."
-            ],
-            [
-              "Les invités",
-              "Un mot pour les familles et ceux venus de loin."
-            ],
-            [
-              "Le toast",
-              "Invitez chacun à lever son verre aux mariés."
-            ]
-          ]
-        },
-        {
-          "titre": "Avant le jour J",
-          "liste": [
-            "Lisez-le à voix haute et chronométrez-vous : visez 3 à 5 minutes.",
-            "Gardez l'anecdote compréhensible par tous les invités, pas seulement par les amis proches.",
-            "Prévoyez une version imprimée, même si vous la connaissez par cœur."
-          ]
-        }
-      ],
-      "appel": "La trame du discours est incluse dans les bonus de l'organisateur de mariage.",
-      "faq": [
-        [
-          "Combien de temps doit durer un discours de témoin ?",
-          "Visez 3 à 5 minutes. Lisez-le à voix haute avant le jour J pour vérifier."
-        ],
-        [
-          "Que dire dans un discours de témoin ?",
-          "Présentez-vous, racontez une anecdote courte, parlez du couple, saluez les invités, puis proposez un toast."
-        ]
-      ]
-    },
-    {
-      "slug": "kit-urgence-mariage-liste",
-      "date": "2026-10-25",
-      "categorie": "Jour J",
-      "titre": "Kit d'urgence mariage : la liste du jour J",
-      "description": "Alliances, papiers, épingles à nourrice, pansements, détachant, chaussures plates, chargeur : la checklist du kit d'urgence du mariage.",
-      "image": "16-nov-kit-urgence.png",
-      "image_alt": "Le kit d'urgence du jour J",
-      "intro": "Le jour du mariage, il arrive presque toujours un petit imprévu : un bouton, un talon, une batterie à plat. Un kit préparé la veille règle la plupart de ces soucis en une minute.",
-      "sections": [
-        {
-          "titre": "Les indispensables",
-          "liste": [
-            "Alliances",
-            "Pièces d'identité",
-            "Discours imprimés",
-            "Enveloppes des prestataires"
-          ]
-        },
-        {
-          "titre": "Les petits tracas",
-          "liste": [
-            "Aiguille, fil et épingles à nourrice",
-            "Pansements et antidouleurs",
-            "Détachant et lingettes",
-            "Mouchoirs"
-          ]
-        },
-        {
-          "titre": "Pour tenir toute la nuit",
-          "liste": [
-            "Chaussures plates pour danser",
-            "Chargeur de téléphone",
-            "Bouteilles d'eau et en-cas",
-            "Pastilles à la menthe"
-          ]
-        },
-        {
-          "titre": "Qui porte le kit",
-          "paragraphes": [
-            "Confiez le kit à une personne qui reste près de vous toute la journée, par exemple un témoin. Ainsi, vous n'avez à penser à rien.",
-            "Écrivez un nom sur chaque enveloppe de prestataire pour éviter les confusions. Cette liste reprend 12 essentiels : ajoutez ce dont vous avez personnellement besoin, comme un traitement médical."
-          ]
-        }
-      ],
-      "appel": "Dans l'onglet « Jour J » de notre tableur, la liste complète de 24 objets est à cocher."
-    },
-    {
-      "slug": "budget-mariage-100-personnes-20000-euros",
-      "date": "2026-10-25",
-      "categorie": "Budget de mariage",
-      "titre": "Budget mariage 100 personnes : 20 000 € poste par poste",
-      "description": "Répartition d'un budget de mariage de 20 000 € pour 100 invités : traiteur, lieu, photographe, tenues, poste par poste, avec la part de chacun.",
-      "image": "2026-10-13-budget-repartition-20000-corrige.png",
-      "image_alt": "Répartition d'un budget de mariage de 20 000 € pour 100 invités",
-      "intro": "Pour un mariage de 100 personnes avec 20 000 €, cela fait 200 € par invité, tout compris. Voici comment notre tableur répartit cette somme. Ce sont des repères pour démarrer, pas des prix réels : remplacez-les par vos devis.",
-      "sections": [
-        {
-          "titre": "Les 20 000 € poste par poste",
-          "tableau": {
-            "entetes": [
-              "Poste",
-              "Montant",
-              "Part"
-            ],
-            "lignes": [
-              [
-                "Traiteur & boissons",
-                "7 430 €",
-                "37 %"
-              ],
-              [
-                "Lieu de réception",
-                "3 930 €",
-                "20 %"
-              ],
-              [
-                "Robe & accessoires",
-                "1 220 €",
-                "6 %"
-              ],
-              [
-                "Photographe",
-                "1 140 €",
-                "6 %"
-              ],
-              [
-                "DJ / musiciens",
-                "1 050 €",
-                "5 %"
-              ],
-              [
-                "Divers & imprévus",
-                "1 000 €",
-                "5 %"
-              ],
-              [
-                "Fleurs & décoration",
-                "870 €",
-                "4 %"
-              ],
-              [
-                "Costume & accessoires",
-                "790 €",
-                "4 %"
-              ],
-              [
-                "Alliances",
-                "700 €",
-                "3 %"
-              ],
-              [
-                "Les 6 autres postes",
-                "1 870 €",
-                "9 %"
-              ]
-            ]
-          }
-        },
-        {
-          "titre": "Ce que montrent ces chiffres",
-          "paragraphes": [
-            "Le traiteur et le lieu totalisent 11 360 €, soit environ 57 % du budget. Le traiteur seul représente environ 74 € par invité : chaque invité en plus ou en moins déplace donc ce poste en premier.",
-            "Par comparaison, notre exemple de 10 000 € pour 60 invités représente environ 167 € par invité, avec un traiteur à 30 % du budget. Les parts sont des arrondis à l'unité."
-          ]
-        },
-        {
-          "titre": "Comment l'utiliser pour vos 100 invités",
-          "liste": [
-            "Commencez par fixer le nombre d'invités : c'est lui qui décide du poste traiteur.",
-            "Remplacez le lieu et le traiteur par vos premiers devis, ils pèsent plus de la moitié du total.",
-            "Ne touchez pas à la ligne « divers & imprévus » (1 000 €, soit 5 %) pour compenser un dépassement."
-          ]
-        }
-      ],
-      "appel": "Dans notre tableur, entrez votre budget et le nombre d'invités : les 21 postes se calculent tout seuls.",
-      "faq": [
-        [
-          "Combien prévoir par invité pour un mariage de 100 personnes ?",
-          "Avec 20 000 € pour 100 invités, cela fait 200 € par invité, tout compris. Dans cette répartition, le traiteur représente environ 74 € par invité."
-        ],
-        [
-          "Quelle part du budget pour le traiteur et le lieu ?",
-          "Ensemble, 11 360 € sur 20 000 €, soit environ 57 % du budget."
-        ]
-      ]
-    },
-    {
-      "slug": "budget-mariage-120-invites-30000-euros",
-      "date": "2026-10-25",
-      "categorie": "Budget de mariage",
-      "titre": "Budget mariage 30 000 € pour 120 invités : poste par poste",
-      "description": "Comment répartir 30 000 € pour 120 invités : traiteur, lieu, lune de miel, photographe, tenues, poste par poste, avec la part de chacun.",
-      "image": "25-nov-budget-repartition-30000.png",
-      "image_alt": "Répartition d'un budget de mariage de 30 000 € pour 120 invités",
-      "intro": "Avec 30 000 € et 120 invités, on arrive à 250 € par invité. Voici la répartition conseillée par notre tableur pour ce scénario. Ce sont des repères, pas des prix réels : vos devis ont le dernier mot.",
-      "sections": [
-        {
-          "titre": "Le détail des 30 000 €",
-          "tableau": {
-            "entetes": [
-              "Poste",
-              "Montant",
-              "Part"
-            ],
-            "lignes": [
-              [
-                "Traiteur & boissons",
-                "10 200 €",
-                "34 %"
-              ],
-              [
-                "Lieu de réception",
-                "5 100 €",
-                "17 %"
-              ],
-              [
-                "Lune de miel",
-                "2 180 €",
-                "7 %"
-              ],
-              [
-                "Divers & imprévus",
-                "1 500 €",
-                "5 %"
-              ],
-              [
-                "Robe & accessoires",
-                "1 400 €",
-                "5 %"
-              ],
-              [
-                "Photographe",
-                "1 300 €",
-                "4 %"
-              ],
-              [
-                "DJ / musiciens",
-                "1 200 €",
-                "4 %"
-              ],
-              [
-                "Fleurs & décoration",
-                "1 120 €",
-                "4 %"
-              ],
-              [
-                "Costume & accessoires",
-                "900 €",
-                "3 %"
-              ],
-              [
-                "Les 12 autres postes",
-                "5 100 €",
-                "17 %"
-              ]
-            ]
-          }
-        },
-        {
-          "titre": "Ce qui change avec ce budget",
-          "paragraphes": [
-            "À 30 000 €, la lune de miel entre dans la répartition avec 2 180 €, soit la troisième ligne la plus élevée. La part du traiteur est un peu plus basse que dans notre exemple à 20 000 € (34 % contre 37 %).",
-            "Le traiteur coûte ici 85 € par invité (10 200 € pour 120), et le lieu 5 100 €. Ensemble, ils font 15 300 €, soit environ 51 % du budget."
-          ]
-        },
-        {
-          "titre": "Par où commencer",
-          "liste": [
-            "Demandez les devis du lieu et du traiteur en premier : ce sont 51 % du total.",
-            "Gardez les 1 500 € d'imprévus (5 %) pour les petits oublis.",
-            "Repérez les 12 autres postes (5 100 €) : papeterie, transport, hébergement, matériel… ils s'additionnent vite."
-          ]
-        }
-      ],
-      "appel": "Dans notre tableur, entrez votre budget et le nombre d'invités : les 21 postes se calculent tout seuls.",
-      "faq": [
-        [
-          "Quel budget pour un mariage de 120 invités ?",
-          "Notre exemple part de 30 000 €, soit 250 € par invité. Ajustez ensuite chaque poste avec vos devis."
-        ],
-        [
-          "Que devient la lune de miel dans ce budget ?",
-          "Dans cet exemple, elle reçoit 2 180 €, soit environ 7 % : c'est la troisième ligne la plus élevée."
-        ]
-      ]
+     "titre": "Comment adapter ces chiffres à votre mariage",
+     "liste": [
+      "Remplacez chaque montant par votre premier devis dès que vous l'avez.",
+      "Si un poste dépasse, retirez la différence d'un autre poste, pas de la ligne imprévus.",
+      "Recalculez quand le nombre d'invités change : le traiteur suit le nombre de couverts."
+     ]
     }
-  ],
-  "appel_accueil": "Tout votre mariage dans un seul fichier.",
-  "methode": {
-    "titre": "Notre méthode",
-    "description": "Comment Joli Plan prépare et vérifie ses articles et ses tableurs de mariage.",
-    "paragraphes": [
-      "Joli Plan crée des tableurs de mariage pour Excel et Google Sheets, un par pays : France, Allemagne, Espagne, Italie et Royaume-Uni.",
-      "Chaque article reprend les repères de nos tableurs et de leur exemple rempli. Les chiffres sont des valeurs repères pour démarrer : remplacez-les par vos devis.",
-      "Pour les démarches administratives, nous suivons la source officielle du pays et nous la citons. Les règles peuvent varier selon votre mairie : confirmez toujours auprès d'elle.",
-      "Nos articles sont préparés avec l'aide d'outils d'IA, puis relus et vérifiés avant publication. Une erreur ? Écrivez-nous depuis notre boutique Etsy."
-    ]
-  },
-  "gratuit": {
-    "slug": "planning-mariage-gratuit",
-    "surtitre": "Gratuit",
-    "accroche": "Téléchargez notre planning de mariage gratuit : budget et liste d'invités, prêts à remplir.",
-    "cta_page": "Télécharger le planning gratuit",
-    "titre": "Planning de mariage gratuit (Excel et Google Sheets)",
-    "description": "Téléchargez gratuitement le planning de mariage Joli Plan : tableau de bord, budget et liste d'invités, en français, pour Excel et Google Sheets.",
-    "intro": "Un vrai tableur pour commencer : entrez vos prénoms, la date et votre budget, et le tableau de bord se remplit. Sans inscription, en français.",
-    "fichier": "JoliPlan_Planning-Mariage_GRATUIT_FR.xlsx",
-    "cta_telecharger": "Télécharger le fichier Excel (gratuit)",
-    "titre_contenu": "Ce qu'il contient",
-    "contenu": [
-      "Un tableau de bord avec le compte à rebours, le budget réglé et les invités confirmés.",
-      "L'onglet Budget avec les postes du mariage et les prix courants en France.",
-      "L'onglet Invités : côté, groupe, réponse, régime alimentaire, hébergement."
+   ],
+   "appel": "Dans notre tableur, entrez votre budget et le nombre d'invités : les 21 postes se calculent tout seuls.",
+   "faq": [
+    [
+     "Peut-on organiser un mariage avec 10 000 € ?",
+     "Oui, en ajustant le nombre d'invités, le lieu et la formule du repas. Le repas et le lieu pèsent près de la moitié du budget : ce sont les deux leviers principaux."
     ],
-    "titre_complet": "Et la version complète ?",
-    "texte_complet": "La version complète ajoute les paiements, les prestataires, le plan de table, le rétroplanning, la mairie, le jour J et les remerciements, dans le même fichier.",
-    "appel": "Passez à la version complète quand vous voulez : vos données restent dans le même format."
+    [
+     "Quel pourcentage garder pour les imprévus ?",
+     "Environ 5 % du budget, soit 500 € pour 10 000 €, dans une ligne à part que vous ne touchez pas."
+    ]
+   ]
+  },
+  {
+   "slug": "retroplanning-mariage-12-mois-avant",
+   "date": "2026-10-25",
+   "categorie": "Rétroplanning",
+   "titre": "Rétroplanning mariage : 12 mois avant, la to-do",
+   "description": "Budget, date, liste d'invités, lieu, témoins : les 6 premières étapes pour organiser votre mariage un an avant.",
+   "image": "08-nov-todo-12-mois.png",
+   "image_alt": "To-do de mariage 12 mois avant",
+   "intro": "Un an avant le mariage, tout paraît urgent. En réalité, six décisions suffisent pour lancer l'organisation : les autres en découlent.",
+   "sections": [
+    {
+     "titre": "Les 6 premières étapes",
+     "liste_numerotee": [
+      "Fixer le budget global.",
+      "Choisir la date et le style du mariage.",
+      "Établir une première liste d'invités.",
+      "Visiter et réserver le lieu de réception.",
+      "Choisir vos témoins.",
+      "Commencer à comparer les traiteurs."
+     ]
+    },
+    {
+     "titre": "Pourquoi cet ordre",
+     "paragraphes": [
+      "Le budget et la liste d'invités décident de la taille du lieu. Le lieu, à son tour, fixe souvent la date. Réserver un lieu avant de connaître son budget, c'est risquer de devoir tout recalculer.",
+      "Le traiteur vient juste après le lieu, car certains lieux imposent ou excluent des traiteurs."
+     ]
+    }
+   ],
+   "appel": "La suite se date toute seule dans notre tableur : entrez la date du mariage, chaque tâche reçoit son échéance.",
+   "faq": [
+    [
+     "Par quoi commencer pour organiser son mariage ?",
+     "Par le budget global, puis la date et le style, et une première liste d'invités : ces trois choix décident du lieu."
+    ],
+    [
+     "Faut-il réserver le lieu un an avant ?",
+     "C'est souvent le premier prestataire à réserver, car il fixe la date et la capacité. Visitez-le une fois le budget et la liste d'invités connus."
+    ]
+   ]
+  },
+  {
+   "slug": "acomptes-soldes-mariage",
+   "date": "2026-10-25",
+   "categorie": "Paiements du mariage",
+   "titre": "Acomptes et soldes du mariage : 5 règles pour ne rien oublier",
+   "description": "Comment suivre les acomptes et les soldes de vos prestataires de mariage : échéances, reçus, conditions d'annulation et enveloppes du jour J.",
+   "image": "10-nov-acomptes-soldes.png",
+   "image_alt": "Acomptes et soldes du mariage : 5 règles",
+   "intro": "Entre le lieu, le traiteur, le photographe et le DJ, un mariage compte vite une dizaine de paiements étalés sur des mois. Cinq règles simples évitent les oublis et les mauvaises surprises.",
+   "sections": [
+    {
+     "titre": "Les 5 règles",
+     "liste_numerotee": [
+      "Notez chaque échéance dès la signature du devis.",
+      "Demandez un reçu pour chaque acompte versé.",
+      "Lisez les conditions d'annulation avant de payer.",
+      "Préparez les soldes du jour J dans des enveloppes nommées.",
+      "Confiez ces enveloppes à un témoin de confiance."
+     ]
+    },
+    {
+     "titre": "Le bon réflexe",
+     "paragraphes": [
+      "Un seul endroit pour tous les paiements : prestataire, montant, date prévue, payé ou non. Quand tout est sur la même page, le prochain paiement se voit d'un coup d'œil."
+     ]
+    }
+   ],
+   "appel": "Dans notre tableur, le prochain paiement s'affiche tout seul.",
+   "faq": [
+    [
+     "Faut-il demander un reçu pour un acompte ?",
+     "Oui, pour chaque acompte versé. Gardez-le avec le devis signé."
+    ],
+    [
+     "Comment payer les prestataires le jour du mariage ?",
+     "Préparez les soldes dans des enveloppes au nom de chaque prestataire et confiez-les à un témoin de confiance."
+    ]
+   ]
+  },
+  {
+   "slug": "relancer-invites-mariage-messages",
+   "date": "2026-10-25",
+   "categorie": "Invités",
+   "titre": "Relancer les invités de mariage : 2 messages à copier",
+   "description": "Deux modèles de messages pour relancer gentiment les invités qui n'ont pas répondu à votre faire-part : un SMS et un e-mail, à personnaliser.",
+   "image": "20-nov-relances-invites.png",
+   "image_alt": "Deux messages pour relancer les invités de mariage",
+   "intro": "La date limite de réponse est passée et quelques invités restent silencieux. Le plus simple : un message court, chaleureux, avec une nouvelle date. Voici deux modèles à copier.",
+   "sections": [
+    {
+     "titre": "Par SMS",
+     "citation": "Coucou [Prénom] ! Petit rappel pour notre mariage le [date] : peux-tu nous dire avant le [date limite] si tu seras des nôtres ? On a hâte !"
+    },
+    {
+     "titre": "Par e-mail",
+     "citation": "Nous préparons le plan de table avec notre traiteur. Pourriez-vous nous confirmer votre présence avant le [date limite], et nous signaler un régime alimentaire ?"
+    },
+    {
+     "titre": "Quelques conseils",
+     "liste": [
+      "Donnez une raison concrète (le traiteur, le plan de table) : la relance paraît moins insistante.",
+      "Fixez une nouvelle date limite précise.",
+      "Notez les réponses au fur et à mesure pour savoir qui relancer."
+     ]
+    }
+   ],
+   "appel": "14 modèles de textes sont inclus avec l'organisateur de mariage.",
+   "faq": [
+    [
+     "Quand relancer les invités qui n'ont pas répondu ?",
+     "Juste après la date limite de réponse, avec une nouvelle date précise."
+    ],
+    [
+     "Comment relancer sans paraître insistant ?",
+     "Donnez une raison concrète, comme le plan de table ou le traiteur, et gardez un ton chaleureux."
+    ]
+   ]
+  },
+  {
+   "slug": "discours-temoin-mariage-trame",
+   "date": "2026-10-25",
+   "categorie": "Témoins",
+   "titre": "Discours de témoin de mariage : trame en 5 étapes",
+   "description": "Comment écrire un discours de témoin de mariage : se présenter, une anecdote, le couple, les invités, le toast. La trame pour 3 à 5 minutes.",
+   "image": "28-nov-discours-temoin.png",
+   "image_alt": "Trame du discours de témoin en 5 étapes",
+   "intro": "Un bon discours de témoin tient en 3 à 5 minutes et suit une trame simple. Voici les cinq temps, dans l'ordre.",
+   "sections": [
+    {
+     "titre": "Les 5 temps du discours",
+     "etapes": [
+      [
+       "Se présenter",
+       "Qui vous êtes, et depuis quand vous connaissez les mariés."
+      ],
+      [
+       "Une anecdote",
+       "Un souvenir drôle ou touchant, court et bienveillant."
+      ],
+      [
+       "Le couple",
+       "Ce qui les rend beaux ensemble."
+      ],
+      [
+       "Les invités",
+       "Un mot pour les familles et ceux venus de loin."
+      ],
+      [
+       "Le toast",
+       "Invitez chacun à lever son verre aux mariés."
+      ]
+     ]
+    },
+    {
+     "titre": "Avant le jour J",
+     "liste": [
+      "Lisez-le à voix haute et chronométrez-vous : visez 3 à 5 minutes.",
+      "Gardez l'anecdote compréhensible par tous les invités, pas seulement par les amis proches.",
+      "Prévoyez une version imprimée, même si vous la connaissez par cœur."
+     ]
+    }
+   ],
+   "appel": "La trame du discours est incluse dans les bonus de l'organisateur de mariage.",
+   "faq": [
+    [
+     "Combien de temps doit durer un discours de témoin ?",
+     "Visez 3 à 5 minutes. Lisez-le à voix haute avant le jour J pour vérifier."
+    ],
+    [
+     "Que dire dans un discours de témoin ?",
+     "Présentez-vous, racontez une anecdote courte, parlez du couple, saluez les invités, puis proposez un toast."
+    ]
+   ]
+  },
+  {
+   "slug": "kit-urgence-mariage-liste",
+   "date": "2026-10-25",
+   "categorie": "Jour J",
+   "titre": "Kit d'urgence mariage : la liste du jour J",
+   "description": "Alliances, papiers, épingles à nourrice, pansements, détachant, chaussures plates, chargeur : la checklist du kit d'urgence du mariage.",
+   "image": "16-nov-kit-urgence.png",
+   "image_alt": "Le kit d'urgence du jour J",
+   "intro": "Le jour du mariage, il arrive presque toujours un petit imprévu : un bouton, un talon, une batterie à plat. Un kit préparé la veille règle la plupart de ces soucis en une minute.",
+   "sections": [
+    {
+     "titre": "Les indispensables",
+     "liste": [
+      "Alliances",
+      "Pièces d'identité",
+      "Discours imprimés",
+      "Enveloppes des prestataires"
+     ]
+    },
+    {
+     "titre": "Les petits tracas",
+     "liste": [
+      "Aiguille, fil et épingles à nourrice",
+      "Pansements et antidouleurs",
+      "Détachant et lingettes",
+      "Mouchoirs"
+     ]
+    },
+    {
+     "titre": "Pour tenir toute la nuit",
+     "liste": [
+      "Chaussures plates pour danser",
+      "Chargeur de téléphone",
+      "Bouteilles d'eau et en-cas",
+      "Pastilles à la menthe"
+     ]
+    },
+    {
+     "titre": "Qui porte le kit",
+     "paragraphes": [
+      "Confiez le kit à une personne qui reste près de vous toute la journée, par exemple un témoin. Ainsi, vous n'avez à penser à rien.",
+      "Écrivez un nom sur chaque enveloppe de prestataire pour éviter les confusions. Cette liste reprend 12 essentiels : ajoutez ce dont vous avez personnellement besoin, comme un traitement médical."
+     ]
+    }
+   ],
+   "appel": "Dans l'onglet « Jour J » de notre tableur, la liste complète de 24 objets est à cocher.",
+   "faq": [
+    [
+     "Qui doit porter le kit d'urgence ?",
+     "Une personne qui reste près de vous toute la journée, par exemple un témoin."
+    ],
+    [
+     "Que faut-il mettre en premier dans le kit ?",
+     "Les indispensables : alliances, pièces d'identité, discours imprimés et enveloppes des prestataires."
+    ]
+   ]
+  },
+  {
+   "slug": "budget-mariage-100-personnes-20000-euros",
+   "date": "2026-10-25",
+   "categorie": "Budget de mariage",
+   "titre": "Budget mariage 100 personnes : 20 000 € poste par poste",
+   "description": "Répartition d'un budget de mariage de 20 000 € pour 100 invités : traiteur, lieu, photographe, tenues, poste par poste, avec la part de chacun.",
+   "image": "2026-10-13-budget-repartition-20000-corrige.png",
+   "image_alt": "Répartition d'un budget de mariage de 20 000 € pour 100 invités",
+   "intro": "Pour un mariage de 100 personnes avec 20 000 €, cela fait 200 € par invité, tout compris. Voici comment notre tableur répartit cette somme. Ce sont des repères pour démarrer, pas des prix réels : remplacez-les par vos devis.",
+   "sections": [
+    {
+     "titre": "Les 20 000 € poste par poste",
+     "tableau": {
+      "entetes": [
+       "Poste",
+       "Montant",
+       "Part"
+      ],
+      "lignes": [
+       [
+        "Traiteur & boissons",
+        "7 430 €",
+        "37 %"
+       ],
+       [
+        "Lieu de réception",
+        "3 930 €",
+        "20 %"
+       ],
+       [
+        "Robe & accessoires",
+        "1 220 €",
+        "6 %"
+       ],
+       [
+        "Photographe",
+        "1 140 €",
+        "6 %"
+       ],
+       [
+        "DJ / musiciens",
+        "1 050 €",
+        "5 %"
+       ],
+       [
+        "Divers & imprévus",
+        "1 000 €",
+        "5 %"
+       ],
+       [
+        "Fleurs & décoration",
+        "870 €",
+        "4 %"
+       ],
+       [
+        "Costume & accessoires",
+        "790 €",
+        "4 %"
+       ],
+       [
+        "Alliances",
+        "700 €",
+        "3 %"
+       ],
+       [
+        "Les 6 autres postes",
+        "1 870 €",
+        "9 %"
+       ]
+      ]
+     }
+    },
+    {
+     "titre": "Ce que montrent ces chiffres",
+     "paragraphes": [
+      "Le traiteur et le lieu totalisent 11 360 €, soit environ 57 % du budget. Le traiteur seul représente environ 74 € par invité : chaque invité en plus ou en moins déplace donc ce poste en premier.",
+      "Par comparaison, notre exemple de 10 000 € pour 60 invités représente environ 167 € par invité, avec un traiteur à 30 % du budget. Les parts sont des arrondis à l'unité."
+     ]
+    },
+    {
+     "titre": "Comment l'utiliser pour vos 100 invités",
+     "liste": [
+      "Commencez par fixer le nombre d'invités : c'est lui qui décide du poste traiteur.",
+      "Remplacez le lieu et le traiteur par vos premiers devis, ils pèsent plus de la moitié du total.",
+      "Ne touchez pas à la ligne « divers & imprévus » (1 000 €, soit 5 %) pour compenser un dépassement."
+     ]
+    }
+   ],
+   "appel": "Dans notre tableur, entrez votre budget et le nombre d'invités : les 21 postes se calculent tout seuls.",
+   "faq": [
+    [
+     "Combien prévoir par invité pour un mariage de 100 personnes ?",
+     "Avec 20 000 € pour 100 invités, cela fait 200 € par invité, tout compris. Dans cette répartition, le traiteur représente environ 74 € par invité."
+    ],
+    [
+     "Quelle part du budget pour le traiteur et le lieu ?",
+     "Ensemble, 11 360 € sur 20 000 €, soit environ 57 % du budget."
+    ]
+   ]
+  },
+  {
+   "slug": "budget-mariage-120-invites-30000-euros",
+   "date": "2026-10-25",
+   "categorie": "Budget de mariage",
+   "titre": "Budget mariage 30 000 € pour 120 invités : poste par poste",
+   "description": "Comment répartir 30 000 € pour 120 invités : traiteur, lieu, lune de miel, photographe, tenues, poste par poste, avec la part de chacun.",
+   "image": "25-nov-budget-repartition-30000.png",
+   "image_alt": "Répartition d'un budget de mariage de 30 000 € pour 120 invités",
+   "intro": "Avec 30 000 € et 120 invités, on arrive à 250 € par invité. Voici la répartition conseillée par notre tableur pour ce scénario. Ce sont des repères, pas des prix réels : vos devis ont le dernier mot.",
+   "sections": [
+    {
+     "titre": "Le détail des 30 000 €",
+     "tableau": {
+      "entetes": [
+       "Poste",
+       "Montant",
+       "Part"
+      ],
+      "lignes": [
+       [
+        "Traiteur & boissons",
+        "10 200 €",
+        "34 %"
+       ],
+       [
+        "Lieu de réception",
+        "5 100 €",
+        "17 %"
+       ],
+       [
+        "Lune de miel",
+        "2 180 €",
+        "7 %"
+       ],
+       [
+        "Divers & imprévus",
+        "1 500 €",
+        "5 %"
+       ],
+       [
+        "Robe & accessoires",
+        "1 400 €",
+        "5 %"
+       ],
+       [
+        "Photographe",
+        "1 300 €",
+        "4 %"
+       ],
+       [
+        "DJ / musiciens",
+        "1 200 €",
+        "4 %"
+       ],
+       [
+        "Fleurs & décoration",
+        "1 120 €",
+        "4 %"
+       ],
+       [
+        "Costume & accessoires",
+        "900 €",
+        "3 %"
+       ],
+       [
+        "Les 12 autres postes",
+        "5 100 €",
+        "17 %"
+       ]
+      ]
+     }
+    },
+    {
+     "titre": "Ce qui change avec ce budget",
+     "paragraphes": [
+      "À 30 000 €, la lune de miel entre dans la répartition avec 2 180 €, soit la troisième ligne la plus élevée. La part du traiteur est un peu plus basse que dans notre exemple à 20 000 € (34 % contre 37 %).",
+      "Le traiteur coûte ici 85 € par invité (10 200 € pour 120), et le lieu 5 100 €. Ensemble, ils font 15 300 €, soit environ 51 % du budget."
+     ]
+    },
+    {
+     "titre": "Par où commencer",
+     "liste": [
+      "Demandez les devis du lieu et du traiteur en premier : ce sont 51 % du total.",
+      "Gardez les 1 500 € d'imprévus (5 %) pour les petits oublis.",
+      "Repérez les 12 autres postes (5 100 €) : papeterie, transport, hébergement, matériel… ils s'additionnent vite."
+     ]
+    }
+   ],
+   "appel": "Dans notre tableur, entrez votre budget et le nombre d'invités : les 21 postes se calculent tout seuls.",
+   "faq": [
+    [
+     "Quel budget pour un mariage de 120 invités ?",
+     "Notre exemple part de 30 000 €, soit 250 € par invité. Ajustez ensuite chaque poste avec vos devis."
+    ],
+    [
+     "Que devient la lune de miel dans ce budget ?",
+     "Dans cet exemple, elle reçoit 2 180 €, soit environ 7 % : c'est la troisième ligne la plus élevée."
+    ]
+   ]
+  },
+  {
+   "slug": "liste-invites-mariage-colonnes",
+   "date": "2026-10-28",
+   "categorie": "Invités",
+   "titre": "Liste d'invités de mariage : 6 colonnes à prévoir",
+   "description": "Nom, adresse, réponse, nombre de personnes, régime alimentaire, table : les 6 colonnes d'une liste d'invités de mariage claire, à copier dans un tableur.",
+   "image": "2026-10-23-liste-invites-colonnes.png",
+   "image_alt": "Liste d'invités de mariage : 6 colonnes indispensables",
+   "intro": "Une liste d'invités n'est pas seulement une liste de noms. Avec les bonnes colonnes, elle répond ensuite à presque toutes les questions : le faire-part, le traiteur, le plan de table. Voici les 6 colonnes à prévoir dans votre tableur.",
+   "sections": [
+    {
+     "titre": "Les 6 colonnes",
+     "liste_numerotee": [
+      "Nom, prénom et lien avec vous : famille, amis, collègues.",
+      "Adresse postale ou e-mail pour envoyer le faire-part.",
+      "Réponse : oui, non ou en attente.",
+      "Nombre de personnes, dont les enfants.",
+      "Régime alimentaire et allergies.",
+      "Table et remarques : à placer près de, à éviter."
+     ]
+    },
+    {
+     "titre": "À quoi sert chaque colonne",
+     "paragraphes": [
+      "Le lien avec vous permet de voir d'un coup d'œil l'équilibre entre les familles, les amis et les collègues. L'adresse ou l'e-mail évite de la chercher le jour de l'envoi du faire-part.",
+      "La colonne « réponse » montre tout de suite à qui il faut écrire : tant qu'elle indique « en attente », la personne n'a pas confirmé. Le nombre de personnes, enfants compris, donne le chiffre exact à transmettre au traiteur, et le régime alimentaire lui évite de mauvaises surprises.",
+      "La dernière colonne prépare le plan de table : notez qui placer près de qui, et les personnes à éviter de mettre ensemble."
+     ]
+    },
+    {
+     "titre": "Pour garder une liste propre",
+     "liste": [
+      "Écrivez les noms toujours de la même façon : prénom, puis nom.",
+      "Notez chaque réponse le jour même où elle arrive.",
+      "Comptez les « oui » avant de donner un chiffre au traiteur, pas avant."
+     ]
+    }
+   ],
+   "appel": "Dans l'organisateur de mariage, la liste d'invités compte les réponses pour vous.",
+   "faq": [
+    [
+     "Quelles colonnes prévoir dans une liste d'invités de mariage ?",
+     "Six : nom et lien avec vous, adresse ou e-mail, réponse, nombre de personnes, régime alimentaire et allergies, table et remarques."
+    ],
+    [
+     "Pourquoi noter le régime alimentaire ?",
+     "Pour le transmettre au traiteur en même temps que le nombre de personnes."
+    ]
+   ]
   }
+ ],
+ "appel_accueil": "Tout votre mariage dans un seul fichier.",
+ "methode": {
+  "titre": "Notre méthode",
+  "description": "Comment Joli Plan prépare et vérifie ses articles et ses tableurs de mariage.",
+  "paragraphes": [
+   "Joli Plan crée des tableurs de mariage pour Excel et Google Sheets, un par pays : France, Allemagne, Espagne, Italie et Royaume-Uni.",
+   "Chaque article reprend les repères de nos tableurs et de leur exemple rempli. Les chiffres sont des valeurs repères pour démarrer : remplacez-les par vos devis.",
+   "Pour les démarches administratives, nous suivons la source officielle du pays et nous la citons. Les règles peuvent varier selon votre mairie : confirmez toujours auprès d'elle.",
+   "Nos articles sont préparés avec l'aide d'outils d'IA, puis relus et vérifiés avant publication. Une erreur ? Écrivez-nous depuis notre boutique Etsy."
+  ]
+ },
+ "gratuit": {
+  "slug": "planning-mariage-gratuit",
+  "surtitre": "Gratuit",
+  "accroche": "Téléchargez notre planning de mariage gratuit : budget et liste d'invités, prêts à remplir.",
+  "cta_page": "Télécharger le planning gratuit",
+  "titre": "Planning de mariage gratuit (Excel et Google Sheets)",
+  "description": "Téléchargez gratuitement le planning de mariage Joli Plan : tableau de bord, budget et liste d'invités, en français, pour Excel et Google Sheets.",
+  "intro": "Un vrai tableur pour commencer : entrez vos prénoms, la date et votre budget, et le tableau de bord se remplit. Sans inscription, en français.",
+  "fichier": "JoliPlan_Planning-Mariage_GRATUIT_FR.xlsx",
+  "cta_telecharger": "Télécharger le fichier Excel (gratuit)",
+  "titre_contenu": "Ce qu'il contient",
+  "contenu": [
+   "Un tableau de bord avec le compte à rebours, le budget réglé et les invités confirmés.",
+   "L'onglet Budget avec les postes du mariage et les prix courants en France.",
+   "L'onglet Invités : côté, groupe, réponse, régime alimentaire, hébergement."
+  ],
+  "titre_complet": "Et la version complète ?",
+  "texte_complet": "La version complète ajoute les paiements, les prestataires, le plan de table, le rétroplanning, la mairie, le jour J et les remerciements, dans le même fichier.",
+  "appel": "Passez à la version complète quand vous voulez : vos données restent dans le même format."
+ }
 }

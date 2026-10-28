@@ -1,360 +1,457 @@
 {
-  "langue": "de",
-  "nom_site": "Joli Plan · Das Hochzeitsjournal",
-  "accroche": "Einfache, geprüfte Orientierung für die Hochzeitsplanung in Deutschland.",
-  "etsy": "https://joliplanstudio.etsy.com/fr/listing/4601915163/mariage-en-allemagne-tableur-en-allemand",
-  "cta_produit": "Den Hochzeitsplaner auf Etsy ansehen",
-  "texte_produit": "Budget, Gästeliste, Sitzplan, Standesamt und Zeitplan in einer einzigen Excel- und Google-Sheets-Datei, auf Deutsch und mit ausgefülltem Beispiel.",
-  "articles": [
+ "langue": "de",
+ "nom_site": "Joli Plan · Das Hochzeitsjournal",
+ "accroche": "Einfache, geprüfte Orientierung für die Hochzeitsplanung in Deutschland.",
+ "etsy": "https://joliplanstudio.etsy.com/fr/listing/4601915163/mariage-en-allemagne-tableur-en-allemand",
+ "cta_produit": "Den Hochzeitsplaner auf Etsy ansehen",
+ "texte_produit": "Budget, Gästeliste, Sitzplan, Standesamt und Zeitplan in einer einzigen Excel- und Google-Sheets-Datei, auf Deutsch und mit ausgefülltem Beispiel.",
+ "articles": [
+  {
+   "slug": "hochzeitsbudget-32000-euro-verteilen",
+   "date": "2026-10-25",
+   "categorie": "Hochzeitsbudget",
+   "titre": "Hochzeitsbudget: 32.000 € für 120 Gäste verteilen",
+   "description": "Catering, Location, Blumen, Fotografie und mehr: eine Aufteilung von 32.000 € für 120 Gäste, Posten für Posten, mit dem Anteil jedes Postens.",
+   "image": "01-budget-verteilung-32000.png",
+   "image_alt": "Aufteilung eines Hochzeitsbudgets von 32.000 € für 120 Gäste",
+   "intro": "Bei 32.000 € und 120 Gästen lautet die Frage nicht „Reicht das?“, sondern „Wohin geht jeder Euro?“. Hier ist die Aufteilung aus unserem Excel-Hochzeitsplaner, Posten für Posten. Es sind Orientierungswerte zum Starten, keine echten Preise: Passt sie an, sobald ihr das erste Angebot habt.",
+   "sections": [
     {
-      "slug": "hochzeitsbudget-32000-euro-verteilen",
-      "date": "2026-10-25",
-      "categorie": "Hochzeitsbudget",
-      "titre": "Hochzeitsbudget: 32.000 € für 120 Gäste verteilen",
-      "description": "Catering, Location, Blumen, Fotografie und mehr: eine Aufteilung von 32.000 € für 120 Gäste, Posten für Posten, mit dem Anteil jedes Postens.",
-      "image": "01-budget-verteilung-32000.png",
-      "image_alt": "Aufteilung eines Hochzeitsbudgets von 32.000 € für 120 Gäste",
-      "intro": "Bei 32.000 € und 120 Gästen lautet die Frage nicht „Reicht das?“, sondern „Wohin geht jeder Euro?“. Hier ist die Aufteilung aus unserem Excel-Hochzeitsplaner, Posten für Posten. Es sind Orientierungswerte zum Starten, keine echten Preise: Passt sie an, sobald ihr das erste Angebot habt.",
-      "sections": [
-        {
-          "titre": "Die Aufteilung Posten für Posten",
-          "tableau": {
-            "entetes": [
-              "Posten",
-              "Betrag",
-              "Anteil"
-            ],
-            "lignes": [
-              [
-                "Catering & Getränke",
-                "8.503 €",
-                "27 %"
-              ],
-              [
-                "Location",
-                "7.754 €",
-                "24 %"
-              ],
-              [
-                "Blumen & Deko",
-                "1.744 €",
-                "5 %"
-              ],
-              [
-                "Flitterwochen",
-                "1.735 €",
-                "5 %"
-              ],
-              [
-                "Reserve & Unvorhergesehenes",
-                "1.600 €",
-                "5 %"
-              ],
-              [
-                "Brautkleid & Accessoires",
-                "1.524 €",
-                "5 %"
-              ],
-              [
-                "DJ / Band / Musik",
-                "1.290 €",
-                "4 %"
-              ],
-              [
-                "Video",
-                "1.179 €",
-                "4 %"
-              ],
-              [
-                "Fotografie",
-                "1.146 €",
-                "4 %"
-              ],
-              [
-                "Die übrigen 12 Posten",
-                "5.525 €",
-                "17 %"
-              ]
-            ]
-          }
-        },
-        {
-          "titre": "Was ihr daraus mitnehmen solltet",
-          "paragraphes": [
-            "Catering und Location zusammen machen mit 16.257 € gut die Hälfte des Budgets aus. Genau dort wirkt sich eine Änderung von Datum, Menü oder Gästezahl am stärksten aus.",
-            "Plant eine Reserve von rund 5 % ein. Sie fängt kleine Überraschungen auf, ohne dass ihr bei den anderen Posten kürzen müsst."
-          ]
-        },
-        {
-          "titre": "So passt ihr die Zahlen an eure Hochzeit an",
-          "liste": [
-            "Ersetzt jeden Betrag durch euer erstes Angebot, sobald ihr es habt.",
-            "Wird ein Posten teurer, spart die Differenz bei einem anderen Posten ein, nicht bei der Reserve.",
-            "Rechnet neu, wenn sich die Gästezahl ändert: Das Catering folgt der Zahl der Gedecke.",
-            "Behaltet alle Posten auf einer Seite, damit ihr sofort seht, was schon vergeben ist."
-          ]
-        }
+     "titre": "Die Aufteilung Posten für Posten",
+     "tableau": {
+      "entetes": [
+       "Posten",
+       "Betrag",
+       "Anteil"
       ],
-      "appel": "Im Hochzeitsplaner tragt ihr Gesamtbudget und Gästezahl ein: Die 21 Posten werden automatisch berechnet."
+      "lignes": [
+       [
+        "Catering & Getränke",
+        "8.503 €",
+        "27 %"
+       ],
+       [
+        "Location",
+        "7.754 €",
+        "24 %"
+       ],
+       [
+        "Blumen & Deko",
+        "1.744 €",
+        "5 %"
+       ],
+       [
+        "Flitterwochen",
+        "1.735 €",
+        "5 %"
+       ],
+       [
+        "Reserve & Unvorhergesehenes",
+        "1.600 €",
+        "5 %"
+       ],
+       [
+        "Brautkleid & Accessoires",
+        "1.524 €",
+        "5 %"
+       ],
+       [
+        "DJ / Band / Musik",
+        "1.290 €",
+        "4 %"
+       ],
+       [
+        "Video",
+        "1.179 €",
+        "4 %"
+       ],
+       [
+        "Fotografie",
+        "1.146 €",
+        "4 %"
+       ],
+       [
+        "Die übrigen 12 Posten",
+        "5.525 €",
+        "17 %"
+       ]
+      ]
+     }
     },
     {
-      "slug": "ablaufplan-hochzeitstag-beispiel",
-      "date": "2026-10-25",
-      "categorie": "Hochzeitstag",
-      "titre": "Ablaufplan Hochzeit: Beispiel von der Frisur bis zum Tanz",
-      "description": "Ein Beispielablauf für den Hochzeitstag mit Standesamt, freier Trauung, Sektempfang, Reden, Torte und Eröffnungstanz, Uhrzeit für Uhrzeit.",
-      "image": "03-ablauf-hochzeitstag.png",
-      "image_alt": "Beispielablauf eines Hochzeitstags mit Standesamt und freier Trauung",
-      "intro": "Ein Hochzeitstag läuft ruhiger, wenn alle wissen, was wann passiert. Hier ist ein Beispielablauf mit Standesamt und freier Trauung, den ihr an euren Tag anpassen könnt.",
-      "sections": [
-        {
-          "titre": "Der Beispielablauf",
-          "tableau": {
-            "entetes": [
-              "Uhrzeit",
-              "Programmpunkt"
-            ],
-            "lignes": [
-              [
-                "09:00",
-                "Styling: Haare & Make-up"
-              ],
-              [
-                "12:00",
-                "Fotoshooting zu zweit"
-              ],
-              [
-                "14:00",
-                "Standesamtliche Trauung"
-              ],
-              [
-                "15:30",
-                "Freie Trauung im Schlossgarten"
-              ],
-              [
-                "16:15",
-                "Gruppenfotos"
-              ],
-              [
-                "16:45",
-                "Sektempfang, Kaffee & Kuchen"
-              ],
-              [
-                "19:15",
-                "Einzug und Abendessen"
-              ],
-              [
-                "21:15",
-                "Reden"
-              ],
-              [
-                "21:45",
-                "Anschnitt der Hochzeitstorte"
-              ],
-              [
-                "22:15",
-                "Eröffnungstanz & Party"
-              ]
-            ]
-          }
-        },
-        {
-          "titre": "Wie ihr den Ablauf an euren Tag anpasst",
-          "paragraphes": [
-            "Das ist ein Beispiel, kein Muss. Fangt mit den festen Punkten an, etwa dem Termin der Trauung, und füllt die Zeiten davor und danach auf."
-          ],
-          "liste": [
-            "Schreibt zu jedem Programmpunkt, wie lange er dauert, nicht nur, wann er beginnt.",
-            "Plant zwischen Trauung und Sektempfang Zeit für Gruppenfotos ein.",
-            "Gebt den Ablauf gedruckt an Trauzeugen und Dienstleister weiter."
-          ]
-        },
-        {
-          "titre": "Warum die Dauer wichtiger ist als die Uhrzeit",
-          "paragraphes": [
-            "Wenn ihr nur Uhrzeiten notiert, müsst ihr bei jeder Verschiebung alles neu schreiben. Notiert ihr stattdessen die Dauer jedes Programmpunkts, ergeben sich die Uhrzeiten daraus. Verlängert sich das Fotoshooting um eine halbe Stunde, rutschen alle folgenden Punkte automatisch nach hinten."
-          ]
-        }
-      ],
-      "appel": "Im Hochzeitsplaner berechnen sich die Uhrzeiten von selbst."
+     "titre": "Was ihr daraus mitnehmen solltet",
+     "paragraphes": [
+      "Catering und Location zusammen machen mit 16.257 € gut die Hälfte des Budgets aus. Genau dort wirkt sich eine Änderung von Datum, Menü oder Gästezahl am stärksten aus.",
+      "Plant eine Reserve von rund 5 % ein. Sie fängt kleine Überraschungen auf, ohne dass ihr bei den anderen Posten kürzen müsst."
+     ]
     },
     {
-      "slug": "hochzeit-planen-checkliste-12-monate",
-      "date": "2026-10-25",
-      "categorie": "Zeitplan",
-      "titre": "Hochzeit Checkliste: 12 Monate vor dem Hochzeitstag",
-      "description": "Budget, Location, Save the Date, Einladungen, Probeessen und Sitzplan: die wichtigsten Schritte der Hochzeitsplanung, nach Monaten geordnet.",
-      "image": "04-todo-12-monate.png",
-      "image_alt": "Hochzeits-To-do-Liste, Monat für Monat",
-      "intro": "Ein Jahr vor der Hochzeit wirkt alles dringend. Mit einer Liste, die nach Monaten geordnet ist, seht ihr, was jetzt dran ist und was noch warten kann.",
-      "sections": [
-        {
-          "titre": "Die wichtigsten Schritte nach Monaten",
-          "etapes": [
-            [
-              "12 Monate vorher:",
-              "Gesamtbudget festlegen, Location buchen, Standesamt-Termin anfragen."
-            ],
-            [
-              "10 bis 11 Monate vorher:",
-              "Trauzeugen fragen, Caterer und Fotograf·in buchen."
-            ],
-            [
-              "9 Monate vorher:",
-              "Save the Date verschicken."
-            ],
-            [
-              "6 Monate vorher:",
-              "Einladungen bestellen, Eheschließung beim Standesamt anmelden."
-            ],
-            [
-              "4 Monate vorher:",
-              "Einladungen verschicken, Probeessen, Hochzeitstorte bestellen."
-            ],
-            [
-              "4 Wochen vorher:",
-              "Sitzplan fertigstellen, Plan B für Regen, Gästezahl an den Caterer melden."
-            ],
-            [
-              "7 Tage vorher:",
-              "Notfallset packen."
-            ]
-          ]
-        },
-        {
-          "titre": "Warum diese Reihenfolge",
-          "paragraphes": [
-            "Budget und Gästezahl entscheiden, wie groß die Location sein muss. Die Location legt oft das Datum fest. Wer eine Location bucht, bevor das Budget steht, muss später womöglich alles neu rechnen.",
-            "Caterer und Fotograf·in folgen direkt nach der Location, weil beliebte Anbieter früh ausgebucht sein können. Das Save the Date kommt vor den Einladungen, damit eure Gäste das Datum früh im Kalender haben."
-          ]
-        },
-        {
-          "titre": "So behaltet ihr den Überblick",
-          "liste": [
-            "Hakt jeden Schritt ab, sobald er erledigt ist.",
-            "Schiebt nichts auf die letzten vier Wochen, was sich früher erledigen lässt.",
-            "Verteilt Aufgaben an Trauzeugen und Familie, statt alles allein zu tragen."
-          ]
-        }
-      ],
-      "appel": "Im Hochzeitsplaner richten sich 80 Schritte mit Fristen nach eurem Datum."
-    },
-    {
-      "slug": "gaesteliste-hochzeit-excel-spalten",
-      "date": "2026-10-25",
-      "categorie": "Gäste",
-      "titre": "Gästeliste Hochzeit Excel: diese Spalten braucht ihr",
-      "description": "Haushalt, Zusage, Polterabend, Ernährung, Tisch und Unterkunft: So baut ihr eine Gästeliste für die Hochzeit, die sich von selbst zählt.",
-      "image": "06-gaesteliste-spalten.png",
-      "image_alt": "Spalten einer Hochzeits-Gästeliste",
-      "intro": "Eine Gästeliste ist mehr als eine Namensliste. Mit den richtigen Spalten beantwortet sie später fast jede Frage, vom Catering bis zum Sitzplan. Das sind die Spalten, die wir empfehlen.",
-      "sections": [
-        {
-          "titre": "Die Spalten im Überblick",
-          "liste": [
-            "Seite und Gruppe: Familie, Freunde, Kollegen.",
-            "Haushalt: eine Einladung pro Haushalt.",
-            "Eingeladen zu: ganzer Tag oder nur Trauung & Empfang.",
-            "Save the Date und Einladung: verschickt, ja oder nein.",
-            "Antwort: Zusage, Absage oder noch offen.",
-            "Polterabend: kommt der Gast oder nicht.",
-            "Ernährung und Allergien.",
-            "Tisch, Unterkunft und Shuttle."
-          ]
-        },
-        {
-          "titre": "Wofür jede Spalte gut ist",
-          "paragraphes": [
-            "Die Spalte „Haushalt“ verhindert doppelte Einladungen. „Eingeladen zu“ ist wichtig, wenn nicht alle den ganzen Tag dabei sind. Die Spalte „Antwort“ zeigt auf einen Blick, bei wem ihr nachfragen müsst.",
-            "Ernährung und Allergien braucht euer Caterer, Tisch und Unterkunft braucht ihr für den Sitzplan und die Organisation vor Ort."
-          ]
-        },
-        {
-          "titre": "Tipps für eine saubere Liste",
-          "liste": [
-            "Führt Namen immer gleich: Vorname, dann Nachname.",
-            "Tragt Antworten sofort ein, am besten am selben Tag.",
-            "Zählt die Zusagen regelmäßig, bevor ihr die Zahl an den Caterer meldet."
-          ]
-        }
-      ],
-      "appel": "Im Hochzeitsplaner zählt sich alles von selbst: Zusagen, Absagen und offene Antworten."
-    },
-    {
-      "slug": "notfallset-hochzeit-checkliste",
-      "date": "2026-10-25",
-      "categorie": "Hochzeitstag",
-      "titre": "Notfallset Hochzeit: Checkliste für den Hochzeitstag",
-      "description": "Nadel und Faden, Pflaster, Ladekabel, Regenschirme und mehr: Was in das Notfallset für euren Hochzeitstag gehört, mit Checkliste zum Abhaken.",
-      "image": "05-notfallset.png",
-      "image_alt": "Notfallset für den Hochzeitstag",
-      "intro": "Am Hochzeitstag geht fast immer eine Kleinigkeit schief: ein Knopf, ein Absatz, ein leerer Akku. Ein Notfallset, das ihr rechtzeitig packt, hilft bei den meisten dieser Kleinigkeiten.",
-      "sections": [
-        {
-          "titre": "Wichtig",
-          "liste": [
-            "Eheringe",
-            "Ausweise des Brautpaares und der Trauzeugen",
-            "Ausgedruckte Reden und Ablauf",
-            "Umschläge mit den Zahlungen für die Dienstleister"
-          ]
-        },
-        {
-          "titre": "Kleine Retter",
-          "liste": [
-            "Nadel, Faden und Sicherheitsnadeln",
-            "Pflaster und Schmerztabletten",
-            "Taschentücher und Fusselrolle",
-            "Flache Schuhe zum Tanzen und eine Ersatzstrumpfhose"
-          ]
-        },
-        {
-          "titre": "Für alle Fälle",
-          "liste": [
-            "Ladekabel und Powerbank",
-            "Regenschirme",
-            "Wasserflaschen und Snacks"
-          ]
-        },
-        {
-          "titre": "Wer das Set trägt",
-          "paragraphes": [
-            "Gebt das Notfallset einer Person, die den ganzen Tag in eurer Nähe ist, zum Beispiel einem Trauzeugen. So müsst ihr selbst an nichts denken.",
-            "Beschriftet die Umschläge für die Dienstleister mit Namen, damit nichts verwechselt wird. Diese Liste ist eine Auswahl der wichtigsten Dinge: Ergänzt sie um alles, was ihr persönlich braucht, etwa Medikamente."
-          ]
-        }
-      ],
-      "appel": "Im Tab „Hochzeitstag“ des Hochzeitsplaners findet ihr 24 Teile zum Abhaken."
+     "titre": "So passt ihr die Zahlen an eure Hochzeit an",
+     "liste": [
+      "Ersetzt jeden Betrag durch euer erstes Angebot, sobald ihr es habt.",
+      "Wird ein Posten teurer, spart die Differenz bei einem anderen Posten ein, nicht bei der Reserve.",
+      "Rechnet neu, wenn sich die Gästezahl ändert: Das Catering folgt der Zahl der Gedecke.",
+      "Behaltet alle Posten auf einer Seite, damit ihr sofort seht, was schon vergeben ist."
+     ]
     }
-  ],
-  "gratuit": {
-    "slug": "hochzeitsplaner-excel-vorlage-kostenlos",
-    "surtitre": "Kostenlos",
-    "accroche": "Ladet unseren kostenlosen Hochzeitsplaner herunter: Budget und Gästeliste, zum Ausfüllen bereit.",
-    "cta_page": "Kostenlosen Hochzeitsplaner herunterladen",
-    "titre": "Hochzeitsplaner Excel Vorlage kostenlos zum Download",
-    "description": "Kostenloser Hochzeitsplaner von Joli Plan zum Download: Übersicht, Budget und Gästeliste für Excel und Google Sheets, auf Deutsch.",
-    "intro": "Eine echte Tabelle für den Start: Namen, Datum und Budget eintragen, und die Übersicht füllt sich. Ohne Anmeldung, auf Deutsch.",
-    "fichier": "JoliPlan_Hochzeitsplaner_KOSTENLOS_DE.xlsx",
-    "cta_telecharger": "Excel-Datei herunterladen (kostenlos)",
-    "titre_contenu": "Was drinsteckt",
-    "contenu": [
-      "Eine Übersicht mit Countdown, bezahltem Budget und zugesagten Gästen.",
-      "Der Reiter Budget mit den Posten der Hochzeit und üblichen Preisen für Deutschland.",
-      "Der Reiter Gäste: Seite, Gruppe, Antwort, Ernährung oder Allergie, Tischnummer."
+   ],
+   "appel": "Im Hochzeitsplaner tragt ihr Gesamtbudget und Gästezahl ein: Die 21 Posten werden automatisch berechnet.",
+   "faq": [
+    [
+     "Wie viel Reserve sollte man einplanen?",
+     "Rund 5 % des Budgets, damit kleine Überraschungen aufgefangen werden, ohne bei anderen Posten zu kürzen."
     ],
-    "titre_complet": "Und die Vollversion?",
-    "texte_complet": "Die Vollversion ergänzt Zahlungen, Dienstleister, Sitzplan, Zeitplan, Standesamt und Dokumente, Hochzeitstag und Danksagungen in derselben Datei.",
-    "appel": "Steigt auf die Vollversion um, wann ihr wollt: eure Daten bleiben im selben Format."
-  },
-  "methode": {
-    "titre": "Unsere Methode",
-    "description": "Wie Joli Plan seine Artikel und Hochzeitstabellen vorbereitet und prüft.",
-    "paragraphes": [
-      "Joli Plan erstellt Hochzeitstabellen für Excel und Google Sheets, eine pro Land: Frankreich, Deutschland, Spanien, Italien und das Vereinigte Königreich.",
-      "Jeder Artikel greift Richtwerte aus unseren Tabellen und deren ausgefülltem Beispiel auf. Die Zahlen sind Orientierungswerte für den Start: ersetzt sie durch eure Angebote.",
-      "Bei Behördengängen folgen wir der offiziellen Quelle des Landes und nennen sie. Die Regeln können je nach Standesamt abweichen: bestätigt immer bei eurem Amt.",
-      "Unsere Artikel entstehen mit Hilfe von KI-Werkzeugen und werden vor der Veröffentlichung gelesen und geprüft. Ein Fehler? Schreibt uns über unseren Etsy-Shop."
+    [
+     "Welche Posten kosten bei 120 Gästen am meisten?",
+     "Catering & Getränke (8.503 €) und Location (7.754 €): zusammen 16.257 €, gut die Hälfte des Budgets."
     ]
+   ]
+  },
+  {
+   "slug": "ablaufplan-hochzeitstag-beispiel",
+   "date": "2026-10-25",
+   "categorie": "Hochzeitstag",
+   "titre": "Ablaufplan Hochzeit: Beispiel von der Frisur bis zum Tanz",
+   "description": "Ein Beispielablauf für den Hochzeitstag mit Standesamt, freier Trauung, Sektempfang, Reden, Torte und Eröffnungstanz, Uhrzeit für Uhrzeit.",
+   "image": "03-ablauf-hochzeitstag.png",
+   "image_alt": "Beispielablauf eines Hochzeitstags mit Standesamt und freier Trauung",
+   "intro": "Ein Hochzeitstag läuft ruhiger, wenn alle wissen, was wann passiert. Hier ist ein Beispielablauf mit Standesamt und freier Trauung, den ihr an euren Tag anpassen könnt.",
+   "sections": [
+    {
+     "titre": "Der Beispielablauf",
+     "tableau": {
+      "entetes": [
+       "Uhrzeit",
+       "Programmpunkt"
+      ],
+      "lignes": [
+       [
+        "09:00",
+        "Styling: Haare & Make-up"
+       ],
+       [
+        "12:00",
+        "Fotoshooting zu zweit"
+       ],
+       [
+        "14:00",
+        "Standesamtliche Trauung"
+       ],
+       [
+        "15:30",
+        "Freie Trauung im Schlossgarten"
+       ],
+       [
+        "16:15",
+        "Gruppenfotos"
+       ],
+       [
+        "16:45",
+        "Sektempfang, Kaffee & Kuchen"
+       ],
+       [
+        "19:15",
+        "Einzug und Abendessen"
+       ],
+       [
+        "21:15",
+        "Reden"
+       ],
+       [
+        "21:45",
+        "Anschnitt der Hochzeitstorte"
+       ],
+       [
+        "22:15",
+        "Eröffnungstanz & Party"
+       ]
+      ]
+     }
+    },
+    {
+     "titre": "Wie ihr den Ablauf an euren Tag anpasst",
+     "paragraphes": [
+      "Das ist ein Beispiel, kein Muss. Fangt mit den festen Punkten an, etwa dem Termin der Trauung, und füllt die Zeiten davor und danach auf."
+     ],
+     "liste": [
+      "Schreibt zu jedem Programmpunkt, wie lange er dauert, nicht nur, wann er beginnt.",
+      "Plant zwischen Trauung und Sektempfang Zeit für Gruppenfotos ein.",
+      "Gebt den Ablauf gedruckt an Trauzeugen und Dienstleister weiter."
+     ]
+    },
+    {
+     "titre": "Warum die Dauer wichtiger ist als die Uhrzeit",
+     "paragraphes": [
+      "Wenn ihr nur Uhrzeiten notiert, müsst ihr bei jeder Verschiebung alles neu schreiben. Notiert ihr stattdessen die Dauer jedes Programmpunkts, ergeben sich die Uhrzeiten daraus. Verlängert sich das Fotoshooting um eine halbe Stunde, rutschen alle folgenden Punkte automatisch nach hinten."
+     ]
+    }
+   ],
+   "appel": "Im Hochzeitsplaner berechnen sich die Uhrzeiten von selbst.",
+   "faq": [
+    [
+     "Warum die Dauer statt nur die Uhrzeit notieren?",
+     "Weil sich die Uhrzeiten dann von selbst ergeben: Verlängert sich ein Punkt, rutschen alle folgenden automatisch nach hinten."
+    ],
+    [
+     "Wer bekommt den Ablaufplan?",
+     "Gebt ihn gedruckt an Trauzeugen und Dienstleister weiter."
+    ]
+   ]
+  },
+  {
+   "slug": "hochzeit-planen-checkliste-12-monate",
+   "date": "2026-10-25",
+   "categorie": "Zeitplan",
+   "titre": "Hochzeit Checkliste: 12 Monate vor dem Hochzeitstag",
+   "description": "Budget, Location, Save the Date, Einladungen, Probeessen und Sitzplan: die wichtigsten Schritte der Hochzeitsplanung, nach Monaten geordnet.",
+   "image": "04-todo-12-monate.png",
+   "image_alt": "Hochzeits-To-do-Liste, Monat für Monat",
+   "intro": "Ein Jahr vor der Hochzeit wirkt alles dringend. Mit einer Liste, die nach Monaten geordnet ist, seht ihr, was jetzt dran ist und was noch warten kann.",
+   "sections": [
+    {
+     "titre": "Die wichtigsten Schritte nach Monaten",
+     "etapes": [
+      [
+       "12 Monate vorher:",
+       "Gesamtbudget festlegen, Location buchen, Standesamt-Termin anfragen."
+      ],
+      [
+       "10 bis 11 Monate vorher:",
+       "Trauzeugen fragen, Caterer und Fotograf·in buchen."
+      ],
+      [
+       "9 Monate vorher:",
+       "Save the Date verschicken."
+      ],
+      [
+       "6 Monate vorher:",
+       "Einladungen bestellen, Eheschließung beim Standesamt anmelden."
+      ],
+      [
+       "4 Monate vorher:",
+       "Einladungen verschicken, Probeessen, Hochzeitstorte bestellen."
+      ],
+      [
+       "4 Wochen vorher:",
+       "Sitzplan fertigstellen, Plan B für Regen, Gästezahl an den Caterer melden."
+      ],
+      [
+       "7 Tage vorher:",
+       "Notfallset packen."
+      ]
+     ]
+    },
+    {
+     "titre": "Warum diese Reihenfolge",
+     "paragraphes": [
+      "Budget und Gästezahl entscheiden, wie groß die Location sein muss. Die Location legt oft das Datum fest. Wer eine Location bucht, bevor das Budget steht, muss später womöglich alles neu rechnen.",
+      "Caterer und Fotograf·in folgen direkt nach der Location, weil beliebte Anbieter früh ausgebucht sein können. Das Save the Date kommt vor den Einladungen, damit eure Gäste das Datum früh im Kalender haben."
+     ]
+    },
+    {
+     "titre": "So behaltet ihr den Überblick",
+     "liste": [
+      "Hakt jeden Schritt ab, sobald er erledigt ist.",
+      "Schiebt nichts auf die letzten vier Wochen, was sich früher erledigen lässt.",
+      "Verteilt Aufgaben an Trauzeugen und Familie, statt alles allein zu tragen."
+     ]
+    }
+   ],
+   "appel": "Im Hochzeitsplaner richten sich 80 Schritte mit Fristen nach eurem Datum.",
+   "faq": [
+    [
+     "Was steht zwölf Monate vor der Hochzeit an?",
+     "Gesamtbudget festlegen, Location buchen und den Termin beim Standesamt anfragen."
+    ],
+    [
+     "Warum zuerst Budget und Gästezahl?",
+     "Beides entscheidet, wie groß die Location sein muss, und die Location legt oft das Datum fest."
+    ]
+   ]
+  },
+  {
+   "slug": "gaesteliste-hochzeit-excel-spalten",
+   "date": "2026-10-25",
+   "categorie": "Gäste",
+   "titre": "Gästeliste Hochzeit Excel: diese Spalten braucht ihr",
+   "description": "Haushalt, Zusage, Polterabend, Ernährung, Tisch und Unterkunft: So baut ihr eine Gästeliste für die Hochzeit, die sich von selbst zählt.",
+   "image": "06-gaesteliste-spalten.png",
+   "image_alt": "Spalten einer Hochzeits-Gästeliste",
+   "intro": "Eine Gästeliste ist mehr als eine Namensliste. Mit den richtigen Spalten beantwortet sie später fast jede Frage, vom Catering bis zum Sitzplan. Das sind die Spalten, die wir empfehlen.",
+   "sections": [
+    {
+     "titre": "Die Spalten im Überblick",
+     "liste": [
+      "Seite und Gruppe: Familie, Freunde, Kollegen.",
+      "Haushalt: eine Einladung pro Haushalt.",
+      "Eingeladen zu: ganzer Tag oder nur Trauung & Empfang.",
+      "Save the Date und Einladung: verschickt, ja oder nein.",
+      "Antwort: Zusage, Absage oder noch offen.",
+      "Polterabend: kommt der Gast oder nicht.",
+      "Ernährung und Allergien.",
+      "Tisch, Unterkunft und Shuttle."
+     ]
+    },
+    {
+     "titre": "Wofür jede Spalte gut ist",
+     "paragraphes": [
+      "Die Spalte „Haushalt“ verhindert doppelte Einladungen. „Eingeladen zu“ ist wichtig, wenn nicht alle den ganzen Tag dabei sind. Die Spalte „Antwort“ zeigt auf einen Blick, bei wem ihr nachfragen müsst.",
+      "Ernährung und Allergien braucht euer Caterer, Tisch und Unterkunft braucht ihr für den Sitzplan und die Organisation vor Ort."
+     ]
+    },
+    {
+     "titre": "Tipps für eine saubere Liste",
+     "liste": [
+      "Führt Namen immer gleich: Vorname, dann Nachname.",
+      "Tragt Antworten sofort ein, am besten am selben Tag.",
+      "Zählt die Zusagen regelmäßig, bevor ihr die Zahl an den Caterer meldet."
+     ]
+    }
+   ],
+   "appel": "Im Hochzeitsplaner zählt sich alles von selbst: Zusagen, Absagen und offene Antworten.",
+   "faq": [
+    [
+     "Wozu dient die Spalte „Haushalt“?",
+     "Sie verhindert doppelte Einladungen: eine Einladung pro Haushalt."
+    ],
+    [
+     "Wann meldet man dem Caterer die Gästezahl?",
+     "Zählt die Zusagen regelmäßig und meldet die Zahl erst, wenn die Antworten eingetragen sind."
+    ]
+   ]
+  },
+  {
+   "slug": "notfallset-hochzeit-checkliste",
+   "date": "2026-10-25",
+   "categorie": "Hochzeitstag",
+   "titre": "Notfallset Hochzeit: Checkliste für den Hochzeitstag",
+   "description": "Nadel und Faden, Pflaster, Ladekabel, Regenschirme und mehr: Was in das Notfallset für euren Hochzeitstag gehört, mit Checkliste zum Abhaken.",
+   "image": "05-notfallset.png",
+   "image_alt": "Notfallset für den Hochzeitstag",
+   "intro": "Am Hochzeitstag geht fast immer eine Kleinigkeit schief: ein Knopf, ein Absatz, ein leerer Akku. Ein Notfallset, das ihr rechtzeitig packt, hilft bei den meisten dieser Kleinigkeiten.",
+   "sections": [
+    {
+     "titre": "Wichtig",
+     "liste": [
+      "Eheringe",
+      "Ausweise des Brautpaares und der Trauzeugen",
+      "Ausgedruckte Reden und Ablauf",
+      "Umschläge mit den Zahlungen für die Dienstleister"
+     ]
+    },
+    {
+     "titre": "Kleine Retter",
+     "liste": [
+      "Nadel, Faden und Sicherheitsnadeln",
+      "Pflaster und Schmerztabletten",
+      "Taschentücher und Fusselrolle",
+      "Flache Schuhe zum Tanzen und eine Ersatzstrumpfhose"
+     ]
+    },
+    {
+     "titre": "Für alle Fälle",
+     "liste": [
+      "Ladekabel und Powerbank",
+      "Regenschirme",
+      "Wasserflaschen und Snacks"
+     ]
+    },
+    {
+     "titre": "Wer das Set trägt",
+     "paragraphes": [
+      "Gebt das Notfallset einer Person, die den ganzen Tag in eurer Nähe ist, zum Beispiel einem Trauzeugen. So müsst ihr selbst an nichts denken.",
+      "Beschriftet die Umschläge für die Dienstleister mit Namen, damit nichts verwechselt wird. Diese Liste ist eine Auswahl der wichtigsten Dinge: Ergänzt sie um alles, was ihr persönlich braucht, etwa Medikamente."
+     ]
+    }
+   ],
+   "appel": "Im Tab „Hochzeitstag“ des Hochzeitsplaners findet ihr 24 Teile zum Abhaken.",
+   "faq": [
+    [
+     "Wer trägt das Notfallset?",
+     "Eine Person, die den ganzen Tag in eurer Nähe ist, zum Beispiel ein Trauzeuge."
+    ],
+    [
+     "Was gehört zuerst hinein?",
+     "Eheringe, Ausweise, ausgedruckte Reden und Ablauf sowie die Umschläge für die Dienstleister."
+    ]
+   ]
+  },
+  {
+   "slug": "geldgeschenke-hochzeit-ueberblick-behalten",
+   "date": "2026-10-28",
+   "categorie": "Geschenke & Dank",
+   "titre": "Geldgeschenke Hochzeit: Überblick behalten in 6 Schritten",
+   "description": "Kartenbox, sichere Aufbewahrung, Liste beim Öffnen, Dankeskarten: So behaltet ihr bei Geldgeschenken zur Hochzeit den Überblick.",
+   "image": "12-geldgeschenke-ueberblick.png",
+   "image_alt": "Geldgeschenke zur Hochzeit: Überblick behalten",
+   "intro": "Viele Gäste schenken Geld, meist in einem Umschlag. Damit am Ende niemand vergessen wird und nichts verloren geht, hilft eine feste Reihenfolge. Hier sind sechs Schritte, vom Aufstellen der Kartenbox bis zur Dankeskarte.",
+   "sections": [
+    {
+     "titre": "Die 6 Schritte",
+     "liste_numerotee": [
+      "Eine Kartenbox für die Umschläge aufstellen.",
+      "Eine vertraute Person nimmt die Umschläge entgegen.",
+      "Noch am Abend sicher verwahren.",
+      "Beim Öffnen notieren: von wem, was, wie viel.",
+      "Persönliche Dankeskarten mit Bezug zum Geschenk schreiben.",
+      "Die Karten innerhalb weniger Wochen verschicken."
+     ]
+    },
+    {
+     "titre": "Warum diese Reihenfolge funktioniert",
+     "paragraphes": [
+      "Eine Kartenbox verhindert, dass Umschläge auf Tischen liegen bleiben. Wenn eine vertraute Person sie entgegennimmt, müsst ihr euch am Abend selbst um nichts kümmern.",
+      "Wichtig ist, die Umschläge noch am selben Abend sicher zu verwahren. Beim Öffnen schreibt ihr in eine Liste, von wem das Geschenk kommt, was es ist und wie viel: So könnt ihr später jede Karte persönlich schreiben."
+     ]
+    },
+    {
+     "titre": "Die Dankeskarte",
+     "paragraphes": [
+      "Eine Dankeskarte mit einem Satz zum Geschenk wirkt persönlich: Schreibt zum Beispiel, wofür ihr das Geld verwenden möchtet. Verschickt die Karten innerhalb weniger Wochen, solange der Tag noch frisch in Erinnerung ist."
+     ]
+    }
+   ],
+   "appel": "Im Hochzeitsplaner sind 14 Textvorlagen für Dankeskarten inklusive.",
+   "faq": [
+    [
+     "Wer sollte die Umschläge mit Geldgeschenken entgegennehmen?",
+     "Eine vertraute Person, damit ihr euch am Abend nicht selbst darum kümmern müsst."
+    ],
+    [
+     "Was notiert man beim Öffnen der Umschläge?",
+     "Von wem das Geschenk kommt, was es ist und wie viel."
+    ]
+   ]
   }
+ ],
+ "gratuit": {
+  "slug": "hochzeitsplaner-excel-vorlage-kostenlos",
+  "surtitre": "Kostenlos",
+  "accroche": "Ladet unseren kostenlosen Hochzeitsplaner herunter: Budget und Gästeliste, zum Ausfüllen bereit.",
+  "cta_page": "Kostenlosen Hochzeitsplaner herunterladen",
+  "titre": "Hochzeitsplaner Excel Vorlage kostenlos zum Download",
+  "description": "Kostenloser Hochzeitsplaner von Joli Plan zum Download: Übersicht, Budget und Gästeliste für Excel und Google Sheets, auf Deutsch.",
+  "intro": "Eine echte Tabelle für den Start: Namen, Datum und Budget eintragen, und die Übersicht füllt sich. Ohne Anmeldung, auf Deutsch.",
+  "fichier": "JoliPlan_Hochzeitsplaner_KOSTENLOS_DE.xlsx",
+  "cta_telecharger": "Excel-Datei herunterladen (kostenlos)",
+  "titre_contenu": "Was drinsteckt",
+  "contenu": [
+   "Eine Übersicht mit Countdown, bezahltem Budget und zugesagten Gästen.",
+   "Der Reiter Budget mit den Posten der Hochzeit und üblichen Preisen für Deutschland.",
+   "Der Reiter Gäste: Seite, Gruppe, Antwort, Ernährung oder Allergie, Tischnummer."
+  ],
+  "titre_complet": "Und die Vollversion?",
+  "texte_complet": "Die Vollversion ergänzt Zahlungen, Dienstleister, Sitzplan, Zeitplan, Standesamt und Dokumente, Hochzeitstag und Danksagungen in derselben Datei.",
+  "appel": "Steigt auf die Vollversion um, wann ihr wollt: eure Daten bleiben im selben Format."
+ },
+ "methode": {
+  "titre": "Unsere Methode",
+  "description": "Wie Joli Plan seine Artikel und Hochzeitstabellen vorbereitet und prüft.",
+  "paragraphes": [
+   "Joli Plan erstellt Hochzeitstabellen für Excel und Google Sheets, eine pro Land: Frankreich, Deutschland, Spanien, Italien und das Vereinigte Königreich.",
+   "Jeder Artikel greift Richtwerte aus unseren Tabellen und deren ausgefülltem Beispiel auf. Die Zahlen sind Orientierungswerte für den Start: ersetzt sie durch eure Angebote.",
+   "Bei Behördengängen folgen wir der offiziellen Quelle des Landes und nennen sie. Die Regeln können je nach Standesamt abweichen: bestätigt immer bei eurem Amt.",
+   "Unsere Artikel entstehen mit Hilfe von KI-Werkzeugen und werden vor der Veröffentlichung gelesen und geprüft. Ein Fehler? Schreibt uns über unseren Etsy-Shop."
+  ]
+ }
 }
