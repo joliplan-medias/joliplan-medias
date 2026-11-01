@@ -67,12 +67,14 @@ details p { margin: 10px 0 0; }
 .ico-pin { flex: none; vertical-align: -4px; }
 .reseaux { display: inline-flex; align-items: center; gap: 8px; }
 .lien-tiktok { display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; background: #000; color: #fff; font-size: 14px; font-weight: 700; text-decoration: none; border-radius: 999px; }
+.lien-youtube { display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; background: #FF0000; color: #fff; font-size: 14px; font-weight: 700; text-decoration: none; border-radius: 999px; }
+.lien-youtube:hover { filter: brightness(1.08); }
 .lien-tiktok:hover { filter: brightness(1.3); }
-.lien-pied .ico-pin, .lien-pied .ico-tt { width: 16px; height: 16px; }
+.lien-pied .ico-pin, .lien-pied .ico-tt, .lien-pied .ico-yt { width: 16px; height: 16px; }
 .logo { white-space: nowrap; }
 @media (max-width: 440px) {
-  .lien-pinterest, .lien-tiktok { padding: 0; width: 38px; height: 38px; justify-content: center; }
-  .lien-pinterest span, .lien-tiktok span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .lien-pinterest, .lien-tiktok, .lien-youtube { padding: 0; width: 38px; height: 38px; justify-content: center; }
+  .lien-pinterest span, .lien-tiktok span, .lien-youtube span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 }
 
 /* Pop-up code -10 % : petite carte en bas de l'écran (jamais plein écran, pour le mobile) */
