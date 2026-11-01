@@ -2,7 +2,8 @@
 
 Usage : python3 -I blog/build.py
 Charte : fond crème FAF6F1, vert 46573F, rose 9B4B5A, poudre EAC8C4 ; titres EB Garamond, texte Lato.
-Champs facultatifs d'une langue : "methode" (page Notre méthode), "gratuit" (page de téléchargement).
+Champs facultatifs d'une langue : "methode" (page Notre méthode), "gratuit" (page de téléchargement),
+"legal" ({"mentions": {slug, lien, titre, description, paragraphes}, "confidentialite": {...}} : pages + liens du pied de page ; le pop-up MAIL10 ne s'affiche que si "confidentialite" existe).
 Champs facultatifs d'un article : "maj" (date de mise à jour), "faq" (liste de [question, réponse]).
 """
 import html
@@ -59,8 +60,52 @@ def date_lisible(lang, iso):
     a, m, j = iso.split("-")
     return f"{j}/{m}/{a}" if lang != "uk" else f"{j}/{m}/{a}"
 
+CONTACT = "joliplan.contact@gmail.com"
+POPUP = {
+    "fr": {"titre": "-10 % sur votre organisateur de mariage", "texte": "Laissez votre e-mail : nous vous envoyons le code MAIL10 pour la boutique Etsy Joli Plan.", "champ": "Votre e-mail", "bouton": "Recevoir mon code", "consent": "J'accepte de recevoir mon code par e-mail et que mon adresse soit utilisée à cette seule fin.", "lien": "Confidentialité", "fermer": "Fermer", "sujet": "Code MAIL10", "corps": "Bonjour, je souhaite recevoir le code MAIL10 (-10 %). Mon e-mail : "},
+    "de": {"titre": "10 % Rabatt auf Ihren Hochzeitsplaner", "texte": "Hinterlassen Sie Ihre E-Mail-Adresse: Wir senden Ihnen den Code MAIL10 für den Joli-Plan-Shop auf Etsy.", "champ": "Ihre E-Mail-Adresse", "bouton": "Code erhalten", "consent": "Ich bin damit einverstanden, den Code per E-Mail zu erhalten und dass meine Adresse nur dafür verwendet wird.", "lien": "Datenschutz", "fermer": "Schließen", "sujet": "Code MAIL10", "corps": "Guten Tag, ich möchte den Code MAIL10 (10 % Rabatt) erhalten. Meine E-Mail-Adresse: "},
+    "es": {"titre": "10 % de descuento en tu planificador de boda", "texte": "Déjanos tu correo: te enviamos el código MAIL10 para la tienda Joli Plan en Etsy.", "champ": "Tu correo electrónico", "bouton": "Recibir mi código", "consent": "Acepto recibir mi código por correo y que mi dirección se use solo para ello.", "lien": "Privacidad", "fermer": "Cerrar", "sujet": "Código MAIL10", "corps": "Hola, quiero recibir el código MAIL10 (10 % de descuento). Mi correo: "},
+    "it": {"titre": "10 % di sconto sul tuo organizer per il matrimonio", "texte": "Lascia la tua e-mail: ti inviamo il codice MAIL10 per il negozio Joli Plan su Etsy.", "champ": "La tua e-mail", "bouton": "Ricevi il mio codice", "consent": "Accetto di ricevere il codice via e-mail e che il mio indirizzo sia usato solo a questo scopo.", "lien": "Privacy", "fermer": "Chiudi", "sujet": "Codice MAIL10", "corps": "Buongiorno, vorrei ricevere il codice MAIL10 (10 % di sconto). La mia e-mail: "},
+    "uk": {"titre": "10% off your wedding planner", "texte": "Leave your email and we will send you the code MAIL10 for the Joli Plan shop on Etsy.", "champ": "Your email", "bouton": "Send me my code", "consent": "I agree to receive my code by email and for my address to be used for that purpose only.", "lien": "Privacy policy", "fermer": "Close", "sujet": "Code MAIL10", "corps": "Hello, I would like to receive the code MAIL10 (10% off). My email: "},
+}
+POPUP_JS = """(function(){var b=document.getElementById('jp-popup');if(!b)return;var K='jp-popup-vu';
+function vu(){try{return localStorage.getItem(K)}catch(x){return null}}
+function marque(){try{localStorage.setItem(K,'1')}catch(x){}}
+if(vu())return;var ouvert=false;
+function ouvrir(){if(ouvert||vu())return;ouvert=true;b.hidden=false;var i=b.querySelector('input[type=email]');if(i)i.focus({preventScroll:true})}
+function fermer(){b.hidden=true;marque()}
+setTimeout(ouvrir,12000);
+document.addEventListener('mouseout',function(ev){if(!ev.relatedTarget&&ev.clientY<=0)ouvrir()});
+b.querySelector('.jp-x').addEventListener('click',fermer);
+document.addEventListener('keydown',function(ev){if(ev.key==='Escape'&&!b.hidden)fermer()});
+b.querySelector('form').addEventListener('submit',function(ev){ev.preventDefault();var f=ev.target;var m=f.email.value;
+marque();b.hidden=true;location.href='mailto:'+f.dataset.a+'?subject='+encodeURIComponent(f.dataset.s)+'&body='+encodeURIComponent(f.dataset.c+m)});
+})();"""
 
-def page(lang, titre, description, chemin, corps, rel, image=None, schemas=(), type_og="article"):
+
+def bloc_popup(lang, rel, legal):
+    """Pop-up -10 % (code MAIL10). N'apparaît que si la page de confidentialité existe dans la langue."""
+    if "confidentialite" not in legal:
+        return ""
+    p = POPUP[lang]
+    return f"""<div id="jp-popup" class="jp-popup" role="dialog" aria-modal="false" aria-labelledby="jp-popup-t" hidden>
+<div class="jp-boite"><button type="button" class="jp-x" aria-label="{e(p['fermer'])}">×</button>
+<p class="jp-titre" id="jp-popup-t">{e(p['titre'])}</p>
+<p>{e(p['texte'])}</p>
+<form data-a="{CONTACT}" data-s="{e(p['sujet'])}" data-c="{e(p['corps'])}">
+<input type="email" name="email" required placeholder="{e(p['champ'])}" aria-label="{e(p['champ'])}" autocomplete="email">
+<label class="jp-consent"><input type="checkbox" required> <span>{e(p['consent'])} <a href="{rel}{lang}/{legal['confidentialite']['slug']}/">{e(p['lien'])}</a></span></label>
+<button type="submit" class="bouton bouton-vert">{e(p['bouton'])}</button></form></div></div>
+<script>{POPUP_JS}</script>"""
+
+
+def liens_legaux(lang, rel, legal):
+    return "".join(f'<a class="lien-pied" href="{rel}{lang}/{legal[k]["slug"]}/">{e(legal[k]["lien"])}</a>'
+                   for k in ("mentions", "confidentialite") if k in legal)
+
+
+def page(lang, titre, description, chemin, corps, rel, image=None, schemas=(), type_og="article", legal=None):
+    legal = legal or {}
     url = f"{BASE}/{chemin}"
     og_image = f'<meta property="og:image" content="{BASE}/{image}">' if image else ""
     ld = "".join(f'<script type="application/ld+json">{json.dumps(s, ensure_ascii=False)}</script>' for s in schemas)
@@ -92,7 +137,8 @@ def page(lang, titre, description, chemin, corps, rel, image=None, schemas=(), t
 <main>
 {corps}
 </main>
-<footer class="pied"><a class="logo" href="{rel}{lang}/"><img src="{rel}assets/icone.png" alt="" width="28" height="28"><span><em>Joli</em> Plan</span></a><a class="lien-pied" href="{rel}{lang}/methode/">{e(m['methode'])}</a><a class="lien-pied" href="https://www.pinterest.com/{PINTEREST[lang]}/" rel="noopener" target="_blank">{PIN_SVG} Pinterest</a>{('<a class="lien-pied" href="' + TIKTOK[lang] + '" rel="noopener" target="_blank">' + TT_SVG + ' TikTok</a>') if lang in TIKTOK else ''}</footer>
+<footer class="pied"><a class="logo" href="{rel}{lang}/"><img src="{rel}assets/icone.png" alt="" width="28" height="28"><span><em>Joli</em> Plan</span></a><a class="lien-pied" href="{rel}{lang}/methode/">{e(m['methode'])}</a><a class="lien-pied" href="https://www.pinterest.com/{PINTEREST[lang]}/" rel="noopener" target="_blank">{PIN_SVG} Pinterest</a>{('<a class="lien-pied" href="' + TIKTOK[lang] + '" rel="noopener" target="_blank">' + TT_SVG + ' TikTok</a>') if lang in TIKTOK else ''}{liens_legaux(lang, rel, legal)}</footer>
+{bloc_popup(lang, rel, legal)}
 <script async defer src="https://assets.pinterest.com/js/pinit.js" data-pin-hover="true" data-pin-tall="true" data-pin-round="true"></script>
 </body>
 </html>
@@ -202,7 +248,7 @@ def construire_langue(c):
                 {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": r}} for q, r in faq]})
         (dossier / a["slug"]).mkdir(parents=True, exist_ok=True)
         (dossier / a["slug"] / "index.html").write_text(
-            page(lang, a["titre"], a["description"], chemin, corps, "../../", image_web(lang, a["image"]), schemas),
+            page(lang, a["titre"], a["description"], chemin, corps, "../../", image_web(lang, a["image"]), schemas, legal=c.get("legal")),
             encoding="utf-8")
         urls.append(f"{BASE}/{chemin}")
 
@@ -218,7 +264,7 @@ def construire_langue(c):
 {bloc_produit(c, c.get('appel_accueil', c['texte_produit']))}
 </section>"""
     (dossier / "index.html").write_text(
-        page(lang, c["nom_site"], c["accroche"], f"{lang}/", corps, "../", type_og="website"), encoding="utf-8")
+        page(lang, c["nom_site"], c["accroche"], f"{lang}/", corps, "../", type_og="website", legal=c.get("legal")), encoding="utf-8")
     urls.insert(0, f"{BASE}/{lang}/")
 
     if "methode" in c:
@@ -232,7 +278,7 @@ def construire_langue(c):
 </article>"""
         (dossier / "methode").mkdir(parents=True, exist_ok=True)
         (dossier / "methode" / "index.html").write_text(
-            page(lang, me["titre"], me["description"], f"{lang}/methode/", corps, "../../", type_og="website"),
+            page(lang, me["titre"], me["description"], f"{lang}/methode/", corps, "../../", type_og="website", legal=c.get("legal")),
             encoding="utf-8")
         urls.append(f"{BASE}/{lang}/methode/")
 
@@ -255,9 +301,25 @@ def construire_langue(c):
 </article>"""
         (dossier / g["slug"]).mkdir(parents=True, exist_ok=True)
         (dossier / g["slug"] / "index.html").write_text(
-            page(lang, g["titre"], g["description"], f"{lang}/{g['slug']}/", corps, "../../", type_og="website"),
+            page(lang, g["titre"], g["description"], f"{lang}/{g['slug']}/", corps, "../../", type_og="website", legal=c.get("legal")),
             encoding="utf-8")
         urls.append(f"{BASE}/{lang}/{g['slug']}/")
+    legal = c.get("legal", {})
+    for cle in ("mentions", "confidentialite"):
+        if cle not in legal:
+            continue
+        L = legal[cle]
+        corps = f"""<article class="article">
+<p class="surtitre">Joli Plan</p>
+<h1>{e(L['titre'])}</h1>
+{''.join(f'<h2>{e(x[0])}</h2><p>{e(x[1])}</p>' if isinstance(x, list) else f'<p>{e(x)}</p>' for x in L['paragraphes'])}
+<p class="retour"><a href="../">← {e(m['tous'])}</a></p>
+</article>"""
+        (dossier / L["slug"]).mkdir(parents=True, exist_ok=True)
+        (dossier / L["slug"] / "index.html").write_text(
+            page(lang, L["titre"], L["description"], f"{lang}/{L['slug']}/", corps, "../../", type_og="website", legal=legal),
+            encoding="utf-8")
+        urls.append(f"{BASE}/{lang}/{L['slug']}/")
     return urls
 
 
