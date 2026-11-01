@@ -74,3 +74,14 @@ details p { margin: 10px 0 0; }
   .lien-pinterest, .lien-tiktok { padding: 0; width: 38px; height: 38px; justify-content: center; }
   .lien-pinterest span, .lien-tiktok span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 }
+
+/* Pop-up code -10 % : petite carte en bas de l'écran (jamais plein écran, pour le mobile) */
+.jp-popup { position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; display: flex; justify-content: center; padding: 12px; pointer-events: none; }
+.jp-popup[hidden] { display: none; }
+.jp-boite { position: relative; pointer-events: auto; background: var(--creme, #FAF6F1); border: 1px solid #EAC8C4; border-radius: 14px; box-shadow: 0 8px 28px rgba(70,87,63,.25); max-width: 420px; width: 100%; padding: 18px 18px 16px; font-size: 15px; }
+.jp-boite p { margin: 0 0 10px; }
+.jp-titre { font-family: "EB Garamond", serif; font-size: 22px; color: #46573F; padding-right: 28px; }
+.jp-x { position: absolute; top: 6px; right: 8px; border: 0; background: none; font-size: 26px; line-height: 1; color: #46573F; cursor: pointer; padding: 6px 10px; }
+.jp-boite input[type=email] { width: 100%; box-sizing: border-box; padding: 11px 12px; border: 1px solid #46573F; border-radius: 8px; font: inherit; margin-bottom: 8px; }
+.jp-consent { display: flex; gap: 8px; align-items: flex-start; font-size: 13px; margin-bottom: 10px; }
+.jp-consent input { margin-top: 3px; }
