@@ -587,6 +587,67 @@
      "Pour le transmettre au traiteur en même temps que le nombre de personnes."
     ]
    ]
+  },
+  {
+   "slug": "reduire-liste-invites-mariage-sans-vexer",
+   "date": "2026-11-04",
+   "categorie": "Invités",
+   "titre": "Réduire la liste d'invités de mariage sans vexer",
+   "description": "Deux listes, une règle pour les accompagnants, les enfants, les collègues au vin d'honneur : 5 étapes pour réduire la liste d'invités sans froisser.",
+   "image": "13-nov-reduire-liste-invites.png",
+   "image_alt": "Réduire la liste d'invités sans vexer : 5 étapes",
+   "intro": "Réduire une liste d'invités fait peur, parce que chaque nom est quelqu'un. Le plus simple est de décider de règles claires, valables pour tout le monde, plutôt que de trancher nom par nom. Voici cinq étapes.",
+   "sections": [
+    {
+     "titre": "Les 5 étapes",
+     "etapes": [
+      [
+       "Faites deux listes.",
+       "D'un côté les indispensables, de l'autre les « si possible »."
+      ],
+      [
+       "Fixez une règle claire pour les accompagnants.",
+       "Par exemple : uniquement les couples installés. La règle compte plus que le chiffre."
+      ],
+      [
+       "Décidez une fois pour toutes si les enfants sont invités.",
+       "Une seule règle, annoncée dès le faire-part, évite les cas particuliers."
+      ],
+      [
+       "Invitez les collègues au vin d'honneur seulement.",
+       "Ils sont associés à la fête sans compter dans le repas."
+      ],
+      [
+       "Appliquez les mêmes règles aux deux familles.",
+       "C'est ce qui évite que quelqu'un se sente moins bien traité."
+      ]
+     ]
+    },
+    {
+     "titre": "Pourquoi des règles plutôt que des exceptions",
+     "paragraphes": [
+      "Quand vous expliquez une règle (« nous n'invitons pas les accompagnants hors couple »), personne ne peut croire qu'il a été écarté à titre personnel. Les exceptions, elles, finissent toujours par se savoir.",
+      "La liste « si possible » sert de réserve : si des invités indispensables déclinent, vous pouvez inviter les suivants, sans avoir à tout refaire."
+     ]
+    },
+    {
+     "titre": "Gardez le compte à jour",
+     "paragraphes": [
+      "Chaque changement de liste modifie le nombre de couverts, donc la note du traiteur et le plan de table. Gardez une seule liste, avec une colonne de réponse, et recomptez les « oui » avant de transmettre un chiffre."
+     ]
+    }
+   ],
+   "appel": "Dans l'organisateur de mariage, le suivi des invités compte les couverts à votre place.",
+   "faq": [
+    [
+     "Comment réduire la liste d'invités sans vexer ?",
+     "En fixant des règles claires pour tout le monde (accompagnants, enfants, collègues) et en les appliquant de la même façon aux deux familles."
+    ],
+    [
+     "Que faire des collègues ?",
+     "Les inviter au vin d'honneur seulement, pour qu'ils soient associés à la fête sans compter dans le repas."
+    ]
+   ]
   }
  ],
  "appel_accueil": "Tout votre mariage dans un seul fichier.",

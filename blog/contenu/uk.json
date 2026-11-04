@@ -378,6 +378,67 @@
      "So you spend on what matters most to you and trim the rest."
     ]
    ]
+  },
+  {
+   "slug": "day-and-evening-wedding-guests-how-to-count",
+   "date": "2026-11-04",
+   "categorie": "Guests",
+   "titre": "Day and evening wedding guests: how to count them",
+   "description": "List everyone, mark each guest all day or evening only, count both groups, give your caterer the day numbers and send the right invitation.",
+   "image": "10-day-and-evening-guests.png",
+   "image_alt": "Day and evening guests: how to count them",
+   "intro": "Many UK weddings have two groups of guests: those who stay all day and those who join in the evening. Counting them separately keeps the catering numbers right and the invitations clear. Here are five steps.",
+   "sections": [
+    {
+     "titre": "The 5 steps",
+     "etapes": [
+      [
+       "List everyone you'd like to invite.",
+       "Start with one list, without sorting yet."
+      ],
+      [
+       "Mark each guest All day or Evening only.",
+       "One choice per guest, written in the same place."
+      ],
+      [
+       "Count the two groups separately.",
+       "You need two totals, not one."
+      ],
+      [
+       "Give your caterer the day numbers.",
+       "Evening guests usually join after the wedding breakfast."
+      ],
+      [
+       "Send each group the right invitation.",
+       "Day guests and evening guests need different details."
+      ]
+     ]
+    },
+    {
+     "titre": "Why two totals",
+     "paragraphes": [
+      "The day guests are the ones sitting down for the wedding breakfast, so they set the number of covers. The evening guests join after it, so they should not be added to that figure.",
+      "Keeping both counts from the same list means a change, such as a guest moving from evening to all day, is easy to reflect in both totals."
+     ]
+    },
+    {
+     "titre": "Keep the list up to date",
+     "paragraphes": [
+      "Mark each reply as it arrives and recount the day group before you confirm numbers with your caterer."
+     ]
+    }
+   ],
+   "appel": "In the planner, choose All day or Evening only for each guest: it counts both groups.",
+   "faq": [
+    [
+     "Who counts towards the catering numbers?",
+     "The day guests. Evening guests usually join after the wedding breakfast, so they are counted separately."
+    ],
+    [
+     "How do I keep both counts right?",
+     "Keep one guest list, mark each guest All day or Evening only, and count the two groups separately."
+    ]
+   ]
   }
  ],
  "gratuit": {

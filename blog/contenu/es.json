@@ -375,6 +375,52 @@
      "Quién lo regala, qué es y cuánto: en sobre, transferencia o Bizum."
     ]
    ]
+  },
+  {
+   "slug": "ahorrar-en-la-boda-5-formas",
+   "date": "2026-11-04",
+   "categorie": "Presupuesto",
+   "titre": "Ahorrar en la boda: 5 formas que funcionan",
+   "description": "Día entre semana, lista de invitados revisada, flores de temporada, varios presupuestos y prioridades claras: 5 formas de ahorrar en la boda.",
+   "image": "04-ahorrar-boda.png",
+   "image_alt": "5 formas de ahorrar en la boda",
+   "intro": "Ahorrar en una boda rara vez significa renunciar a algo. Suele significar decidir dónde importa más el dinero y revisar cada partida una vez más. Aquí tenéis cinco formas para empezar.",
+   "sections": [
+    {
+     "titre": "Las 5 formas",
+     "liste_numerotee": [
+      "Elegir un día entre semana o fuera de temporada alta.",
+      "Revisar otra vez la lista de invitados.",
+      "Flores de temporada en lugar de importadas.",
+      "Pedir presupuesto a varios proveedores.",
+      "Decidir primero qué es lo que más os importa."
+     ]
+    },
+    {
+     "titre": "Por qué estas cinco",
+     "paragraphes": [
+      "El banquete y el lugar son las partidas más grandes del presupuesto. En nuestro ejemplo de 28.500 € suman 15.710 €, algo más de la mitad. Un día entre semana o fuera de temporada alta puede cambiar la parte del lugar, y una lista de invitados más corta cambia la del banquete, porque el banquete depende del número de comensales.",
+      "Pedir presupuesto a varios proveedores permite comparar antes de decidir, y las flores de temporada ayudan a mantener la partida de decoración. Decidir primero qué es lo que más os importa hace más fáciles todas las demás decisiones."
+     ]
+    },
+    {
+     "titre": "Tened los totales a la vista",
+     "paragraphes": [
+      "Cambiéis lo que cambiéis, mantened todas las partidas en una sola página para ver lo que ya está asignado, y dejad una partida de imprevistos de en torno al 5 % para los pequeños sustos."
+     ]
+    }
+   ],
+   "appel": "En el planificador cambiáis una partida y los totales del Presupuesto se recalculan.",
+   "faq": [
+    [
+     "¿Dónde suele estar el mayor ahorro?",
+     "En nuestro ejemplo, el banquete y el lugar suman algo más de la mitad del presupuesto, así que la lista de invitados y la fecha son lo que más influye."
+    ],
+    [
+     "¿Por qué decidir primero las prioridades?",
+     "Para gastar en lo que más os importa y recortar en el resto."
+    ]
+   ]
   }
  ],
  "gratuit": {

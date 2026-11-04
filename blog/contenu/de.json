@@ -422,6 +422,52 @@
      "Von wem das Geschenk kommt, was es ist und wie viel."
     ]
    ]
+  },
+  {
+   "slug": "hochzeit-sparen-5-tipps-budget",
+   "date": "2026-11-04",
+   "categorie": "Hochzeitsbudget",
+   "titre": "Hochzeit sparen: 5 Wege für euer Budget",
+   "description": "Wochentag, kürzere Gästeliste, Blumen der Saison, mehrere Angebote und klare Prioritäten: 5 Wege, bei der Hochzeit zu sparen.",
+   "image": "04-sparen-hochzeit.png",
+   "image_alt": "5 Wege, bei der Hochzeit zu sparen",
+   "intro": "Bei einer Hochzeit zu sparen heißt selten, auf etwas zu verzichten. Meist heißt es, zu entscheiden, wo das Geld am meisten zählt, und jeden Posten noch einmal zu prüfen. Hier sind fünf Wege für den Anfang.",
+   "sections": [
+    {
+     "titre": "Die 5 Wege",
+     "liste_numerotee": [
+      "Ein Wochentag oder die Nebensaison.",
+      "Die Gästeliste noch einmal durchgehen.",
+      "Blumen der Saison statt Importware.",
+      "Von mehreren Anbietern ein Angebot einholen.",
+      "Zuerst festlegen, was euch wirklich wichtig ist."
+     ]
+    },
+    {
+     "titre": "Warum gerade diese fünf",
+     "paragraphes": [
+      "Catering und Location sind die größten Posten im Budget. In unserem Beispiel mit 32.000 € machen sie zusammen 16.257 € aus, gut die Hälfte. Ein Wochentag oder die Nebensaison kann bei der Location etwas verändern, eine kürzere Gästeliste beim Catering, denn das Catering folgt der Zahl der Gedecke.",
+      "Mehrere Angebote erlauben euch, zu vergleichen, bevor ihr euch festlegt, und Blumen der Saison halten den Posten Blumen & Deko im Rahmen. Wenn ihr zuerst festlegt, was euch am wichtigsten ist, fallen alle anderen Entscheidungen leichter."
+     ]
+    },
+    {
+     "titre": "Behaltet die Summen im Blick",
+     "paragraphes": [
+      "Was ihr auch ändert: Haltet alle Posten auf einer Seite, damit ihr seht, was schon vergeben ist, und plant eine Reserve von rund 5 % für kleine Überraschungen ein."
+     ]
+    }
+   ],
+   "appel": "Im Hochzeitsplaner ändert ihr einen Posten, und die Summen im Budget rechnen sich neu.",
+   "faq": [
+    [
+     "Wo lässt sich meistens am meisten sparen?",
+     "In unserem Beispiel machen Catering und Location zusammen gut die Hälfte des Budgets aus. Gästeliste und Datum wirken sich deshalb am stärksten aus."
+    ],
+    [
+     "Warum zuerst die Prioritäten festlegen?",
+     "Damit ihr Geld für das ausgebt, was euch wirklich wichtig ist, und beim Rest kürzen könnt."
+    ]
+   ]
   }
  ],
  "gratuit": {
