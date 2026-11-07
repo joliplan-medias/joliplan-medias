@@ -326,6 +326,120 @@ def construire_langue(c):
     return urls
 
 
+ETSY = {
+    "fr": "https://joliplanstudio.etsy.com/fr/listing/4601909838/planificateur-de-mariage-excel-en",
+    "de": "https://joliplanstudio.etsy.com/fr/listing/4601915163/mariage-en-allemagne-tableur-en-allemand",
+    "es": "https://joliplanstudio.etsy.com/fr/listing/4601934679/mariage-en-espagne-tableur-en-espagnol",
+    "it": "https://joliplanstudio.etsy.com/fr/listing/4601940305/mariage-en-italie-tableur-en-italien",
+    "uk": "https://joliplanstudio.etsy.com/fr/listing/4602243958/uk-wedding-planner-spreadsheet-excel",
+    "evjf": "https://joliplanstudio.etsy.com/fr/listing/4606707119/organisateur-de-mariage-kit-evjf-evg-o",
+}
+BOUTIQUE = "https://joliplanstudio.etsy.com"
+ICONES = {
+    "dl": '<path d="M12 3v12m0 0l-4-4m4 4l4-4M4 20h16"/>',
+    "lock": '<rect x="5" y="11" width="14" height="9" rx="1"/><path d="M8 11V8a4 4 0 018 0v3"/>',
+    "grid": '<rect x="4" y="4" width="16" height="16" rx="1"/><path d="M4 10h16M10 4v16"/>',
+    "chat": '<path d="M4 5h16v11H9l-5 4z"/>',
+}
+
+
+def icone(k):
+    return f'<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{ICONES[k]}</svg>'
+
+
+def construire_accueil_fr(urls):
+    """Nouvelle page d'accueil (racine du site), version française. Les autres langues gardent leur accueil actuel."""
+    fr = json.loads((CONTENU / "fr.json").read_text(encoding="utf-8"))
+    dest = SORTIE / "img" / "accueil"
+    dest.mkdir(parents=True, exist_ok=True)
+    for src in (RACINE / "blog" / "accueil").glob("*.jpg"):
+        Image.open(src).convert("RGB").save(dest / (src.stem + ".webp"), "WEBP", quality=82)
+    shutil.copy2(RACINE / "blog" / "home.css", SORTIE / "assets" / "home.css")
+    css_v = hashlib.md5((RACINE / "blog" / "home.css").read_bytes()).hexdigest()[:8]
+    langues = [("fr", "FR", "./"), ("de", "DE", "de/"), ("es", "ES", "es/"), ("it", "IT", "it/"), ("uk", "EN", "uk/")]
+    sel = "".join(f'<a href="{h}" hreflang="{LANG_HTML[c]}" lang="{LANG_HTML[c]}"{" aria-current=\"page\"" if c == "fr" else ""}>{l}</a>' for c, l, h in langues)
+    cartes = [
+        ("france", "Français", "France", "fr"), ("allemagne", "Deutsch", "Deutschland", "de"), ("espagne", "Español", "España", "es"),
+        ("italie", "Italiano", "Italia", "it"), ("uk", "English", "United Kingdom", "uk"), ("evjf", "Français", "EVJF · EVG", "evjf"),
+    ]
+    html_cartes = "".join(
+        f'<a class="pays" href="{ETSY[k]}" target="_blank" rel="noopener"><img src="img/accueil/{img}.webp" alt="" width="720" height="900" loading="lazy">'
+        f'<div><small>{lg}</small><h3>{nom}</h3><span>Voir sur Etsy</span></div></a>' for img, lg, nom, k in cartes)
+    arts = fr["articles"][:3]
+    html_j = "".join(
+        f'<a href="fr/{a["slug"]}/"><img src="{image_web("fr", a["image"])}" alt="{e(a["image_alt"])}" width="800" height="1200" loading="lazy">'
+        f'<small>{e(a["categorie"])}</small><h3>{e(a["titre"])}</h3></a>' for a in arts)
+    feuille = ("""<div class="sh" aria-hidden="true"><div class="t"><small>SAMEDI 12 JUIN 2027</small><b>Le mariage de Camille &amp; Julien</b><span>238 jours</span></div>
+<div class="k"><div><small>BUDGET RÉGLÉ</small><em>26 %</em><i>7 650 € sur 29 159 €</i></div><div class="r"><small>INVITÉS CONFIRMÉS</small><em>24 / 30</em><i>5 en attente</i></div><div><small>PRÉPARATIFS</small><em>18 %</em><i>14 étapes sur 80</i></div><div><small>PROCHAIN PAIEMENT</small><em>08/10/2026</em><i>480 € à régler</i></div></div>
+<div class="c"><div><h6>Cette semaine : 3 choses seulement</h6><p>Envoyer les pré-faire-part <span>15/09</span></p><p>Visite du lieu <span>20/09</span></p><p>Créer la page du mariage <span>05/10</span></p></div>
+<div><h6>Prochains paiements</h6><p>Les Jardins d'Iris <b>480 €</b></p><p>Saveurs &amp; Sens <b>2 750 €</b></p><p>Château des Tilleuls <b>3 800 €</b></p></div></div></div>""")
+    lignes = [("Lieu de réception", "5 500 à 6 500 € pour 100 invités", "5 100 €", "5 500 €"), ("Traiteur &amp; boissons", "110 € par invité, boissons comprises", "10 200 €", "8 250 €"),
+              ("Photographe", "800 à 3 500 € ; souvent 1 300 €", "1 300 €", "1 900 €"), ("Fleurs &amp; décoration", "300 à 2 500 € ; souvent 950 €", "1 120 €", "—"),
+              ("Robe &amp; accessoires", "300 à 3 000 € ; souvent 1 650 €", "1 400 €", "1 700 €"), ("Faire-part &amp; papeterie", "150 à 800 € ; souvent 425 €", "516 €", "540 €")]
+    budget = ('<div class="sh bud" aria-hidden="true"><div class="t"><b>Budget</b></div><div class="tbl"><table><tr><th>Poste</th><th>Prix courant en France</th><th>Conseillé</th><th>Prévu</th></tr>'
+              + "".join(f"<tr><td>{a}</td><td>{b}</td><td>{c}</td><td>{d}</td></tr>" for a, b, c, d in lignes) + "</table></div></div>")
+    titre = "Planificateur de mariage Excel et Google Sheets | Joli Plan"
+    desc = "Planificateur de mariage en Excel et Google Sheets : budget, invités, mairie et planning du jour J. Un fichier pour chaque pays, avec exemple rempli."
+    schema = {"@context": "https://schema.org", "@type": "Organization", "name": "Joli Plan", "url": BASE + "/", "logo": BASE + "/assets/icone.png",
+              "sameAs": [BOUTIQUE, "https://www.pinterest.com/joliplan/", YOUTUBE]}
+    page_html = f"""<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="G9rWwfYWoguup7oxZGhsrxkV0AbY1BA-Clq9PowUfEY" />
+<meta name="google-site-verification" content="MfwLf_DihL9en-TvD3F2wiAyQQc6AC1-1RUfTC8c9nc" />
+<title>{e(titre)}</title>
+<meta name="description" content="{e(desc)}">
+<link rel="canonical" href="{BASE}/">
+<meta property="og:title" content="{e(titre)}">
+<meta property="og:description" content="{e(desc)}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{BASE}/">
+<meta property="og:image" content="{BASE}/img/accueil/france.webp">
+<link rel="icon" href="assets/icone.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,500&family=Jost:wght@300;400;500&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/home.css?v={css_v}">
+<script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>
+</head>
+<body>
+<div class="bandeau">Planificateurs de mariage Excel &amp; Google Sheets · Téléchargement immédiat</div>
+<div class="w"><nav class="nav"><a class="logo" href="./"><img src="assets/icone.png" alt="" width="36" height="36"><span><em>Joli</em> <b>Plan</b></span></a>
+<ul class="menu"><li><a href="#collection">Planificateurs</a></li><li><a href="#budget">Le fichier</a></li><li><a href="fr/">Journal</a></li><li><a href="fr/methode/">Notre méthode</a></li></ul>
+<div class="droite"><div class="langues" aria-label="Langue">{sel}</div><a class="btn petit" href="{ETSY['fr']}" target="_blank" rel="noopener">Etsy</a></div></nav></div>
+<main>
+<div class="w"><div class="hero"><div><div class="kicker">Planificateur de mariage · France</div><h1>Votre mariage,<br><i>enfin simple.</i></h1>
+<p>Budget, invités, démarches de mairie et planning du jour J, réunis dans un seul fichier élégant, pensé pour les traditions françaises.</p>
+<div class="actions"><a class="btn" href="{ETSY['fr']}" target="_blank" rel="noopener">Découvrir le planificateur</a><a class="btn clair" href="#budget">Voir un aperçu</a></div>
+<ul class="mini"><li>Exemple rempli inclus</li><li>Service client en français</li></ul></div>
+<div class="ordi"><div class="ecran">{feuille}</div><div class="socle"></div></div></div></div>
+<div class="confiance"><div class="w"><div>{icone('dl')}<span><b>Immédiat</b>Téléchargement après l'achat</span></div><div>{icone('lock')}<span><b>Sécurisé</b>Paiement protégé par Etsy</span></div><div>{icone('grid')}<span><b>Compatible</b>Excel et Google Sheets</span></div><div>{icone('chat')}<span><b>Humain</b>Service client en français</span></div></div></div>
+<section id="budget"><div class="w"><div class="deux"><div><div class="kicker">Le budget</div><h2>Il se calcule <i>tout seul.</i></h2>
+<p>Pour chaque poste, les prix courants en France et un budget conseillé. Vous saisissez vos devis, le reste se met à jour.</p>
+<ul class="liste"><li><b>1</b>21 postes, du lieu aux alliances</li><li><b>2</b>L'écart avec votre budget global, en direct</li><li><b>3</b>Acomptes et soldes datés</li></ul></div>{budget}</div></div></section>
+<section class="alt centre"><div class="w"><div class="kicker">Pourquoi Joli Plan</div><h2>Pensé pour la France, <i>pas traduit.</i></h2>
+<div class="cmp"><div><h3>Un modèle traduit</h3><p>Dates à l'américaine</p><p>Aucune démarche de mairie</p><p>Ni vin d'honneur, ni brunch</p><p>Prix d'un autre pays</p></div>
+<div class="oui"><h3>Joli Plan</h3><p>Dates jj/mm/aaaa, montants en euros</p><p>Dossier de mairie pas à pas</p><p>Vin d'honneur, brunch, témoins</p><p>Prix courants en France par poste</p></div></div></div></section>
+<section id="collection" class="centre"><div class="w"><div class="kicker">La collection</div><h2>Un planificateur <i>par pays</i></h2><div class="cartes">{html_cartes}</div></div></section>
+<section class="alt centre"><div class="w"><div class="kicker">Mode d'emploi</div><h2>Prêt en <i>3 étapes</i></h2>
+<div class="etapes"><div><em>1</em><h3>Téléchargez</h3><p>Le fichier est à vous dès l'achat.</p></div><div><em>2</em><h3>Ouvrez</h3><p>Dans Excel ou Google Sheets, sur ordinateur, tablette ou téléphone.</p></div><div><em>3</em><h3>Remplissez</h3><p>Écrivez dans les cases blanches, le reste se calcule.</p></div></div></div></section>
+<section><div class="w"><div class="entete-j"><div><div class="kicker">Le journal</div><h2 style="margin-bottom:0">Des réponses, <i>simplement</i></h2></div><a class="btn clair petit" href="fr/" style="margin:0">Tous les articles</a></div><div class="journal">{html_j}</div></div></section>
+<section class="final centre"><div class="w"><div class="kicker">Votre plus beau jour</div><h2>Profitez, <i>tout est prêt.</i></h2><a class="btn" href="{ETSY['fr']}" target="_blank" rel="noopener">Découvrir le planificateur</a></div></section>
+</main>
+<footer class="pied"><div class="w"><div class="g"><div><a class="logo" href="./"><img src="assets/icone.png" alt="" width="36" height="36"><span><em>Joli</em> <b>Plan</b></span></a><p style="max-width:280px;line-height:1.7">Planificateurs de mariage premium, adaptés aux coutumes de chaque pays.</p></div>
+<div><h4>Planificateurs</h4><a href="{ETSY['fr']}" target="_blank" rel="noopener">France</a><a href="{ETSY['de']}" target="_blank" rel="noopener">Deutschland</a><a href="{ETSY['es']}" target="_blank" rel="noopener">España</a><a href="{ETSY['it']}" target="_blank" rel="noopener">Italia</a><a href="{ETSY['uk']}" target="_blank" rel="noopener">United Kingdom</a></div>
+<div><h4>Suivre</h4><a href="https://www.pinterest.com/joliplan/" target="_blank" rel="noopener">Pinterest</a><a href="{YOUTUBE}" target="_blank" rel="noopener">YouTube</a><a href="{TIKTOK['fr']}" target="_blank" rel="noopener">TikTok</a><a href="{BOUTIQUE}" target="_blank" rel="noopener">Boutique Etsy</a></div>
+<div><h4>Infos</h4><a href="fr/methode/">Notre méthode</a><a href="fr/">Journal</a>{liens_legaux("fr", "", fr.get("legal", {})).replace('class="lien-pied" ', "")}</div></div>
+<div class="copy"><span>© 2026 Joli Plan</span><span>FR · DE · ES · IT · EN</span></div></div></footer>
+</body>
+</html>
+"""
+    (SORTIE / "index.html").write_text(page_html, encoding="utf-8")
+    urls.insert(0, BASE + "/")
+
+
 def main():
     (SORTIE / "assets").mkdir(parents=True, exist_ok=True)
     shutil.copy2(RACINE / "blog" / "style.css", SORTIE / "assets" / "style.css")
@@ -333,10 +447,7 @@ def main():
     urls = []
     for f in sorted(CONTENU.glob("*.json")):
         urls += construire_langue(json.loads(f.read_text(encoding="utf-8")))
-    (SORTIE / "index.html").write_text(
-        '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=fr/">'
-        '<meta name="google-site-verification" content="G9rWwfYWoguup7oxZGhsrxkV0AbY1BA-Clq9PowUfEY" /><meta name="google-site-verification" content="MfwLf_DihL9en-TvD3F2wiAyQQc6AC1-1RUfTC8c9nc" />'
-        '<link rel="canonical" href="' + BASE + '/fr/"><title>Joli Plan</title>', encoding="utf-8")
+    construire_accueil_fr(urls)
     (SORTIE / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"<url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
