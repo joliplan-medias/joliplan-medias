@@ -468,6 +468,68 @@
      "Damit ihr Geld für das ausgebt, was euch wirklich wichtig ist, und beim Rest kürzen könnt."
     ]
    ]
+  },
+  {
+   "slug": "location-besichtigen-fragen-hochzeit",
+   "date": "2026-11-11",
+   "categorie": "Location",
+   "titre": "Location besichtigen: diese Fragen stellt ihr",
+   "description": "Gästezahl, Schlusszeit, Regenplan, eigenes Catering, Mietpreis, Übernachtung: sechs Fragen für die Besichtigung eurer Hochzeitslocation.",
+   "image": "01-location-besichtigen.png",
+   "image_alt": "Location besichtigen: diese Fragen stellt ihr",
+   "intro": "Bei der Besichtigung einer Hochzeitslocation wirkt alles schön, und die wichtigen Fragen gehen leicht unter. Mit dieser Liste habt ihr sechs Fragen dabei, die später Ärger und Zusatzkosten vermeiden helfen.",
+   "sections": [
+    {
+     "titre": "Die 6 Fragen",
+     "liste_numerotee": [
+      "Für wie viele Gäste ist die Location ausgelegt, mindestens und höchstens?",
+      "Bis wann dürft ihr feiern?",
+      "Gibt es einen Regenplan?",
+      "Dürft ihr eigenes Catering oder eigene Getränke mitbringen?",
+      "Was ist im Mietpreis enthalten: Tische, Stühle, Geschirr?",
+      "Gibt es Übernachtungen in der Nähe?"
+     ]
+    },
+    {
+     "titre": "Warum gerade diese Fragen",
+     "paragraphes": [
+      "Die Gästezahl entscheidet, ob die Location überhaupt passt: Ist sie für eure Liste zu groß, wirkt der Raum leer, ist sie zu klein, wird es eng. Fragt deshalb nach Mindest- und Höchstzahl.",
+      "Die Schlusszeit bestimmt, wie lange getanzt werden darf. Das gehört in euren Ablaufplan, bevor ihr Band oder DJ bucht.",
+      "Beim Regenplan geht es um eine ganz praktische Sache: Wo feiern die Gäste, wenn es draußen nicht geht, und reicht der Platz dann auch?"
+     ]
+    },
+    {
+     "titre": "Was im Mietpreis steckt",
+     "paragraphes": [
+      "Zwei Locations mit demselben Preis können sehr verschieden sein. Bei der einen sind Tische, Stühle und Geschirr dabei, bei der anderen müsst ihr alles dazumieten. Lasst euch die Leistungen einzeln aufschreiben, damit ihr Angebote wirklich vergleichen könnt.",
+      "Fragt auch, ob ihr eigenes Catering oder eigene Getränke mitbringen dürft. Manche Häuser schreiben ihren Caterer vor, und das verändert eure Kalkulation."
+     ]
+    },
+    {
+     "titre": "Alles schriftlich bestätigen",
+     "paragraphes": [
+      "Lasst euch die Antworten schriftlich bestätigen, am besten im Vertrag oder in einer Mail. Mündliche Zusagen sind schnell vergessen, wenn sich später jemand anderes um eure Feier kümmert.",
+      "Wenn Gäste von weiter weg anreisen, hilft die Frage nach Übernachtungen in der Nähe: So könnt ihr ihnen früh Tipps geben."
+     ]
+    },
+    {
+     "titre": "Preis und Anzahlung festhalten",
+     "paragraphes": [
+      "Tragt nach der Besichtigung Preis und Anzahlung der Location in euer Budget ein. So seht ihr jederzeit, was noch offen ist, und habt die Zahlungstermine im Blick."
+     ]
+    }
+   ],
+   "appel": "Tragt im Hochzeitsplaner Preis und Anzahlung der Location ein: Im Budget seht ihr, was noch offen ist.",
+   "faq": [
+    [
+     "Welche Fragen stellt man bei einer Hochzeitslocation?",
+     "Gästezahl (mindestens und höchstens), Schlusszeit, Regenplan, eigenes Catering und Getränke, Leistungen im Mietpreis und Übernachtungen in der Nähe."
+    ],
+    [
+     "Wie sichert man die Antworten ab?",
+     "Indem ihr euch alles schriftlich bestätigen lasst, am besten im Vertrag."
+    ]
+   ]
   }
  ],
  "gratuit": {

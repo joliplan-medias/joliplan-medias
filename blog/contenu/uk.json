@@ -439,6 +439,68 @@
      "Keep one guest list, mark each guest All day or Evening only, and count the two groups separately."
     ]
    ]
+  },
+  {
+   "slug": "wedding-venue-viewing-questions-to-ask",
+   "date": "2026-11-11",
+   "categorie": "Venue",
+   "titre": "Wedding venue viewing: 6 questions to ask",
+   "description": "Guest numbers, finish time, a rain plan, your own caterer, what hire includes and nearby rooms: six questions for your wedding venue visit.",
+   "image": "12-venue-questions.png",
+   "image_alt": "Visiting a wedding venue: what to ask",
+   "intro": "On a venue viewing everything looks lovely, and the practical questions are easy to forget. Take this list of six with you: it helps you avoid awkward surprises and extra costs later.",
+   "sections": [
+    {
+     "titre": "The 6 questions",
+     "liste_numerotee": [
+      "How many guests fit, at least and at most?",
+      "Until what time can you celebrate?",
+      "Is there a plan B if it rains?",
+      "Can you bring your own caterer or drinks?",
+      "What does the hire include: tables, chairs, tableware?",
+      "Is there accommodation nearby?"
+     ]
+    },
+    {
+     "titre": "Why these questions matter",
+     "paragraphes": [
+      "Guest numbers decide whether the venue suits you at all. A room that is too big feels empty and one that is too small feels crowded, so ask for the minimum and the maximum.",
+      "The finish time shapes your order of the day and how long you can dance, so know it before you book a band or DJ.",
+      "A rain plan is simply a question of where everyone goes if the weather turns, and whether there is enough space for them all."
+     ]
+    },
+    {
+     "titre": "What the hire includes",
+     "paragraphes": [
+      "Two venues at the same price can be very different. At one, tables, chairs and tableware are included; at the other, you hire everything separately. Ask for the inclusions to be listed item by item so you can compare quotes fairly.",
+      "Ask too whether you can bring your own caterer or drinks. Some venues require their own, and that changes your whole budget."
+     ]
+    },
+    {
+     "titre": "Ask for everything in writing",
+     "paragraphes": [
+      "Have the answers confirmed in writing, ideally in the contract or an email. Spoken promises are easily forgotten, especially if a different person looks after your day.",
+      "If guests are travelling far, the question about nearby accommodation lets you share suggestions with them early."
+     ]
+    },
+    {
+     "titre": "Record the price and deposit",
+     "paragraphes": [
+      "After the viewing, note the venue price and deposit in your budget. You can then see at any time what is left to pay and when."
+     ]
+    }
+   ],
+   "appel": "In the planner, note the venue price and deposit: the Budget tab shows what is left to pay.",
+   "faq": [
+    [
+     "What should I ask when viewing a wedding venue?",
+     "How many guests fit, the finish time, the rain plan, whether you can bring your own caterer or drinks, what the hire includes and whether there is accommodation nearby."
+    ],
+    [
+     "How do I make sure the answers hold?",
+     "Ask for everything in writing, ideally in the contract."
+    ]
+   ]
   }
  ],
  "gratuit": {
