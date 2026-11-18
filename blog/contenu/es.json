@@ -1,512 +1,579 @@
 {
- "langue": "es",
- "nom_site": "Joli Plan · El cuaderno de la boda",
- "accroche": "Pautas sencillas y comprobadas para organizar vuestra boda en España.",
- "etsy": "https://joliplanstudio.etsy.com/fr/listing/4601934679/mariage-en-espagne-tableur-en-espagnol",
- "cta_produit": "Ver el planificador de boda en Etsy",
- "texte_produit": "Presupuesto, invitados, plan de mesas, trámites y calendario en un único archivo de Excel y Google Sheets, en español y con un ejemplo ya rellenado.",
- "articles": [
-  {
-   "slug": "presupuesto-boda-28500-euros-reparto",
-   "date": "2026-10-25",
-   "categorie": "Presupuesto de boda",
-   "titre": "Presupuesto de boda: reparto de 28.500 € (120 invitados)",
-   "description": "Banquete, lugar, fotografía, flores y música: un reparto de 28.500 € para 120 invitados, partida por partida.",
-   "image": "01-presupuesto-28500.png",
-   "image_alt": "Reparto de un presupuesto de boda de 28.500 € para 120 invitados",
-   "intro": "Con 28.500 € y 120 invitados, la pregunta no es «¿llega?», sino «¿adónde va cada euro?». Este es el reparto que propone nuestro planificador, partida por partida. Son cifras orientativas para empezar, no precios reales: ajustadlas con vuestros presupuestos.",
-   "sections": [
+  "langue": "es",
+  "nom_site": "Joli Plan · El cuaderno de la boda",
+  "accroche": "Pautas sencillas y comprobadas para organizar vuestra boda en España.",
+  "etsy": "https://joliplanstudio.etsy.com/fr/listing/4601934679/mariage-en-espagne-tableur-en-espagnol",
+  "cta_produit": "Ver el planificador de boda en Etsy",
+  "texte_produit": "Presupuesto, invitados, plan de mesas, trámites y calendario en un único archivo de Excel y Google Sheets, en español y con un ejemplo ya rellenado.",
+  "articles": [
     {
-     "titre": "El reparto partida por partida",
-     "tableau": {
-      "entetes": [
-       "Partida",
-       "Importe"
+      "slug": "presupuesto-boda-28500-euros-reparto",
+      "date": "2026-10-25",
+      "categorie": "Presupuesto de boda",
+      "titre": "Presupuesto de boda: reparto de 28.500 € (120 invitados)",
+      "description": "Banquete, lugar, fotografía, flores y música: un reparto de 28.500 € para 120 invitados, partida por partida.",
+      "image": "01-presupuesto-28500.png",
+      "image_alt": "Reparto de un presupuesto de boda de 28.500 € para 120 invitados",
+      "intro": "Con 28.500 € y 120 invitados, la pregunta no es «¿llega?», sino «¿adónde va cada euro?». Este es el reparto que propone nuestro planificador, partida por partida. Son cifras orientativas para empezar, no precios reales: ajustadlas con vuestros presupuestos.",
+      "sections": [
+        {
+          "titre": "El reparto partida por partida",
+          "tableau": {
+            "entetes": [
+              "Partida",
+              "Importe"
+            ],
+            "lignes": [
+              [
+                "Banquete y bebida",
+                "9.866 €"
+              ],
+              [
+                "Lugar o finca",
+                "5.844 €"
+              ],
+              [
+                "Fotografía",
+                "1.889 €"
+              ],
+              [
+                "Flores y decoración",
+                "1.755 €"
+              ],
+              [
+                "Imprevistos y varios",
+                "1.425 €"
+              ],
+              [
+                "DJ y música",
+                "1.389 €"
+              ],
+              [
+                "Vestido y complementos",
+                "1.333 €"
+              ],
+              [
+                "Resto de partidas",
+                "4.999 €"
+              ]
+            ]
+          }
+        },
+        {
+          "titre": "Qué conviene recordar",
+          "paragraphes": [
+            "El banquete y el lugar suman 15.710 €: algo más de la mitad del presupuesto. Ahí es donde más se nota un cambio de fecha, de menú o de número de invitados.",
+            "Dejad una partida de imprevistos de en torno al 5 %. Absorbe los pequeños olvidos sin tocar el resto."
+          ]
+        },
+        {
+          "titre": "Cómo adaptar estas cifras a vuestra boda",
+          "liste": [
+            "Sustituid cada importe por vuestro primer presupuesto en cuanto lo tengáis.",
+            "Si una partida se pasa, quitad la diferencia de otra partida, no de los imprevistos.",
+            "Recalculad cuando cambie el número de invitados: el banquete depende del número de comensales.",
+            "Mantened todas las partidas en una sola página para ver de un vistazo lo que ya está asignado."
+          ]
+        }
       ],
-      "lignes": [
-       [
-        "Banquete y bebida",
-        "9.866 €"
-       ],
-       [
-        "Lugar o finca",
-        "5.844 €"
-       ],
-       [
-        "Fotografía",
-        "1.889 €"
-       ],
-       [
-        "Flores y decoración",
-        "1.755 €"
-       ],
-       [
-        "Imprevistos y varios",
-        "1.425 €"
-       ],
-       [
-        "DJ y música",
-        "1.389 €"
-       ],
-       [
-        "Vestido y complementos",
-        "1.333 €"
-       ],
-       [
-        "Resto de partidas",
-        "4.999 €"
-       ]
+      "appel": "En el planificador escribís el presupuesto total y el número de invitados, y os propone un reparto entre 21 partidas.",
+      "faq": [
+        [
+          "¿Qué partidas pesan más con 120 invitados?",
+          "El banquete y bebida (9.866 €) y el lugar o finca (5.844 €): juntos suman 15.710 €, algo más de la mitad."
+        ],
+        [
+          "¿Cuánto dejar para imprevistos?",
+          "En torno al 5 %, para absorber pequeños olvidos sin tocar el resto."
+        ]
       ]
-     }
     },
     {
-     "titre": "Qué conviene recordar",
-     "paragraphes": [
-      "El banquete y el lugar suman 15.710 €: algo más de la mitad del presupuesto. Ahí es donde más se nota un cambio de fecha, de menú o de número de invitados.",
-      "Dejad una partida de imprevistos de en torno al 5 %. Absorbe los pequeños olvidos sin tocar el resto."
-     ]
-    },
-    {
-     "titre": "Cómo adaptar estas cifras a vuestra boda",
-     "liste": [
-      "Sustituid cada importe por vuestro primer presupuesto en cuanto lo tengáis.",
-      "Si una partida se pasa, quitad la diferencia de otra partida, no de los imprevistos.",
-      "Recalculad cuando cambie el número de invitados: el banquete depende del número de comensales.",
-      "Mantened todas las partidas en una sola página para ver de un vistazo lo que ya está asignado."
-     ]
-    }
-   ],
-   "appel": "En el planificador escribís el presupuesto total y el número de invitados, y os propone un reparto entre 21 partidas.",
-   "faq": [
-    [
-     "¿Qué partidas pesan más con 120 invitados?",
-     "El banquete y bebida (9.866 €) y el lugar o finca (5.844 €): juntos suman 15.710 €, algo más de la mitad."
-    ],
-    [
-     "¿Cuánto dejar para imprevistos?",
-     "En torno al 5 %, para absorber pequeños olvidos sin tocar el resto."
-    ]
-   ]
-  },
-  {
-   "slug": "programa-dia-boda-ejemplo-hora-a-hora",
-   "date": "2026-10-25",
-   "categorie": "El día de la boda",
-   "titre": "Programa del día de la boda: un ejemplo hora a hora",
-   "description": "Un ejemplo de programa de boda desde la peluquería hasta la recena, con ceremonia, cóctel, banquete, tarta y baile.",
-   "image": "03-programa-dia-boda.png",
-   "image_alt": "Ejemplo de programa del día de la boda hora a hora",
-   "intro": "El día de la boda va más tranquilo cuando todo el mundo sabe qué pasa y a qué hora. Aquí tenéis un ejemplo de programa para adaptar a vuestro día.",
-   "sections": [
-    {
-     "titre": "El ejemplo, hora a hora",
-     "tableau": {
-      "entetes": [
-       "Hora",
-       "Momento"
+      "slug": "programa-dia-boda-ejemplo-hora-a-hora",
+      "date": "2026-10-25",
+      "categorie": "El día de la boda",
+      "titre": "Programa del día de la boda: un ejemplo hora a hora",
+      "description": "Un ejemplo de programa de boda desde la peluquería hasta la recena, con ceremonia, cóctel, banquete, tarta y baile.",
+      "image": "03-programa-dia-boda.png",
+      "image_alt": "Ejemplo de programa del día de la boda hora a hora",
+      "intro": "El día de la boda va más tranquilo cuando todo el mundo sabe qué pasa y a qué hora. Aquí tenéis un ejemplo de programa para adaptar a vuestro día.",
+      "sections": [
+        {
+          "titre": "El ejemplo, hora a hora",
+          "tableau": {
+            "entetes": [
+              "Hora",
+              "Momento"
+            ],
+            "lignes": [
+              [
+                "09:00",
+                "Peluquería y maquillaje"
+              ],
+              [
+                "11:00",
+                "Vestirse"
+              ],
+              [
+                "13:00",
+                "Ceremonia"
+              ],
+              [
+                "14:50",
+                "Cóctel de bienvenida"
+              ],
+              [
+                "16:05",
+                "Banquete"
+              ],
+              [
+                "18:40",
+                "Tarta y brindis"
+              ],
+              [
+                "19:00",
+                "Baile y barra libre"
+              ],
+              [
+                "00:30",
+                "Recena"
+              ]
+            ]
+          }
+        },
+        {
+          "titre": "Cómo adaptarlo a vuestro día",
+          "paragraphes": [
+            "Es un ejemplo, no una norma. Empezad por los momentos fijos, como la hora de la ceremonia, y rellenad lo que va antes y después."
+          ],
+          "liste": [
+            "Anotad cuánto dura cada momento, no solo cuándo empieza.",
+            "Dejad margen entre la ceremonia y el cóctel para las fotos de grupo.",
+            "Dad el programa impreso a los testigos y a los proveedores."
+          ]
+        },
+        {
+          "titre": "Por qué importa más la duración que la hora",
+          "paragraphes": [
+            "Si solo apuntáis horas, cualquier retraso os obliga a reescribirlo todo. Si apuntáis la duración de cada momento, las horas salen solas: cuando las fotos se alargan media hora, todo lo que viene después se desplaza automáticamente."
+          ]
+        }
       ],
-      "lignes": [
-       [
-        "09:00",
-        "Peluquería y maquillaje"
-       ],
-       [
-        "11:00",
-        "Vestirse"
-       ],
-       [
-        "13:00",
-        "Ceremonia"
-       ],
-       [
-        "14:50",
-        "Cóctel de bienvenida"
-       ],
-       [
-        "16:05",
-        "Banquete"
-       ],
-       [
-        "18:40",
-        "Tarta y brindis"
-       ],
-       [
-        "19:00",
-        "Baile y barra libre"
-       ],
-       [
-        "00:30",
-        "Recena"
-       ]
+      "appel": "En el planificador escribís cuánto dura cada momento y las horas se ajustan solas.",
+      "faq": [
+        [
+          "¿Por qué anotar la duración y no solo la hora?",
+          "Porque así las horas salen solas: si algo se alarga, todo lo siguiente se desplaza automáticamente."
+        ],
+        [
+          "¿A quién se da el programa?",
+          "Impreso, a los testigos y a los proveedores."
+        ]
       ]
-     }
     },
     {
-     "titre": "Cómo adaptarlo a vuestro día",
-     "paragraphes": [
-      "Es un ejemplo, no una norma. Empezad por los momentos fijos, como la hora de la ceremonia, y rellenad lo que va antes y después."
-     ],
-     "liste": [
-      "Anotad cuánto dura cada momento, no solo cuándo empieza.",
-      "Dejad margen entre la ceremonia y el cóctel para las fotos de grupo.",
-      "Dad el programa impreso a los testigos y a los proveedores."
-     ]
-    },
-    {
-     "titre": "Por qué importa más la duración que la hora",
-     "paragraphes": [
-      "Si solo apuntáis horas, cualquier retraso os obliga a reescribirlo todo. Si apuntáis la duración de cada momento, las horas salen solas: cuando las fotos se alargan media hora, todo lo que viene después se desplaza automáticamente."
-     ]
-    }
-   ],
-   "appel": "En el planificador escribís cuánto dura cada momento y las horas se ajustan solas.",
-   "faq": [
-    [
-     "¿Por qué anotar la duración y no solo la hora?",
-     "Porque así las horas salen solas: si algo se alarga, todo lo siguiente se desplaza automáticamente."
-    ],
-    [
-     "¿A quién se da el programa?",
-     "Impreso, a los testigos y a los proveedores."
-    ]
-   ]
-  },
-  {
-   "slug": "kit-de-emergencia-boda-lista",
-   "date": "2026-10-25",
-   "categorie": "El día de la boda",
-   "titre": "Kit de emergencia para boda: la lista para marcar",
-   "description": "Aguja e hilo, tiritas, cargador, paraguas y más: lo que debe llevar el kit de emergencia del día de la boda, con lista para marcar.",
-   "image": "05-kit-de-emergencia.png",
-   "image_alt": "Kit de emergencia para el día de la boda",
-   "intro": "El día de la boda casi siempre pasa algo pequeño: un botón, un tacón, una batería vacía. Un kit de emergencia preparado con tiempo ayuda con la mayoría de estos imprevistos.",
-   "sections": [
-    {
-     "titre": "Lo imprescindible",
-     "liste": [
-      "Alianzas",
-      "DNI de novios y testigos",
-      "Discursos impresos",
-      "Sobres para propinas"
-     ]
-    },
-    {
-     "titre": "Pequeños salvavidas",
-     "liste": [
-      "Aguja, hilo, imperdibles",
-      "Tiritas y analgésicos",
-      "Pañuelos",
-      "Zapatos planos"
-     ]
-    },
-    {
-     "titre": "Por si acaso",
-     "liste": [
-      "Cargador del móvil",
-      "Paraguas",
-      "Agua y algo de picar",
-      "Medias de repuesto"
-     ]
-    },
-    {
-     "titre": "Quién lleva el kit",
-     "paragraphes": [
-      "Dadle el kit a una persona que esté cerca de vosotros todo el día, por ejemplo un testigo. Así no tenéis que pensar en nada.",
-      "Escribid un nombre en cada sobre para que no se confundan. Esta lista recoge lo esencial: añadid lo que necesitéis personalmente, como medicación."
-     ]
-    }
-   ],
-   "appel": "En la pestaña «Día de la boda» del planificador hay 24 objetos para marcar como listos.",
-   "faq": [
-    [
-     "¿Quién lleva el kit de emergencia?",
-     "Una persona que esté cerca de vosotros todo el día, por ejemplo un testigo."
-    ],
-    [
-     "¿Qué es lo imprescindible?",
-     "Alianzas, DNI de novios y testigos, discursos impresos y sobres para propinas."
-    ]
-   ]
-  },
-  {
-   "slug": "plan-de-mesas-boda-5-pasos",
-   "date": "2026-10-25",
-   "categorie": "Invitados",
-   "titre": "Plan de mesas de boda: 5 pasos para organizarlo",
-   "description": "Cómo organizar el plan de mesas de una boda en 5 pasos: confirmados, afinidades, necesidades especiales, margen y revisión.",
-   "image": "06-plan-de-mesas.png",
-   "image_alt": "Plan de mesas de boda en 5 pasos",
-   "intro": "El plan de mesas parece un rompecabezas, pero se resuelve con un orden claro. Estos son los cinco pasos, uno detrás de otro.",
-   "sections": [
-    {
-     "titre": "Los 5 pasos",
-     "etapes": [
-      [
-       "Confirmad quién viene.",
-       "Colocad solo a quien ha dicho que sí."
+      "slug": "kit-de-emergencia-boda-lista",
+      "date": "2026-10-25",
+      "categorie": "El día de la boda",
+      "titre": "Kit de emergencia para boda: la lista para marcar",
+      "description": "Aguja e hilo, tiritas, cargador, paraguas y más: lo que debe llevar el kit de emergencia del día de la boda, con lista para marcar.",
+      "image": "05-kit-de-emergencia.png",
+      "image_alt": "Kit de emergencia para el día de la boda",
+      "intro": "El día de la boda casi siempre pasa algo pequeño: un botón, un tacón, una batería vacía. Un kit de emergencia preparado con tiempo ayuda con la mayoría de estos imprevistos.",
+      "sections": [
+        {
+          "titre": "Lo imprescindible",
+          "liste": [
+            "Alianzas",
+            "DNI de novios y testigos",
+            "Discursos impresos",
+            "Sobres para propinas"
+          ]
+        },
+        {
+          "titre": "Pequeños salvavidas",
+          "liste": [
+            "Aguja, hilo, imperdibles",
+            "Tiritas y analgésicos",
+            "Pañuelos",
+            "Zapatos planos"
+          ]
+        },
+        {
+          "titre": "Por si acaso",
+          "liste": [
+            "Cargador del móvil",
+            "Paraguas",
+            "Agua y algo de picar",
+            "Medias de repuesto"
+          ]
+        },
+        {
+          "titre": "Quién lleva el kit",
+          "paragraphes": [
+            "Dadle el kit a una persona que esté cerca de vosotros todo el día, por ejemplo un testigo. Así no tenéis que pensar en nada.",
+            "Escribid un nombre en cada sobre para que no se confundan. Esta lista recoge lo esencial: añadid lo que necesitéis personalmente, como medicación."
+          ]
+        }
       ],
-      [
-       "Agrupad por afinidades.",
-       "Familia, amigos, compañeros."
-      ],
-      [
-       "Anotad lo especial.",
-       "Mesa infantil y menús por dieta o alergia."
-      ],
-      [
-       "Dejad algo de margen.",
-       "Un asiento libre por mesa."
-      ],
-      [
-       "Revisad cada mesa.",
-       "Que ninguna se pase de plazas ni quede a medias."
+      "appel": "En la pestaña «Día de la boda» del planificador hay 24 objetos para marcar como listos.",
+      "faq": [
+        [
+          "¿Quién lleva el kit de emergencia?",
+          "Una persona que esté cerca de vosotros todo el día, por ejemplo un testigo."
+        ],
+        [
+          "¿Qué es lo imprescindible?",
+          "Alianzas, DNI de novios y testigos, discursos impresos y sobres para propinas."
+        ]
       ]
-     ]
     },
     {
-     "titre": "Antes de empezar",
-     "paragraphes": [
-      "Decidid primero dónde se sientan los novios y las familias. Todo lo demás se organiza alrededor de esas mesas.",
-      "Trabajad siempre con la lista de confirmados, no con la de invitados. Así evitáis colocar a quien al final no viene."
-     ]
+      "slug": "plan-de-mesas-boda-5-pasos",
+      "date": "2026-10-25",
+      "categorie": "Invitados",
+      "titre": "Plan de mesas de boda: 5 pasos para organizarlo",
+      "description": "Cómo organizar el plan de mesas de una boda en 5 pasos: confirmados, afinidades, necesidades especiales, margen y revisión.",
+      "image": "06-plan-de-mesas.png",
+      "image_alt": "Plan de mesas de boda en 5 pasos",
+      "intro": "El plan de mesas parece un rompecabezas, pero se resuelve con un orden claro. Estos son los cinco pasos, uno detrás de otro.",
+      "sections": [
+        {
+          "titre": "Los 5 pasos",
+          "etapes": [
+            [
+              "Confirmad quién viene.",
+              "Colocad solo a quien ha dicho que sí."
+            ],
+            [
+              "Agrupad por afinidades.",
+              "Familia, amigos, compañeros."
+            ],
+            [
+              "Anotad lo especial.",
+              "Mesa infantil y menús por dieta o alergia."
+            ],
+            [
+              "Dejad algo de margen.",
+              "Un asiento libre por mesa."
+            ],
+            [
+              "Revisad cada mesa.",
+              "Que ninguna se pase de plazas ni quede a medias."
+            ]
+          ]
+        },
+        {
+          "titre": "Antes de empezar",
+          "paragraphes": [
+            "Decidid primero dónde se sientan los novios y las familias. Todo lo demás se organiza alrededor de esas mesas.",
+            "Trabajad siempre con la lista de confirmados, no con la de invitados. Así evitáis colocar a quien al final no viene."
+          ]
+        },
+        {
+          "titre": "Por qué dejar un asiento libre",
+          "paragraphes": [
+            "Un asiento libre por mesa os da margen para un cambio de última hora: una persona que se suma o una mesa que necesita reajustarse. Sin ese margen, un solo cambio obliga a mover a muchas personas."
+          ]
+        }
+      ],
+      "appel": "En el planificador definís las mesas y elegís la de cada invitado: cada tarjeta se rellena sola.",
+      "faq": [
+        [
+          "¿Con qué lista se hace el plan de mesas?",
+          "Con la de confirmados, no con la de invitados."
+        ],
+        [
+          "¿Por qué dejar un asiento libre por mesa?",
+          "Da margen para un cambio de última hora sin tener que mover a muchas personas."
+        ]
+      ]
     },
     {
-     "titre": "Por qué dejar un asiento libre",
-     "paragraphes": [
-      "Un asiento libre por mesa os da margen para un cambio de última hora: una persona que se suma o una mesa que necesita reajustarse. Sin ese margen, un solo cambio obliga a mover a muchas personas."
-     ]
+      "slug": "recordar-confirmaciones-boda-mensajes",
+      "date": "2026-10-25",
+      "categorie": "Invitados",
+      "titre": "Invitados sin confirmar: 2 mensajes para recordárselo",
+      "description": "Dos modelos de mensaje para recordar a los invitados que aún no han confirmado: uno por WhatsApp y otro por correo.",
+      "image": "07-recordar-confirmaciones.png",
+      "image_alt": "Dos mensajes para recordar las confirmaciones de boda",
+      "intro": "Ha pasado la fecha límite y algunos invitados siguen sin responder. Lo más sencillo es un mensaje corto y cariñoso con una nueva fecha. Aquí tenéis dos modelos para copiar.",
+      "sections": [
+        {
+          "titre": "Por WhatsApp",
+          "citation": "¡Hola! Os recordamos que nuestra boda es el [fecha de la boda]. ¿Nos confirmáis antes del [fecha límite] si podéis venir? ¡Tenemos muchas ganas de veros!"
+        },
+        {
+          "titre": "Por correo",
+          "citation": "Hola [nombre], estamos cerrando el número de comensales con el catering. ¿Nos confirmáis antes del [fecha límite] si venís y si tenéis alguna alergia o dieta especial?"
+        },
+        {
+          "titre": "Cómo usarlos bien",
+          "liste": [
+            "Sustituid los datos entre corchetes y añadid algo personal.",
+            "Dad siempre una nueva fecha límite: un plazo concreto se respeta más.",
+            "Elegid el canal que use cada invitado: WhatsApp para los cercanos, correo para el resto.",
+            "Apuntad cada respuesta en cuanto llegue, para no preguntar dos veces."
+          ]
+        }
+      ],
+      "appel": "El planificador incluye 14 modelos de textos para copiar, adaptar y enviar.",
+      "faq": [
+        [
+          "¿Cuándo recordar a los invitados que no han confirmado?",
+          "Después de la fecha límite, con una nueva fecha concreta."
+        ],
+        [
+          "¿Por qué canal escribirles?",
+          "El que use cada invitado: WhatsApp para los cercanos, correo para el resto."
+        ]
+      ]
+    },
+    {
+      "slug": "regalos-en-dinero-boda-llevar-la-cuenta",
+      "date": "2026-10-28",
+      "categorie": "Regalos y agradecimientos",
+      "titre": "Regalos en dinero de boda: cómo llevar la cuenta",
+      "description": "Urna para los sobres, persona de confianza, lista de quién regala qué y tarjetas de agradecimiento: cómo llevar la cuenta de los regalos en dinero.",
+      "image": "08-regalos-en-dinero.png",
+      "image_alt": "Regalos en dinero de boda: cómo llevar la cuenta",
+      "intro": "Muchos invitados regalan dinero, en sobre, por transferencia o por Bizum. Para no perder ningún sobre ni olvidar a nadie a la hora de dar las gracias, conviene seguir un orden. Estos son los seis pasos.",
+      "sections": [
+        {
+          "titre": "Los 6 pasos",
+          "liste_numerotee": [
+            "Poned una urna para los sobres.",
+            "Encargad a una persona de confianza que los recoja.",
+            "Guardadlos esa misma noche en un sitio seguro.",
+            "Apuntad quién, qué y cuánto: en sobre, transferencia o Bizum.",
+            "Escribid cada tarjeta con una frase sobre el regalo.",
+            "Enviadlas en las semanas siguientes."
+          ]
+        },
+        {
+          "titre": "Por qué este orden funciona",
+          "paragraphes": [
+            "Una urna evita que los sobres queden sueltos sobre una mesa, y una persona de confianza hace que vosotros no tengáis que ocuparos de nada durante la fiesta.",
+            "Lo más importante es guardar los sobres esa misma noche y apuntar cada regalo: quién lo regala, de qué se trata y cuánto es. Así podréis escribir luego cada tarjeta con una frase personal sobre el regalo."
+          ]
+        },
+        {
+          "titre": "Las tarjetas de agradecimiento",
+          "paragraphes": [
+            "Una tarjeta con una frase sobre el regalo resulta más cercana que un mensaje genérico. Enviadlas en las semanas siguientes a la boda, cuando el recuerdo del día sigue fresco."
+          ]
+        }
+      ],
+      "appel": "En la pestaña Agradecimientos del planificador anotáis regalo e importe: la hoja suma el total recibido y cuenta las tarjetas por enviar.",
+      "faq": [
+        [
+          "¿Quién debe recoger los sobres con dinero?",
+          "Una persona de confianza, para que vosotros no tengáis que ocuparos durante la fiesta."
+        ],
+        [
+          "¿Qué hay que apuntar de cada regalo?",
+          "Quién lo regala, qué es y cuánto: en sobre, transferencia o Bizum."
+        ]
+      ]
+    },
+    {
+      "slug": "ahorrar-en-la-boda-5-formas",
+      "date": "2026-11-04",
+      "categorie": "Presupuesto",
+      "titre": "Ahorrar en la boda: 5 formas que funcionan",
+      "description": "Día entre semana, lista de invitados revisada, flores de temporada, varios presupuestos y prioridades claras: 5 formas de ahorrar en la boda.",
+      "image": "04-ahorrar-boda.png",
+      "image_alt": "5 formas de ahorrar en la boda",
+      "intro": "Ahorrar en una boda rara vez significa renunciar a algo. Suele significar decidir dónde importa más el dinero y revisar cada partida una vez más. Aquí tenéis cinco formas para empezar.",
+      "sections": [
+        {
+          "titre": "Las 5 formas",
+          "liste_numerotee": [
+            "Elegir un día entre semana o fuera de temporada alta.",
+            "Revisar otra vez la lista de invitados.",
+            "Flores de temporada en lugar de importadas.",
+            "Pedir presupuesto a varios proveedores.",
+            "Decidir primero qué es lo que más os importa."
+          ]
+        },
+        {
+          "titre": "Por qué estas cinco",
+          "paragraphes": [
+            "El banquete y el lugar son las partidas más grandes del presupuesto. En nuestro ejemplo de 28.500 € suman 15.710 €, algo más de la mitad. Un día entre semana o fuera de temporada alta puede cambiar la parte del lugar, y una lista de invitados más corta cambia la del banquete, porque el banquete depende del número de comensales.",
+            "Pedir presupuesto a varios proveedores permite comparar antes de decidir, y las flores de temporada ayudan a mantener la partida de decoración. Decidir primero qué es lo que más os importa hace más fáciles todas las demás decisiones."
+          ]
+        },
+        {
+          "titre": "Tened los totales a la vista",
+          "paragraphes": [
+            "Cambiéis lo que cambiéis, mantened todas las partidas en una sola página para ver lo que ya está asignado, y dejad una partida de imprevistos de en torno al 5 % para los pequeños sustos."
+          ]
+        }
+      ],
+      "appel": "En el planificador cambiáis una partida y los totales del Presupuesto se recalculan.",
+      "faq": [
+        [
+          "¿Dónde suele estar el mayor ahorro?",
+          "En nuestro ejemplo, el banquete y el lugar suman algo más de la mitad del presupuesto, así que la lista de invitados y la fecha son lo que más influye."
+        ],
+        [
+          "¿Por qué decidir primero las prioridades?",
+          "Para gastar en lo que más os importa y recortar en el resto."
+        ]
+      ]
+    },
+    {
+      "slug": "preguntas-fotografo-boda-antes-de-reservar",
+      "date": "2026-11-11",
+      "categorie": "Presupuesto",
+      "titre": "Fotógrafo de boda: qué preguntar antes de reservar",
+      "description": "Bodas completas, horas incluidas, entrega de las fotos, segundo fotógrafo y plan B: cinco preguntas para hacer a vuestro fotógrafo de boda.",
+      "image": "02-preguntas-fotografo.png",
+      "image_alt": "Reservar fotógrafo de boda: qué preguntar antes",
+      "intro": "Las fotos son un recuerdo que se mira muchas veces después de la boda, así que merece la pena aclarar todo antes de firmar. Estas cinco preguntas os ayudan a comparar fotógrafos con los mismos criterios y a evitar sorpresas en el presupuesto.",
+      "sections": [
+        {
+          "titre": "Las 5 preguntas",
+          "liste_numerotee": [
+            "¿Puedo ver bodas completas, no solo las mejores fotos?",
+            "¿Cuántas horas incluye el precio?",
+            "¿Cuándo y en qué formato se entregan las fotos?",
+            "¿Habrá un segundo fotógrafo?",
+            "¿Qué pasa si no puede venir ese día?"
+          ]
+        },
+        {
+          "titre": "Qué buscar en cada respuesta",
+          "paragraphes": [
+            "Ver una boda completa os dice más que un álbum de portada: así comprobáis si el estilo se mantiene de principio a fin y cómo trabaja con luz difícil o con mucha gente.",
+            "Las horas incluidas marcan la diferencia entre presupuestos que parecen iguales. Comparad qué parte del día cubre cada uno: preparativos, ceremonia, banquete, baile.",
+            "La fecha y el formato de entrega conviene tenerlos claros desde el principio, para saber cuándo veréis las fotos y en qué formato las recibiréis.",
+            "Fijaos también en si responde con calma y con detalle: la persona que se pasará horas a vuestro lado durante el día debe transmitiros confianza. Si algo no queda claro, pedid que os lo envíe por escrito antes de decidir."
+          ]
+        },
+        {
+          "titre": "Segundo fotógrafo y plan B",
+          "paragraphes": [
+            "Un segundo fotógrafo permite cubrir dos momentos a la vez, por ejemplo los preparativos de los dos. Preguntad si está incluido o si se paga aparte.",
+            "Pedid también que os expliquen qué ocurre si el fotógrafo no puede asistir ese día: quién lo sustituiría y con qué condiciones. Lo ideal es que quede por escrito en el contrato.",
+            "Si os cuesta decidir entre dos fotógrafos, comparad las mismas cinco respuestas lado a lado en una tabla sencilla. A menudo la diferencia está en las horas incluidas y en la entrega, no en el precio de partida."
+          ]
+        },
+        {
+          "titre": "Apuntarlo en el presupuesto",
+          "paragraphes": [
+            "Una vez elegido, apuntad la señal y el pago final del fotógrafo, cada uno con su fecha. Así veis de un vistazo cuánto queda por pagar y cuándo."
+          ]
+        }
+      ],
+      "appel": "Apuntad en la pestaña Presupuesto del planificador la señal y el pago final del fotógrafo con su fecha.",
+      "faq": [
+        [
+          "¿Qué preguntar a un fotógrafo de boda antes de reservar?",
+          "Si podéis ver bodas completas, cuántas horas incluye el precio, cuándo y cómo se entregan las fotos, si habrá segundo fotógrafo y qué pasa si no puede venir."
+        ],
+        [
+          "¿Qué conviene apuntar en el presupuesto?",
+          "La señal y el pago final del fotógrafo, cada uno con su fecha."
+        ]
+      ]
+    },
+    {
+      "slug": "plan-b-lluvia-boda-que-aclarar",
+      "date": "2026-11-18",
+      "categorie": "Plan B",
+      "titre": "Plan B por lluvia en la boda: 5 preguntas antes",
+      "description": "¿Lluvia el día de la boda? Estas 5 preguntas sobre ceremonia, carpa, paraguas, calzado y quién decide os dejan el plan B listo con tiempo.",
+      "image": "11-plan-b-lluvia.png",
+      "image_alt": "Plan B por lluvia en la boda: aclararlo antes",
+      "intro": "Nadie quiere pensar en la lluvia el día de su boda, pero tener un plan B os ahorrará dudas de última hora. Si aclaráis estas cinco preguntas con tiempo, sabréis enseguida qué hacer cuando llegue el día. Aquí tenéis la lista para ir marcando.",
+      "sections": [
+        {
+          "titre": "Las 5 preguntas",
+          "liste_numerotee": [
+            "¿Dónde será la ceremonia si llueve?",
+            "¿Hay carpa o cubierta, y para cuántas personas?",
+            "Tener paraguas para los invitados",
+            "Calzado y vestido pensados para suelo mojado",
+            "¿Quién decide, y hasta cuándo, qué plan se usa?"
+          ]
+        },
+        {
+          "titre": "Ceremonia, carpa y cubierta",
+          "paragraphes": [
+            "Preguntad al lugar dónde se traslada la ceremonia si llueve: a un salón, bajo una carpa o a otro espacio. Preguntad también si la carpa o la cubierta tiene sitio para todos los invitados a la vez, porque una cubierta pensada solo para una parte de ellos no ayuda si todos buscan refugio al mismo tiempo.",
+            "Pedid que os lo expliquen con claridad y, si podéis, por escrito. Así, vosotros y el lugar tendréis la misma idea de lo que ocurre si llueve."
+          ]
+        },
+        {
+          "titre": "Paraguas, calzado y vestido",
+          "paragraphes": [
+            "Los paraguas para los invitados son fáciles de conseguir y fáciles de olvidar. Dejadlos en la entrada o pedid a una persona de confianza que los reparta si hace falta.",
+            "Pensad también en el suelo mojado: unos zapatos que se hunden en el césped o un vestido largo que arrastra por caminos húmedos pueden dar problemas el mismo día. Tened una alternativa preparada y comentadla con vuestros testigos."
+          ]
+        },
+        {
+          "titre": "¿Quién decide, y hasta cuándo?",
+          "paragraphes": [
+            "Decidid de antemano quién toma la decisión, por ejemplo vosotros dos o una persona de confianza, y hasta qué momento se puede cambiar de plan. Así nadie tiene que discutirlo la mañana de la boda y todos saben a quién esperar para saber qué plan se usa."
+          ]
+        },
+        {
+          "titre": "Hablad del plan B con todos los proveedores",
+          "paragraphes": [
+            "Hablad del plan B con todos los proveedores. Quien sabe qué pasa si llueve puede prepararse con tiempo y no se entera en el último momento.",
+            "Los paraguas también están en la lista del kit de emergencia."
+          ]
+        },
+        {
+          "titre": "Cómo repasarlo juntos",
+          "paragraphes": [
+            "Sentaos un rato los dos con la lista de las cinco preguntas y apuntad al lado de cada una la respuesta y la persona que se encarga. Si alguna queda sin respuesta, es la primera que conviene preguntar al lugar o a los proveedores.",
+            "Volved a leer la lista unos días antes de la boda para comprobar que todo sigue como lo habíais acordado."
+          ]
+        }
+      ],
+      "appel": "En el planificador encontraréis la lista del kit de emergencia: los paraguas ya están en ella.",
+      "faq": [
+        [
+          "¿Qué hay que aclarar para el plan B por lluvia en una boda?",
+          "Dónde será la ceremonia si llueve, si hay carpa o cubierta y para cuántas personas, paraguas para los invitados, calzado y vestido para suelo mojado y quién decide qué plan se usa."
+        ],
+        [
+          "¿Con quién hay que hablar del plan B?",
+          "Con todos los proveedores. Quien sabe qué pasa si llueve puede prepararse con tiempo."
+        ]
+      ]
     }
-   ],
-   "appel": "En el planificador definís las mesas y elegís la de cada invitado: cada tarjeta se rellena sola.",
-   "faq": [
-    [
-     "¿Con qué lista se hace el plan de mesas?",
-     "Con la de confirmados, no con la de invitados."
-    ],
-    [
-     "¿Por qué dejar un asiento libre por mesa?",
-     "Da margen para un cambio de última hora sin tener que mover a muchas personas."
-    ]
-   ]
-  },
-  {
-   "slug": "recordar-confirmaciones-boda-mensajes",
-   "date": "2026-10-25",
-   "categorie": "Invitados",
-   "titre": "Invitados sin confirmar: 2 mensajes para recordárselo",
-   "description": "Dos modelos de mensaje para recordar a los invitados que aún no han confirmado: uno por WhatsApp y otro por correo.",
-   "image": "07-recordar-confirmaciones.png",
-   "image_alt": "Dos mensajes para recordar las confirmaciones de boda",
-   "intro": "Ha pasado la fecha límite y algunos invitados siguen sin responder. Lo más sencillo es un mensaje corto y cariñoso con una nueva fecha. Aquí tenéis dos modelos para copiar.",
-   "sections": [
-    {
-     "titre": "Por WhatsApp",
-     "citation": "¡Hola! Os recordamos que nuestra boda es el [fecha de la boda]. ¿Nos confirmáis antes del [fecha límite] si podéis venir? ¡Tenemos muchas ganas de veros!"
-    },
-    {
-     "titre": "Por correo",
-     "citation": "Hola [nombre], estamos cerrando el número de comensales con el catering. ¿Nos confirmáis antes del [fecha límite] si venís y si tenéis alguna alergia o dieta especial?"
-    },
-    {
-     "titre": "Cómo usarlos bien",
-     "liste": [
-      "Sustituid los datos entre corchetes y añadid algo personal.",
-      "Dad siempre una nueva fecha límite: un plazo concreto se respeta más.",
-      "Elegid el canal que use cada invitado: WhatsApp para los cercanos, correo para el resto.",
-      "Apuntad cada respuesta en cuanto llegue, para no preguntar dos veces."
-     ]
-    }
-   ],
-   "appel": "El planificador incluye 14 modelos de textos para copiar, adaptar y enviar.",
-   "faq": [
-    [
-     "¿Cuándo recordar a los invitados que no han confirmado?",
-     "Después de la fecha límite, con una nueva fecha concreta."
-    ],
-    [
-     "¿Por qué canal escribirles?",
-     "El que use cada invitado: WhatsApp para los cercanos, correo para el resto."
-    ]
-   ]
-  },
-  {
-   "slug": "regalos-en-dinero-boda-llevar-la-cuenta",
-   "date": "2026-10-28",
-   "categorie": "Regalos y agradecimientos",
-   "titre": "Regalos en dinero de boda: cómo llevar la cuenta",
-   "description": "Urna para los sobres, persona de confianza, lista de quién regala qué y tarjetas de agradecimiento: cómo llevar la cuenta de los regalos en dinero.",
-   "image": "08-regalos-en-dinero.png",
-   "image_alt": "Regalos en dinero de boda: cómo llevar la cuenta",
-   "intro": "Muchos invitados regalan dinero, en sobre, por transferencia o por Bizum. Para no perder ningún sobre ni olvidar a nadie a la hora de dar las gracias, conviene seguir un orden. Estos son los seis pasos.",
-   "sections": [
-    {
-     "titre": "Los 6 pasos",
-     "liste_numerotee": [
-      "Poned una urna para los sobres.",
-      "Encargad a una persona de confianza que los recoja.",
-      "Guardadlos esa misma noche en un sitio seguro.",
-      "Apuntad quién, qué y cuánto: en sobre, transferencia o Bizum.",
-      "Escribid cada tarjeta con una frase sobre el regalo.",
-      "Enviadlas en las semanas siguientes."
-     ]
-    },
-    {
-     "titre": "Por qué este orden funciona",
-     "paragraphes": [
-      "Una urna evita que los sobres queden sueltos sobre una mesa, y una persona de confianza hace que vosotros no tengáis que ocuparos de nada durante la fiesta.",
-      "Lo más importante es guardar los sobres esa misma noche y apuntar cada regalo: quién lo regala, de qué se trata y cuánto es. Así podréis escribir luego cada tarjeta con una frase personal sobre el regalo."
-     ]
-    },
-    {
-     "titre": "Las tarjetas de agradecimiento",
-     "paragraphes": [
-      "Una tarjeta con una frase sobre el regalo resulta más cercana que un mensaje genérico. Enviadlas en las semanas siguientes a la boda, cuando el recuerdo del día sigue fresco."
-     ]
-    }
-   ],
-   "appel": "En la pestaña Agradecimientos del planificador anotáis regalo e importe: la hoja suma el total recibido y cuenta las tarjetas por enviar.",
-   "faq": [
-    [
-     "¿Quién debe recoger los sobres con dinero?",
-     "Una persona de confianza, para que vosotros no tengáis que ocuparos durante la fiesta."
-    ],
-    [
-     "¿Qué hay que apuntar de cada regalo?",
-     "Quién lo regala, qué es y cuánto: en sobre, transferencia o Bizum."
-    ]
-   ]
-  },
-  {
-   "slug": "ahorrar-en-la-boda-5-formas",
-   "date": "2026-11-04",
-   "categorie": "Presupuesto",
-   "titre": "Ahorrar en la boda: 5 formas que funcionan",
-   "description": "Día entre semana, lista de invitados revisada, flores de temporada, varios presupuestos y prioridades claras: 5 formas de ahorrar en la boda.",
-   "image": "04-ahorrar-boda.png",
-   "image_alt": "5 formas de ahorrar en la boda",
-   "intro": "Ahorrar en una boda rara vez significa renunciar a algo. Suele significar decidir dónde importa más el dinero y revisar cada partida una vez más. Aquí tenéis cinco formas para empezar.",
-   "sections": [
-    {
-     "titre": "Las 5 formas",
-     "liste_numerotee": [
-      "Elegir un día entre semana o fuera de temporada alta.",
-      "Revisar otra vez la lista de invitados.",
-      "Flores de temporada en lugar de importadas.",
-      "Pedir presupuesto a varios proveedores.",
-      "Decidir primero qué es lo que más os importa."
-     ]
-    },
-    {
-     "titre": "Por qué estas cinco",
-     "paragraphes": [
-      "El banquete y el lugar son las partidas más grandes del presupuesto. En nuestro ejemplo de 28.500 € suman 15.710 €, algo más de la mitad. Un día entre semana o fuera de temporada alta puede cambiar la parte del lugar, y una lista de invitados más corta cambia la del banquete, porque el banquete depende del número de comensales.",
-      "Pedir presupuesto a varios proveedores permite comparar antes de decidir, y las flores de temporada ayudan a mantener la partida de decoración. Decidir primero qué es lo que más os importa hace más fáciles todas las demás decisiones."
-     ]
-    },
-    {
-     "titre": "Tened los totales a la vista",
-     "paragraphes": [
-      "Cambiéis lo que cambiéis, mantened todas las partidas en una sola página para ver lo que ya está asignado, y dejad una partida de imprevistos de en torno al 5 % para los pequeños sustos."
-     ]
-    }
-   ],
-   "appel": "En el planificador cambiáis una partida y los totales del Presupuesto se recalculan.",
-   "faq": [
-    [
-     "¿Dónde suele estar el mayor ahorro?",
-     "En nuestro ejemplo, el banquete y el lugar suman algo más de la mitad del presupuesto, así que la lista de invitados y la fecha son lo que más influye."
-    ],
-    [
-     "¿Por qué decidir primero las prioridades?",
-     "Para gastar en lo que más os importa y recortar en el resto."
-    ]
-   ]
-  },
-  {
-   "slug": "preguntas-fotografo-boda-antes-de-reservar",
-   "date": "2026-11-11",
-   "categorie": "Presupuesto",
-   "titre": "Fotógrafo de boda: qué preguntar antes de reservar",
-   "description": "Bodas completas, horas incluidas, entrega de las fotos, segundo fotógrafo y plan B: cinco preguntas para hacer a vuestro fotógrafo de boda.",
-   "image": "02-preguntas-fotografo.png",
-   "image_alt": "Reservar fotógrafo de boda: qué preguntar antes",
-   "intro": "Las fotos son un recuerdo que se mira muchas veces después de la boda, así que merece la pena aclarar todo antes de firmar. Estas cinco preguntas os ayudan a comparar fotógrafos con los mismos criterios y a evitar sorpresas en el presupuesto.",
-   "sections": [
-    {
-     "titre": "Las 5 preguntas",
-     "liste_numerotee": [
-      "¿Puedo ver bodas completas, no solo las mejores fotos?",
-      "¿Cuántas horas incluye el precio?",
-      "¿Cuándo y en qué formato se entregan las fotos?",
-      "¿Habrá un segundo fotógrafo?",
-      "¿Qué pasa si no puede venir ese día?"
-     ]
-    },
-    {
-     "titre": "Qué buscar en cada respuesta",
-     "paragraphes": [
-      "Ver una boda completa os dice más que un álbum de portada: así comprobáis si el estilo se mantiene de principio a fin y cómo trabaja con luz difícil o con mucha gente.",
-      "Las horas incluidas marcan la diferencia entre presupuestos que parecen iguales. Comparad qué parte del día cubre cada uno: preparativos, ceremonia, banquete, baile.",
-      "La fecha y el formato de entrega conviene tenerlos claros desde el principio, para saber cuándo veréis las fotos y en qué formato las recibiréis.",
-      "Fijaos también en si responde con calma y con detalle: la persona que se pasará horas a vuestro lado durante el día debe transmitiros confianza. Si algo no queda claro, pedid que os lo envíe por escrito antes de decidir."
-     ]
-    },
-    {
-     "titre": "Segundo fotógrafo y plan B",
-     "paragraphes": [
-      "Un segundo fotógrafo permite cubrir dos momentos a la vez, por ejemplo los preparativos de los dos. Preguntad si está incluido o si se paga aparte.",
-      "Pedid también que os expliquen qué ocurre si el fotógrafo no puede asistir ese día: quién lo sustituiría y con qué condiciones. Lo ideal es que quede por escrito en el contrato.",
-      "Si os cuesta decidir entre dos fotógrafos, comparad las mismas cinco respuestas lado a lado en una tabla sencilla. A menudo la diferencia está en las horas incluidas y en la entrega, no en el precio de partida."
-     ]
-    },
-    {
-     "titre": "Apuntarlo en el presupuesto",
-     "paragraphes": [
-      "Una vez elegido, apuntad la señal y el pago final del fotógrafo, cada uno con su fecha. Así veis de un vistazo cuánto queda por pagar y cuándo."
-     ]
-    }
-   ],
-   "appel": "Apuntad en la pestaña Presupuesto del planificador la señal y el pago final del fotógrafo con su fecha.",
-   "faq": [
-    [
-     "¿Qué preguntar a un fotógrafo de boda antes de reservar?",
-     "Si podéis ver bodas completas, cuántas horas incluye el precio, cuándo y cómo se entregan las fotos, si habrá segundo fotógrafo y qué pasa si no puede venir."
-    ],
-    [
-     "¿Qué conviene apuntar en el presupuesto?",
-     "La señal y el pago final del fotógrafo, cada uno con su fecha."
-    ]
-   ]
-  }
- ],
- "gratuit": {
-  "slug": "plantilla-boda-excel-gratis",
-  "surtitre": "Gratis",
-  "accroche": "Descargad nuestro planificador de boda gratis: presupuesto y lista de invitados, listos para rellenar.",
-  "cta_page": "Descargar el planificador gratis",
-  "titre": "Plantilla de boda en Excel gratis para descargar",
-  "description": "Descarga gratis el planificador de boda de Joli Plan: resumen, presupuesto y lista de invitados, en español, para Excel y Google Sheets.",
-  "intro": "Una hoja de cálculo de verdad para empezar: escribid vuestros nombres, la fecha y el presupuesto, y el resumen se rellena solo. Sin registro, en español.",
-  "fichier": "JoliPlan_Planificador-Boda_GRATIS_ES.xlsx",
-  "cta_telecharger": "Descargar el archivo Excel (gratis)",
-  "titre_contenu": "Qué incluye",
-  "contenu": [
-   "Un resumen con cuenta atrás, presupuesto pagado e invitados confirmados.",
-   "La pestaña Presupuesto con las partidas de la boda y importes orientativos.",
-   "La pestaña Invitados: lado, grupo, respuesta, dieta o alergia, número de mesa."
   ],
-  "titre_complet": "¿Y la versión completa?",
-  "texte_complet": "La versión completa añade pagos, proveedores, plano de mesas, calendario de tareas, Registro Civil y trámites, día de la boda y agradecimientos, en el mismo archivo.",
-  "appel": "Pasad a la versión completa cuando queráis: vuestros datos siguen en el mismo formato."
- },
- "methode": {
-  "titre": "Nuestro método",
-  "description": "Cómo prepara y verifica Joli Plan sus artículos y sus hojas de cálculo de boda.",
-  "paragraphes": [
-   "Joli Plan crea hojas de cálculo de boda para Excel y Google Sheets, una por país: Francia, Alemania, España, Italia y Reino Unido.",
-   "Cada artículo recoge las referencias de nuestras hojas y de su ejemplo rellenado. Las cifras son valores orientativos para empezar: sustituidlas por vuestros presupuestos.",
-   "Para los trámites, seguimos la fuente oficial del país y la citamos. Las normas pueden variar según el registro: confirmadlo siempre con el vuestro.",
-   "Nuestros artículos se preparan con ayuda de herramientas de IA y se revisan y verifican antes de publicarse. ¿Un error? Escribidnos desde nuestra tienda de Etsy."
-  ]
- }
+  "gratuit": {
+    "slug": "plantilla-boda-excel-gratis",
+    "surtitre": "Gratis",
+    "accroche": "Descargad nuestro planificador de boda gratis: presupuesto y lista de invitados, listos para rellenar.",
+    "cta_page": "Descargar el planificador gratis",
+    "titre": "Plantilla de boda en Excel gratis para descargar",
+    "description": "Descarga gratis el planificador de boda de Joli Plan: resumen, presupuesto y lista de invitados, en español, para Excel y Google Sheets.",
+    "intro": "Una hoja de cálculo de verdad para empezar: escribid vuestros nombres, la fecha y el presupuesto, y el resumen se rellena solo. Sin registro, en español.",
+    "fichier": "JoliPlan_Planificador-Boda_GRATIS_ES.xlsx",
+    "cta_telecharger": "Descargar el archivo Excel (gratis)",
+    "titre_contenu": "Qué incluye",
+    "contenu": [
+      "Un resumen con cuenta atrás, presupuesto pagado e invitados confirmados.",
+      "La pestaña Presupuesto con las partidas de la boda y importes orientativos.",
+      "La pestaña Invitados: lado, grupo, respuesta, dieta o alergia, número de mesa."
+    ],
+    "titre_complet": "¿Y la versión completa?",
+    "texte_complet": "La versión completa añade pagos, proveedores, plano de mesas, calendario de tareas, Registro Civil y trámites, día de la boda y agradecimientos, en el mismo archivo.",
+    "appel": "Pasad a la versión completa cuando queráis: vuestros datos siguen en el mismo formato."
+  },
+  "methode": {
+    "titre": "Nuestro método",
+    "description": "Cómo prepara y verifica Joli Plan sus artículos y sus hojas de cálculo de boda.",
+    "paragraphes": [
+      "Joli Plan crea hojas de cálculo de boda para Excel y Google Sheets, una por país: Francia, Alemania, España, Italia y Reino Unido.",
+      "Cada artículo recoge las referencias de nuestras hojas y de su ejemplo rellenado. Las cifras son valores orientativos para empezar: sustituidlas por vuestros presupuestos.",
+      "Para los trámites, seguimos la fuente oficial del país y la citamos. Las normas pueden variar según el registro: confirmadlo siempre con el vuestro.",
+      "Nuestros artículos se preparan con ayuda de herramientas de IA y se revisan y verifican antes de publicarse. ¿Un error? Escribidnos desde nuestra tienda de Etsy."
+    ]
+  }
 }

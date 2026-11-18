@@ -1,536 +1,596 @@
 {
- "langue": "uk",
- "nom_site": "Joli Plan · The Wedding Notebook",
- "accroche": "Simple, checked guidance for planning your wedding in the UK.",
- "etsy": "https://joliplanstudio.etsy.com/fr/listing/4602243958/uk-wedding-planner-spreadsheet-excel",
- "cta_produit": "See the wedding planner on Etsy",
- "texte_produit": "Budget, guest list, seating plan, giving notice and order of the day in one Excel and Google Sheets file, in English, with a filled-in example.",
- "articles": [
-  {
-   "slug": "wedding-budget-28500-breakdown",
-   "date": "2026-10-25",
-   "categorie": "Wedding budget",
-   "titre": "Wedding budget breakdown: £28,500 for 90 guests",
-   "description": "Catering, venue hire, dress, photographer and more: a £28,500 wedding budget for 90 guests, split item by item.",
-   "image": "01-wedding-budget-28500.png",
-   "image_alt": "Wedding budget breakdown: £28,500 for 90 guests",
-   "intro": "With £28,500 and 90 guests, the question isn't \"is it enough?\" but \"where does every pound go?\". Here is the split suggested by our planner, item by item. These are starting figures, not real prices: adjust them with your own quotes.",
-   "sections": [
+  "langue": "uk",
+  "nom_site": "Joli Plan · The Wedding Notebook",
+  "accroche": "Simple, checked guidance for planning your wedding in the UK.",
+  "etsy": "https://joliplanstudio.etsy.com/fr/listing/4602243958/uk-wedding-planner-spreadsheet-excel",
+  "cta_produit": "See the wedding planner on Etsy",
+  "texte_produit": "Budget, guest list, seating plan, giving notice and order of the day in one Excel and Google Sheets file, in English, with a filled-in example.",
+  "articles": [
     {
-     "titre": "The split, item by item",
-     "tableau": {
-      "entetes": [
-       "Item",
-       "Amount"
+      "slug": "wedding-budget-28500-breakdown",
+      "date": "2026-10-25",
+      "categorie": "Wedding budget",
+      "titre": "Wedding budget breakdown: £28,500 for 90 guests",
+      "description": "Catering, venue hire, dress, photographer and more: a £28,500 wedding budget for 90 guests, split item by item.",
+      "image": "01-wedding-budget-28500.png",
+      "image_alt": "Wedding budget breakdown: £28,500 for 90 guests",
+      "intro": "With £28,500 and 90 guests, the question isn't \"is it enough?\" but \"where does every pound go?\". Here is the split suggested by our planner, item by item. These are starting figures, not real prices: adjust them with your own quotes.",
+      "sections": [
+        {
+          "titre": "The split, item by item",
+          "tableau": {
+            "entetes": [
+              "Item",
+              "Amount"
+            ],
+            "lignes": [
+              [
+                "Catering & drinks",
+                "£8,011"
+              ],
+              [
+                "Venue hire",
+                "£6,911"
+              ],
+              [
+                "Dress & accessories",
+                "£2,073"
+              ],
+              [
+                "Photographer",
+                "£1,554"
+              ],
+              [
+                "Contingency",
+                "£1,425"
+              ],
+              [
+                "Evening food",
+                "£1,414"
+              ],
+              [
+                "Flowers & décor",
+                "£1,382"
+              ],
+              [
+                "Band / DJ",
+                "£1,111"
+              ],
+              [
+                "All other items",
+                "£4,619"
+              ]
+            ]
+          }
+        },
+        {
+          "titre": "What to take from it",
+          "paragraphes": [
+            "Catering and venue hire together come to £14,922, just over half of the budget. That is where a change of date, menu or guest numbers has the biggest effect.",
+            "Keep a contingency line of about 5%. It absorbs small surprises without touching the other lines."
+          ]
+        },
+        {
+          "titre": "How to adapt these figures to your wedding",
+          "liste": [
+            "Replace each amount with your first quote as soon as you have it.",
+            "If one line goes over, take the difference from another line, not from the contingency.",
+            "Recalculate whenever guest numbers change: catering follows the number of covers.",
+            "Keep every line on one page so you can see at a glance what is already allocated."
+          ]
+        }
       ],
-      "lignes": [
-       [
-        "Catering & drinks",
-        "£8,011"
-       ],
-       [
-        "Venue hire",
-        "£6,911"
-       ],
-       [
-        "Dress & accessories",
-        "£2,073"
-       ],
-       [
-        "Photographer",
-        "£1,554"
-       ],
-       [
-        "Contingency",
-        "£1,425"
-       ],
-       [
-        "Evening food",
-        "£1,414"
-       ],
-       [
-        "Flowers & décor",
-        "£1,382"
-       ],
-       [
-        "Band / DJ",
-        "£1,111"
-       ],
-       [
-        "All other items",
-        "£4,619"
-       ]
+      "appel": "In the planner, type your total budget and guest numbers: it suggests an amount for each of the 21 lines.",
+      "faq": [
+        [
+          "Which lines cost the most for 90 guests?",
+          "Catering & drinks (£8,011) and venue hire (£6,911): together £14,922, just over half the budget."
+        ],
+        [
+          "How much should I keep as contingency?",
+          "About 5%, to absorb small surprises without touching the other lines."
+        ]
       ]
-     }
     },
     {
-     "titre": "What to take from it",
-     "paragraphes": [
-      "Catering and venue hire together come to £14,922, just over half of the budget. That is where a change of date, menu or guest numbers has the biggest effect.",
-      "Keep a contingency line of about 5%. It absorbs small surprises without touching the other lines."
-     ]
-    },
-    {
-     "titre": "How to adapt these figures to your wedding",
-     "liste": [
-      "Replace each amount with your first quote as soon as you have it.",
-      "If one line goes over, take the difference from another line, not from the contingency.",
-      "Recalculate whenever guest numbers change: catering follows the number of covers.",
-      "Keep every line on one page so you can see at a glance what is already allocated."
-     ]
-    }
-   ],
-   "appel": "In the planner, type your total budget and guest numbers: it suggests an amount for each of the 21 lines.",
-   "faq": [
-    [
-     "Which lines cost the most for 90 guests?",
-     "Catering & drinks (£8,011) and venue hire (£6,911): together £14,922, just over half the budget."
-    ],
-    [
-     "How much should I keep as contingency?",
-     "About 5%, to absorb small surprises without touching the other lines."
-    ]
-   ]
-  },
-  {
-   "slug": "wedding-order-of-the-day-example",
-   "date": "2026-10-25",
-   "categorie": "Wedding day",
-   "titre": "Wedding order of the day: an hour-by-hour example",
-   "description": "An example order of the day from hair and make-up to the evening food, with ceremony, drinks reception, wedding breakfast, speeches and first dance.",
-   "image": "03-order-of-the-day.png",
-   "image_alt": "Wedding order of the day, hour by hour",
-   "intro": "A wedding day runs more calmly when everyone knows what happens and when. Here is an example order of the day that you can adapt to your own.",
-   "sections": [
-    {
-     "titre": "The example, hour by hour",
-     "tableau": {
-      "entetes": [
-       "Time",
-       "Event"
+      "slug": "wedding-order-of-the-day-example",
+      "date": "2026-10-25",
+      "categorie": "Wedding day",
+      "titre": "Wedding order of the day: an hour-by-hour example",
+      "description": "An example order of the day from hair and make-up to the evening food, with ceremony, drinks reception, wedding breakfast, speeches and first dance.",
+      "image": "03-order-of-the-day.png",
+      "image_alt": "Wedding order of the day, hour by hour",
+      "intro": "A wedding day runs more calmly when everyone knows what happens and when. Here is an example order of the day that you can adapt to your own.",
+      "sections": [
+        {
+          "titre": "The example, hour by hour",
+          "tableau": {
+            "entetes": [
+              "Time",
+              "Event"
+            ],
+            "lignes": [
+              [
+                "09:00",
+                "Hair and make-up"
+              ],
+              [
+                "13:00",
+                "Ceremony"
+              ],
+              [
+                "14:20",
+                "Drinks reception"
+              ],
+              [
+                "15:50",
+                "Wedding breakfast"
+              ],
+              [
+                "17:50",
+                "Speeches"
+              ],
+              [
+                "19:30",
+                "Evening guests arrive"
+              ],
+              [
+                "20:00",
+                "First dance"
+              ],
+              [
+                "21:00",
+                "Evening food"
+              ]
+            ]
+          }
+        },
+        {
+          "titre": "How to adapt it to your day",
+          "paragraphes": [
+            "It is an example, not a rule. Start with the fixed points, such as the ceremony, and fill in what comes before and after."
+          ],
+          "liste": [
+            "Note how long each part of the day lasts, not just when it starts.",
+            "Leave time between the ceremony and the drinks reception for group photos.",
+            "Give a printed copy to your witnesses and suppliers."
+          ]
+        },
+        {
+          "titre": "Why duration matters more than the clock",
+          "paragraphes": [
+            "If you only write down times, every delay means rewriting everything. If you write down how long each part of the day lasts, the times follow: when the photos run half an hour over, everything after them shifts automatically."
+          ]
+        }
       ],
-      "lignes": [
-       [
-        "09:00",
-        "Hair and make-up"
-       ],
-       [
-        "13:00",
-        "Ceremony"
-       ],
-       [
-        "14:20",
-        "Drinks reception"
-       ],
-       [
-        "15:50",
-        "Wedding breakfast"
-       ],
-       [
-        "17:50",
-        "Speeches"
-       ],
-       [
-        "19:30",
-        "Evening guests arrive"
-       ],
-       [
-        "20:00",
-        "First dance"
-       ],
-       [
-        "21:00",
-        "Evening food"
-       ]
+      "appel": "In the planner, enter how long each part of the day lasts, and the start times follow.",
+      "faq": [
+        [
+          "Why note how long each part lasts, not just the time?",
+          "Because the start times then follow: if something runs over, everything after it shifts automatically."
+        ],
+        [
+          "Who should get a copy?",
+          "Give a printed copy to your witnesses and suppliers."
+        ]
       ]
-     }
     },
     {
-     "titre": "How to adapt it to your day",
-     "paragraphes": [
-      "It is an example, not a rule. Start with the fixed points, such as the ceremony, and fill in what comes before and after."
-     ],
-     "liste": [
-      "Note how long each part of the day lasts, not just when it starts.",
-      "Leave time between the ceremony and the drinks reception for group photos.",
-      "Give a printed copy to your witnesses and suppliers."
-     ]
-    },
-    {
-     "titre": "Why duration matters more than the clock",
-     "paragraphes": [
-      "If you only write down times, every delay means rewriting everything. If you write down how long each part of the day lasts, the times follow: when the photos run half an hour over, everything after them shifts automatically."
-     ]
-    }
-   ],
-   "appel": "In the planner, enter how long each part of the day lasts, and the start times follow.",
-   "faq": [
-    [
-     "Why note how long each part lasts, not just the time?",
-     "Because the start times then follow: if something runs over, everything after it shifts automatically."
-    ],
-    [
-     "Who should get a copy?",
-     "Give a printed copy to your witnesses and suppliers."
-    ]
-   ]
-  },
-  {
-   "slug": "wedding-day-emergency-kit-checklist",
-   "date": "2026-10-25",
-   "categorie": "Wedding day",
-   "titre": "Wedding day emergency kit: the checklist to tick off",
-   "description": "Needle and thread, plasters, a phone charger, umbrellas and more: what to put in your wedding day emergency kit, with a checklist to tick off.",
-   "image": "08-wedding-day-emergency-kit.png",
-   "image_alt": "Wedding day emergency kit",
-   "intro": "Something small almost always goes wrong on a wedding day: a button, a heel, a flat battery. An emergency kit packed in good time helps with most of these little problems.",
-   "sections": [
-    {
-     "titre": "The essentials",
-     "liste": [
-      "Wedding rings",
-      "Registrar's paperwork",
-      "Printed speeches",
-      "Supplier payment envelopes"
-     ]
-    },
-    {
-     "titre": "Little lifesavers",
-     "liste": [
-      "Needle, thread, pins",
-      "Plasters, painkillers",
-      "Tissues",
-      "Flat shoes to dance in"
-     ]
-    },
-    {
-     "titre": "Just in case",
-     "liste": [
-      "Phone charger, power bank",
-      "Umbrellas",
-      "Water and snacks",
-      "Spare tights"
-     ]
-    },
-    {
-     "titre": "Who carries the kit",
-     "paragraphes": [
-      "Hand the kit to someone who stays close to you all day, such as a witness. That way you don't have to think about any of it.",
-      "Write a name on each payment envelope so none gets mixed up. This list covers the essentials: add anything you personally need, such as medication."
-     ]
-    }
-   ],
-   "appel": "In the Wedding day tab of the planner, you get 24 items to tick off.",
-   "faq": [
-    [
-     "Who should carry the emergency kit?",
-     "Someone who stays close to you all day, such as a witness."
-    ],
-    [
-     "What are the essentials?",
-     "Wedding rings, registrar's paperwork, printed speeches and supplier payment envelopes."
-    ]
-   ]
-  },
-  {
-   "slug": "wedding-seating-plan-5-steps",
-   "date": "2026-10-25",
-   "categorie": "Guests",
-   "titre": "Wedding seating plan: 5 steps to get it right",
-   "description": "How to build a wedding seating plan in 5 steps: confirmed guests, relationships, special cases, a little margin and a final check.",
-   "image": "04-wedding-seating-plan.png",
-   "image_alt": "Wedding seating plan in 5 steps",
-   "intro": "A seating plan feels like a puzzle, but a clear order solves it. Here are the five steps, one after the other.",
-   "sections": [
-    {
-     "titre": "The 5 steps",
-     "etapes": [
-      [
-       "Confirm who's coming.",
-       "Seat only guests who said yes."
+      "slug": "wedding-day-emergency-kit-checklist",
+      "date": "2026-10-25",
+      "categorie": "Wedding day",
+      "titre": "Wedding day emergency kit: the checklist to tick off",
+      "description": "Needle and thread, plasters, a phone charger, umbrellas and more: what to put in your wedding day emergency kit, with a checklist to tick off.",
+      "image": "08-wedding-day-emergency-kit.png",
+      "image_alt": "Wedding day emergency kit",
+      "intro": "Something small almost always goes wrong on a wedding day: a button, a heel, a flat battery. An emergency kit packed in good time helps with most of these little problems.",
+      "sections": [
+        {
+          "titre": "The essentials",
+          "liste": [
+            "Wedding rings",
+            "Registrar's paperwork",
+            "Printed speeches",
+            "Supplier payment envelopes"
+          ]
+        },
+        {
+          "titre": "Little lifesavers",
+          "liste": [
+            "Needle, thread, pins",
+            "Plasters, painkillers",
+            "Tissues",
+            "Flat shoes to dance in"
+          ]
+        },
+        {
+          "titre": "Just in case",
+          "liste": [
+            "Phone charger, power bank",
+            "Umbrellas",
+            "Water and snacks",
+            "Spare tights"
+          ]
+        },
+        {
+          "titre": "Who carries the kit",
+          "paragraphes": [
+            "Hand the kit to someone who stays close to you all day, such as a witness. That way you don't have to think about any of it.",
+            "Write a name on each payment envelope so none gets mixed up. This list covers the essentials: add anything you personally need, such as medication."
+          ]
+        }
       ],
-      [
-       "Group by relationship.",
-       "Family, friends, colleagues."
-      ],
-      [
-       "Note the special cases.",
-       "Children's table, dietary needs and allergies."
-      ],
-      [
-       "Leave a little margin.",
-       "One spare seat per table."
-      ],
-      [
-       "Check every table.",
-       "None over capacity, none half empty."
+      "appel": "In the Wedding day tab of the planner, you get 24 items to tick off.",
+      "faq": [
+        [
+          "Who should carry the emergency kit?",
+          "Someone who stays close to you all day, such as a witness."
+        ],
+        [
+          "What are the essentials?",
+          "Wedding rings, registrar's paperwork, printed speeches and supplier payment envelopes."
+        ]
       ]
-     ]
     },
     {
-     "titre": "Before you start",
-     "paragraphes": [
-      "Decide first where the couple and their families sit. Everything else is arranged around those tables.",
-      "Always work from your list of confirmed guests, not your invitation list. That way you won't seat someone who ends up not coming."
-     ]
-    },
-    {
-     "titre": "Why leave a spare seat",
-     "paragraphes": [
-      "One spare seat per table gives you room for a last-minute change: an extra guest or a table that needs rebalancing. Without that margin, a single change can force you to move many people."
-     ]
-    }
-   ],
-   "appel": "In the planner, set up your tables and choose each guest's table: every card shows who is seated there.",
-   "faq": [
-    [
-     "Which list do I use for the seating plan?",
-     "Your list of confirmed guests, not your invitation list."
-    ],
-    [
-     "Why leave one spare seat per table?",
-     "It gives room for a last-minute change without moving many people."
-    ]
-   ]
-  },
-  {
-   "slug": "chase-wedding-rsvps-messages",
-   "date": "2026-10-25",
-   "categorie": "Guests",
-   "titre": "Chasing wedding RSVPs: two kind messages to copy",
-   "description": "Two message templates for chasing guests who haven't replied to your wedding invitation: one by text and one by email.",
-   "image": "05-chase-rsvps.png",
-   "image_alt": "Two messages for chasing wedding RSVPs",
-   "intro": "The reply-by date has passed and a few guests are still quiet. The simplest fix is a short, warm message with a new date. Here are two templates to copy.",
-   "sections": [
-    {
-     "titre": "By text",
-     "citation": "Hi [Name]! Just a little reminder about our wedding on [date]: could you let us know by [date] if you can make it? Can't wait to see you!"
-    },
-    {
-     "titre": "By email",
-     "citation": "Hi [Name], we're finalising numbers and the seating plan with our caterer. Could you let us know by [date] if you can join us? Please also tell us about any dietary needs or allergies."
-    },
-    {
-     "titre": "How to use them well",
-     "liste": [
-      "Replace the details in square brackets and add something personal.",
-      "Always give a new reply-by date: a clear deadline is more likely to be met.",
-      "Use the channel each guest uses: text for close friends, email for everyone else.",
-      "Log every reply as soon as it arrives, so you never ask twice."
-     ]
-    }
-   ],
-   "appel": "The planner includes 14 wording templates to copy, personalise and send.",
-   "faq": [
-    [
-     "When should I chase guests who haven't replied?",
-     "Just after the reply-by date, with a new, clear deadline."
-    ],
-    [
-     "Which channel should I use?",
-     "The one each guest uses: text for close friends, email for everyone else."
-    ]
-   ]
-  },
-  {
-   "slug": "save-money-on-your-wedding-5-ways",
-   "date": "2026-10-28",
-   "categorie": "Budget",
-   "titre": "Save money on your wedding: 5 ways that work",
-   "description": "Choose a weekday, trim the guest list, pick seasonal flowers, compare quotes and decide your priorities: 5 ways to save on your wedding.",
-   "image": "11-save-money-wedding.png",
-   "image_alt": "5 ways to save on your wedding",
-   "intro": "Saving on a wedding rarely means doing without. It usually means deciding where the money matters most and checking every line once more. Here are five ways to start.",
-   "sections": [
-    {
-     "titre": "The 5 ways",
-     "liste_numerotee": [
-      "Choose a weekday or the off-season.",
-      "Go through the guest list once more.",
-      "Pick seasonal flowers.",
-      "Ask several suppliers for a quote.",
-      "Decide first what matters most to you."
-     ]
-    },
-    {
-     "titre": "Why these five",
-     "paragraphes": [
-      "Catering and venue hire are the biggest lines of a wedding budget. In our £28,500 example for 90 guests, they come to £14,922, just over half. A weekday or off-season date can change the venue side, and a shorter guest list changes the catering side, because catering follows the number of covers.",
-      "Asking several suppliers for a quote lets you compare before you commit, and choosing seasonal flowers keeps the décor line in check. Deciding first what matters most to you makes every other choice easier."
-     ]
-    },
-    {
-     "titre": "Keep your totals in view",
-     "paragraphes": [
-      "Whatever you change, keep every line on one page so you can see what is already allocated, and keep a contingency line of about 5% for small surprises."
-     ]
-    }
-   ],
-   "appel": "30 money-saving tips are included in the planner, and your totals update as you change a line.",
-   "faq": [
-    [
-     "Where is the biggest saving usually found?",
-     "In our £28,500 example, catering and venue hire come to just over half of the budget, so the guest list and the date have the biggest effect."
-    ],
-    [
-     "Why decide your priorities first?",
-     "So you spend on what matters most to you and trim the rest."
-    ]
-   ]
-  },
-  {
-   "slug": "day-and-evening-wedding-guests-how-to-count",
-   "date": "2026-11-04",
-   "categorie": "Guests",
-   "titre": "Day and evening wedding guests: how to count them",
-   "description": "List everyone, mark each guest all day or evening only, count both groups, give your caterer the day numbers and send the right invitation.",
-   "image": "10-day-and-evening-guests.png",
-   "image_alt": "Day and evening guests: how to count them",
-   "intro": "Many UK weddings have two groups of guests: those who stay all day and those who join in the evening. Counting them separately keeps the catering numbers right and the invitations clear. Here are five steps.",
-   "sections": [
-    {
-     "titre": "The 5 steps",
-     "etapes": [
-      [
-       "List everyone you'd like to invite.",
-       "Start with one list, without sorting yet."
+      "slug": "wedding-seating-plan-5-steps",
+      "date": "2026-10-25",
+      "categorie": "Guests",
+      "titre": "Wedding seating plan: 5 steps to get it right",
+      "description": "How to build a wedding seating plan in 5 steps: confirmed guests, relationships, special cases, a little margin and a final check.",
+      "image": "04-wedding-seating-plan.png",
+      "image_alt": "Wedding seating plan in 5 steps",
+      "intro": "A seating plan feels like a puzzle, but a clear order solves it. Here are the five steps, one after the other.",
+      "sections": [
+        {
+          "titre": "The 5 steps",
+          "etapes": [
+            [
+              "Confirm who's coming.",
+              "Seat only guests who said yes."
+            ],
+            [
+              "Group by relationship.",
+              "Family, friends, colleagues."
+            ],
+            [
+              "Note the special cases.",
+              "Children's table, dietary needs and allergies."
+            ],
+            [
+              "Leave a little margin.",
+              "One spare seat per table."
+            ],
+            [
+              "Check every table.",
+              "None over capacity, none half empty."
+            ]
+          ]
+        },
+        {
+          "titre": "Before you start",
+          "paragraphes": [
+            "Decide first where the couple and their families sit. Everything else is arranged around those tables.",
+            "Always work from your list of confirmed guests, not your invitation list. That way you won't seat someone who ends up not coming."
+          ]
+        },
+        {
+          "titre": "Why leave a spare seat",
+          "paragraphes": [
+            "One spare seat per table gives you room for a last-minute change: an extra guest or a table that needs rebalancing. Without that margin, a single change can force you to move many people."
+          ]
+        }
       ],
-      [
-       "Mark each guest All day or Evening only.",
-       "One choice per guest, written in the same place."
-      ],
-      [
-       "Count the two groups separately.",
-       "You need two totals, not one."
-      ],
-      [
-       "Give your caterer the day numbers.",
-       "Evening guests usually join after the wedding breakfast."
-      ],
-      [
-       "Send each group the right invitation.",
-       "Day guests and evening guests need different details."
+      "appel": "In the planner, set up your tables and choose each guest's table: every card shows who is seated there.",
+      "faq": [
+        [
+          "Which list do I use for the seating plan?",
+          "Your list of confirmed guests, not your invitation list."
+        ],
+        [
+          "Why leave one spare seat per table?",
+          "It gives room for a last-minute change without moving many people."
+        ]
       ]
-     ]
     },
     {
-     "titre": "Why two totals",
-     "paragraphes": [
-      "The day guests are the ones sitting down for the wedding breakfast, so they set the number of covers. The evening guests join after it, so they should not be added to that figure.",
-      "Keeping both counts from the same list means a change, such as a guest moving from evening to all day, is easy to reflect in both totals."
-     ]
+      "slug": "chase-wedding-rsvps-messages",
+      "date": "2026-10-25",
+      "categorie": "Guests",
+      "titre": "Chasing wedding RSVPs: two kind messages to copy",
+      "description": "Two message templates for chasing guests who haven't replied to your wedding invitation: one by text and one by email.",
+      "image": "05-chase-rsvps.png",
+      "image_alt": "Two messages for chasing wedding RSVPs",
+      "intro": "The reply-by date has passed and a few guests are still quiet. The simplest fix is a short, warm message with a new date. Here are two templates to copy.",
+      "sections": [
+        {
+          "titre": "By text",
+          "citation": "Hi [Name]! Just a little reminder about our wedding on [date]: could you let us know by [date] if you can make it? Can't wait to see you!"
+        },
+        {
+          "titre": "By email",
+          "citation": "Hi [Name], we're finalising numbers and the seating plan with our caterer. Could you let us know by [date] if you can join us? Please also tell us about any dietary needs or allergies."
+        },
+        {
+          "titre": "How to use them well",
+          "liste": [
+            "Replace the details in square brackets and add something personal.",
+            "Always give a new reply-by date: a clear deadline is more likely to be met.",
+            "Use the channel each guest uses: text for close friends, email for everyone else.",
+            "Log every reply as soon as it arrives, so you never ask twice."
+          ]
+        }
+      ],
+      "appel": "The planner includes 14 wording templates to copy, personalise and send.",
+      "faq": [
+        [
+          "When should I chase guests who haven't replied?",
+          "Just after the reply-by date, with a new, clear deadline."
+        ],
+        [
+          "Which channel should I use?",
+          "The one each guest uses: text for close friends, email for everyone else."
+        ]
+      ]
     },
     {
-     "titre": "Keep the list up to date",
-     "paragraphes": [
-      "Mark each reply as it arrives and recount the day group before you confirm numbers with your caterer."
-     ]
+      "slug": "save-money-on-your-wedding-5-ways",
+      "date": "2026-10-28",
+      "categorie": "Budget",
+      "titre": "Save money on your wedding: 5 ways that work",
+      "description": "Choose a weekday, trim the guest list, pick seasonal flowers, compare quotes and decide your priorities: 5 ways to save on your wedding.",
+      "image": "11-save-money-wedding.png",
+      "image_alt": "5 ways to save on your wedding",
+      "intro": "Saving on a wedding rarely means doing without. It usually means deciding where the money matters most and checking every line once more. Here are five ways to start.",
+      "sections": [
+        {
+          "titre": "The 5 ways",
+          "liste_numerotee": [
+            "Choose a weekday or the off-season.",
+            "Go through the guest list once more.",
+            "Pick seasonal flowers.",
+            "Ask several suppliers for a quote.",
+            "Decide first what matters most to you."
+          ]
+        },
+        {
+          "titre": "Why these five",
+          "paragraphes": [
+            "Catering and venue hire are the biggest lines of a wedding budget. In our £28,500 example for 90 guests, they come to £14,922, just over half. A weekday or off-season date can change the venue side, and a shorter guest list changes the catering side, because catering follows the number of covers.",
+            "Asking several suppliers for a quote lets you compare before you commit, and choosing seasonal flowers keeps the décor line in check. Deciding first what matters most to you makes every other choice easier."
+          ]
+        },
+        {
+          "titre": "Keep your totals in view",
+          "paragraphes": [
+            "Whatever you change, keep every line on one page so you can see what is already allocated, and keep a contingency line of about 5% for small surprises."
+          ]
+        }
+      ],
+      "appel": "30 money-saving tips are included in the planner, and your totals update as you change a line.",
+      "faq": [
+        [
+          "Where is the biggest saving usually found?",
+          "In our £28,500 example, catering and venue hire come to just over half of the budget, so the guest list and the date have the biggest effect."
+        ],
+        [
+          "Why decide your priorities first?",
+          "So you spend on what matters most to you and trim the rest."
+        ]
+      ]
+    },
+    {
+      "slug": "day-and-evening-wedding-guests-how-to-count",
+      "date": "2026-11-04",
+      "categorie": "Guests",
+      "titre": "Day and evening wedding guests: how to count them",
+      "description": "List everyone, mark each guest all day or evening only, count both groups, give your caterer the day numbers and send the right invitation.",
+      "image": "10-day-and-evening-guests.png",
+      "image_alt": "Day and evening guests: how to count them",
+      "intro": "Many UK weddings have two groups of guests: those who stay all day and those who join in the evening. Counting them separately keeps the catering numbers right and the invitations clear. Here are five steps.",
+      "sections": [
+        {
+          "titre": "The 5 steps",
+          "etapes": [
+            [
+              "List everyone you'd like to invite.",
+              "Start with one list, without sorting yet."
+            ],
+            [
+              "Mark each guest All day or Evening only.",
+              "One choice per guest, written in the same place."
+            ],
+            [
+              "Count the two groups separately.",
+              "You need two totals, not one."
+            ],
+            [
+              "Give your caterer the day numbers.",
+              "Evening guests usually join after the wedding breakfast."
+            ],
+            [
+              "Send each group the right invitation.",
+              "Day guests and evening guests need different details."
+            ]
+          ]
+        },
+        {
+          "titre": "Why two totals",
+          "paragraphes": [
+            "The day guests are the ones sitting down for the wedding breakfast, so they set the number of covers. The evening guests join after it, so they should not be added to that figure.",
+            "Keeping both counts from the same list means a change, such as a guest moving from evening to all day, is easy to reflect in both totals."
+          ]
+        },
+        {
+          "titre": "Keep the list up to date",
+          "paragraphes": [
+            "Mark each reply as it arrives and recount the day group before you confirm numbers with your caterer."
+          ]
+        }
+      ],
+      "appel": "In the planner, choose All day or Evening only for each guest: it counts both groups.",
+      "faq": [
+        [
+          "Who counts towards the catering numbers?",
+          "The day guests. Evening guests usually join after the wedding breakfast, so they are counted separately."
+        ],
+        [
+          "How do I keep both counts right?",
+          "Keep one guest list, mark each guest All day or Evening only, and count the two groups separately."
+        ]
+      ]
+    },
+    {
+      "slug": "wedding-venue-viewing-questions-to-ask",
+      "date": "2026-11-11",
+      "categorie": "Venue",
+      "titre": "Wedding venue viewing: 6 questions to ask",
+      "description": "Guest numbers, finish time, a rain plan, your own caterer, what hire includes and nearby rooms: six questions for your wedding venue visit.",
+      "image": "12-venue-questions.png",
+      "image_alt": "Visiting a wedding venue: what to ask",
+      "intro": "On a venue viewing everything looks lovely, and the practical questions are easy to forget. Take this list of six with you: it helps you avoid awkward surprises and extra costs later.",
+      "sections": [
+        {
+          "titre": "The 6 questions",
+          "liste_numerotee": [
+            "How many guests fit, at least and at most?",
+            "Until what time can you celebrate?",
+            "Is there a plan B if it rains?",
+            "Can you bring your own caterer or drinks?",
+            "What does the hire include: tables, chairs, tableware?",
+            "Is there accommodation nearby?"
+          ]
+        },
+        {
+          "titre": "Why these questions matter",
+          "paragraphes": [
+            "Guest numbers decide whether the venue suits you at all. A room that is too big feels empty and one that is too small feels crowded, so ask for the minimum and the maximum.",
+            "The finish time shapes your order of the day and how long you can dance, so know it before you book a band or DJ.",
+            "A rain plan is simply a question of where everyone goes if the weather turns, and whether there is enough space for them all."
+          ]
+        },
+        {
+          "titre": "What the hire includes",
+          "paragraphes": [
+            "Two venues at the same price can be very different. At one, tables, chairs and tableware are included; at the other, you hire everything separately. Ask for the inclusions to be listed item by item so you can compare quotes fairly.",
+            "Ask too whether you can bring your own caterer or drinks. Some venues require their own, and that changes your whole budget."
+          ]
+        },
+        {
+          "titre": "Ask for everything in writing",
+          "paragraphes": [
+            "Have the answers confirmed in writing, ideally in the contract or an email. Spoken promises are easily forgotten, especially if a different person looks after your day.",
+            "If guests are travelling far, the question about nearby accommodation lets you share suggestions with them early."
+          ]
+        },
+        {
+          "titre": "Record the price and deposit",
+          "paragraphes": [
+            "After the viewing, note the venue price and deposit in your budget. You can then see at any time what is left to pay and when."
+          ]
+        }
+      ],
+      "appel": "In the planner, note the venue price and deposit: the Budget tab shows what is left to pay.",
+      "faq": [
+        [
+          "What should I ask when viewing a wedding venue?",
+          "How many guests fit, the finish time, the rain plan, whether you can bring your own caterer or drinks, what the hire includes and whether there is accommodation nearby."
+        ],
+        [
+          "How do I make sure the answers hold?",
+          "Ask for everything in writing, ideally in the contract."
+        ]
+      ]
+    },
+    {
+      "slug": "wedding-rain-plan-questions-to-settle",
+      "date": "2026-11-18",
+      "categorie": "Plan B",
+      "titre": "Wedding rain plan: 5 questions to settle first",
+      "description": "Rain on the wedding day? Five questions on the ceremony, marquee, umbrellas, shoes and who decides will get your plan B sorted in good time.",
+      "image": "2026-10-31-02-wedding-rain-plan.png",
+      "image_alt": "Wedding rain plan: sort plan B out first",
+      "intro": "Nobody wants to think about rain on their wedding day, but a plan B takes away a lot of stress. If you settle five questions early, you will know exactly what to do on the morning. Here is the checklist to tick off.",
+      "sections": [
+        {
+          "titre": "The 5 questions",
+          "liste_numerotee": [
+            "Where will the ceremony be if it rains?",
+            "Is there a marquee or covered area, and for how many?",
+            "Have umbrellas ready for your guests",
+            "Plan shoes and outfits for wet ground",
+            "Who decides, and by when, which plan is used?"
+          ]
+        },
+        {
+          "titre": "Ceremony, marquee and covered area",
+          "paragraphes": [
+            "Ask your venue where the ceremony moves to if it rains: an indoor room, a marquee or another space. Ask too whether the covered area has room for all your guests at once, because a marquee meant for only some of them does little good if everyone wants shelter at the same moment.",
+            "Check as well that the space will be free on the day, and ask who is responsible for setting it up if you need to switch plans."
+          ]
+        },
+        {
+          "titre": "Umbrellas, shoes and outfits",
+          "paragraphes": [
+            "Umbrellas for guests are easy to buy and easy to forget. Leave them at the entrance, or ask one person to hand them out if needed. Having them ready before the day means nobody has to go looking for them in the rain.",
+            "Think about wet ground too: heels that sink into the grass or a long dress that trails over damp paths cause trouble on the day itself. Have an alternative ready and talk it through with your wedding party."
+          ]
+        },
+        {
+          "titre": "Who decides, and by when?",
+          "paragraphes": [
+            "Agree in advance who makes the call, for example the two of you or a trusted person, and by what time. That way nobody has to debate it on the morning, and every supplier knows when to expect the answer."
+          ]
+        },
+        {
+          "titre": "Talk through plan B with every supplier",
+          "paragraphes": [
+            "Talk through plan B with every supplier you are working with. Anyone who knows what happens if it rains can prepare in good time, and nobody is caught out on the morning.",
+            "Umbrellas are on the emergency kit list too."
+          ]
+        }
+      ],
+      "appel": "See the emergency kit list: umbrellas are on it too.",
+      "faq": [
+        [
+          "What should I settle for a wedding rain plan?",
+          "Where the ceremony will be if it rains, whether there is a marquee or covered area and for how many, umbrellas for guests, shoes and outfits for wet ground, and who decides which plan is used."
+        ],
+        [
+          "Who should I talk to about plan B?",
+          "Every supplier, for example the venue, photographer, DJ, florist and caterer."
+        ]
+      ]
     }
-   ],
-   "appel": "In the planner, choose All day or Evening only for each guest: it counts both groups.",
-   "faq": [
-    [
-     "Who counts towards the catering numbers?",
-     "The day guests. Evening guests usually join after the wedding breakfast, so they are counted separately."
-    ],
-    [
-     "How do I keep both counts right?",
-     "Keep one guest list, mark each guest All day or Evening only, and count the two groups separately."
-    ]
-   ]
-  },
-  {
-   "slug": "wedding-venue-viewing-questions-to-ask",
-   "date": "2026-11-11",
-   "categorie": "Venue",
-   "titre": "Wedding venue viewing: 6 questions to ask",
-   "description": "Guest numbers, finish time, a rain plan, your own caterer, what hire includes and nearby rooms: six questions for your wedding venue visit.",
-   "image": "12-venue-questions.png",
-   "image_alt": "Visiting a wedding venue: what to ask",
-   "intro": "On a venue viewing everything looks lovely, and the practical questions are easy to forget. Take this list of six with you: it helps you avoid awkward surprises and extra costs later.",
-   "sections": [
-    {
-     "titre": "The 6 questions",
-     "liste_numerotee": [
-      "How many guests fit, at least and at most?",
-      "Until what time can you celebrate?",
-      "Is there a plan B if it rains?",
-      "Can you bring your own caterer or drinks?",
-      "What does the hire include: tables, chairs, tableware?",
-      "Is there accommodation nearby?"
-     ]
-    },
-    {
-     "titre": "Why these questions matter",
-     "paragraphes": [
-      "Guest numbers decide whether the venue suits you at all. A room that is too big feels empty and one that is too small feels crowded, so ask for the minimum and the maximum.",
-      "The finish time shapes your order of the day and how long you can dance, so know it before you book a band or DJ.",
-      "A rain plan is simply a question of where everyone goes if the weather turns, and whether there is enough space for them all."
-     ]
-    },
-    {
-     "titre": "What the hire includes",
-     "paragraphes": [
-      "Two venues at the same price can be very different. At one, tables, chairs and tableware are included; at the other, you hire everything separately. Ask for the inclusions to be listed item by item so you can compare quotes fairly.",
-      "Ask too whether you can bring your own caterer or drinks. Some venues require their own, and that changes your whole budget."
-     ]
-    },
-    {
-     "titre": "Ask for everything in writing",
-     "paragraphes": [
-      "Have the answers confirmed in writing, ideally in the contract or an email. Spoken promises are easily forgotten, especially if a different person looks after your day.",
-      "If guests are travelling far, the question about nearby accommodation lets you share suggestions with them early."
-     ]
-    },
-    {
-     "titre": "Record the price and deposit",
-     "paragraphes": [
-      "After the viewing, note the venue price and deposit in your budget. You can then see at any time what is left to pay and when."
-     ]
-    }
-   ],
-   "appel": "In the planner, note the venue price and deposit: the Budget tab shows what is left to pay.",
-   "faq": [
-    [
-     "What should I ask when viewing a wedding venue?",
-     "How many guests fit, the finish time, the rain plan, whether you can bring your own caterer or drinks, what the hire includes and whether there is accommodation nearby."
-    ],
-    [
-     "How do I make sure the answers hold?",
-     "Ask for everything in writing, ideally in the contract."
-    ]
-   ]
-  }
- ],
- "gratuit": {
-  "slug": "wedding-planner-spreadsheet-free-download",
-  "surtitre": "Free",
-  "accroche": "Download our free wedding planner spreadsheet: budget and guest list, ready to fill in.",
-  "cta_page": "Download the free planner",
-  "titre": "Wedding Planner Spreadsheet: Free Download (Excel)",
-  "description": "Download Joli Plan's free wedding planner spreadsheet: dashboard, budget and guest list, for Excel and Google Sheets. No sign-up.",
-  "intro": "A real spreadsheet to get started: enter your names, the date and your budget, and the dashboard fills itself in. No sign-up needed.",
-  "fichier": "JoliPlan_Wedding-Planner_FREE_UK.xlsx",
-  "cta_telecharger": "Download the Excel file (free)",
-  "titre_contenu": "What's inside",
-  "contenu": [
-   "A dashboard with a countdown, budget paid and guests confirmed.",
-   "The Budget tab with the wedding items and typical UK prices.",
-   "The Guests tab: side, group, RSVP, diet or allergy, table number."
   ],
-  "titre_complet": "What about the full version?",
-  "texte_complet": "The full version adds payments, suppliers, the seating plan and more, in the same file.",
-  "appel": "Move up to the full version whenever you like: your data stays in the same format."
- },
- "methode": {
-  "titre": "Our method",
-  "description": "How Joli Plan prepares and checks its articles and wedding spreadsheets.",
-  "paragraphes": [
-   "Joli Plan creates wedding spreadsheets for Excel and Google Sheets, one per country: France, Germany, Spain, Italy and the United Kingdom.",
-   "Each article uses the reference points from our spreadsheets and their filled-in example. The figures are starting values: replace them with your own quotes.",
-   "For official procedures, we follow the country's official source and cite it. Rules can vary by register office: always confirm with yours.",
-   "Our articles are prepared with the help of AI tools, then read and checked before publication. Spotted a mistake? Write to us from our Etsy shop."
-  ]
- }
+  "gratuit": {
+    "slug": "wedding-planner-spreadsheet-free-download",
+    "surtitre": "Free",
+    "accroche": "Download our free wedding planner spreadsheet: budget and guest list, ready to fill in.",
+    "cta_page": "Download the free planner",
+    "titre": "Wedding Planner Spreadsheet: Free Download (Excel)",
+    "description": "Download Joli Plan's free wedding planner spreadsheet: dashboard, budget and guest list, for Excel and Google Sheets. No sign-up.",
+    "intro": "A real spreadsheet to get started: enter your names, the date and your budget, and the dashboard fills itself in. No sign-up needed.",
+    "fichier": "JoliPlan_Wedding-Planner_FREE_UK.xlsx",
+    "cta_telecharger": "Download the Excel file (free)",
+    "titre_contenu": "What's inside",
+    "contenu": [
+      "A dashboard with a countdown, budget paid and guests confirmed.",
+      "The Budget tab with the wedding items and typical UK prices.",
+      "The Guests tab: side, group, RSVP, diet or allergy, table number."
+    ],
+    "titre_complet": "What about the full version?",
+    "texte_complet": "The full version adds payments, suppliers, the seating plan and more, in the same file.",
+    "appel": "Move up to the full version whenever you like: your data stays in the same format."
+  },
+  "methode": {
+    "titre": "Our method",
+    "description": "How Joli Plan prepares and checks its articles and wedding spreadsheets.",
+    "paragraphes": [
+      "Joli Plan creates wedding spreadsheets for Excel and Google Sheets, one per country: France, Germany, Spain, Italy and the United Kingdom.",
+      "Each article uses the reference points from our spreadsheets and their filled-in example. The figures are starting values: replace them with your own quotes.",
+      "For official procedures, we follow the country's official source and cite it. Rules can vary by register office: always confirm with yours.",
+      "Our articles are prepared with the help of AI tools, then read and checked before publication. Spotted a mistake? Write to us from our Etsy shop."
+    ]
+  }
 }
